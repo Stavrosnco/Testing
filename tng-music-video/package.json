@@ -1,0 +1,12 @@
+{
+  "name": "tng-make-it-so-video",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "timeline": "node build-timeline.mjs",
+    "render": "node build-timeline.mjs && node render.mjs"
+  },
+  "dependencies": {
+    "playwright": "1.56.1"
+  }
+}

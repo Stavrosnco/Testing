@@ -1,5 +1,5 @@
 // Parses LYRICS.md into a timed timeline for the renderer.
-// Timing: estimated from BPM, unless timing.json exists ({ bpm, beatOffset, lines: [startSec, ...] }).
+// Timing: from timing/lines.json (+ beats.json, vocal_env.json) when present, else estimated from BPM.
 import fs from 'node:fs';
 
 const DIR = new URL('.', import.meta.url).pathname;
@@ -91,36 +91,68 @@ for (const raw of lyrics.split('\n')) {
   cur.lines.push({ text, fx, bars, voice });
 }
 
-const timing = fs.existsSync(DIR + 'timing.json') ? JSON.parse(fs.readFileSync(DIR + 'timing.json', 'utf8')) : null;
-const bpm = timing?.bpm ?? 128;
+// Real timing from the GPU alignment (timing/lines.json etc.), else an estimate from BPM.
+const readJson = (f) => (fs.existsSync(DIR + f) ? JSON.parse(fs.readFileSync(DIR + f, 'utf8')) : null);
+const aligned = readJson('timing/lines.json');
+const beatsJson = readJson('timing/beats.json');
+const bpm = beatsJson?.bpm ?? 128;
 const bar = (4 * 60) / bpm;
 const LEAD = { intro: 0.5, ensemble: 1, verse: 1, chorus: 0, q: 1, borg: 2, finale: 1, outro: 1 };
 
-let t = timing?.beatOffset ?? 1.0;
 let idx = 0;
-for (const s of sections) {
-  t += (LEAD[s.type] ?? 0) * bar;
-  for (const l of s.lines) {
-    if (timing?.lines?.[idx] != null) t = timing.lines[idx];
-    l.start = +t.toFixed(3);
-    l.idx = idx++;
-    t += l.bars * bar;
+for (const s of sections) for (const l of s.lines) l.idx = idx++;
+
+if (aligned) {
+  const byIdx = new Map(aligned.lines.map((l) => [l.idx, l]));
+  for (const s of sections) {
+    s.lines = s.lines.filter((l) => {
+      const a = byIdx.get(l.idx);
+      if (!a || a.start == null) { console.warn(`  not sung: #${l.idx} ${l.text}`); return false; }
+      l.start = +a.start.toFixed(3);
+      l.end = +(a.end ?? a.start + bar).toFixed(3);
+      if (a.words?.length) l.words = a.words.filter((w) => w.start != null).map((w) => ({ w: w.w ?? w.word, s: +w.start.toFixed(3), e: +(w.end ?? w.start).toFixed(3) }));
+      return true;
+    });
   }
-  s.end = t;
-}
-for (let i = 0; i < sections.length; i++) {
-  const s = sections[i];
-  s.start = i === 0 ? 0 : sections[i - 1].end;
-  const next = sections[i + 1];
-  s.end = +(next ? next.lines[0].start - (LEAD[next.type] ?? 0) * bar : s.end + 2 * bar).toFixed(3);
-  s.start = +s.start.toFixed(3);
-  for (let j = 0; j < s.lines.length; j++) {
-    const nl = s.lines[j + 1];
-    s.lines[j].end = nl ? nl.start : Math.min(s.end, s.lines[j].start + s.lines[j].bars * bar + bar);
+  const live = sections.filter((s) => s.lines.length);
+  sections.length = 0; sections.push(...live);
+  for (const s of sections) s.lines.sort((a, b) => a.start - b.start);
+  for (let i = 0; i < sections.length; i++) {
+    const s = sections[i], prev = sections[i - 1];
+    const prevEnd = prev ? prev.lines.at(-1).end : 0;
+    s.start = i === 0 ? 0 : +Math.max(prevEnd, s.lines[0].start - Math.max(1, (LEAD[s.type] ?? 0) * bar)).toFixed(3);
+    if (prev) prev.end = s.start;
+    for (let j = 0; j < s.lines.length; j++) {
+      const nl = s.lines[j + 1];
+      if (nl) s.lines[j].end = Math.min(Math.max(s.lines[j].end, s.lines[j].start + 0.6), nl.start);
+    }
+  }
+  sections.at(-1).end = +(aligned.duration ?? sections.at(-1).lines.at(-1).end + 6).toFixed(3);
+} else {
+  let t = 1.0;
+  for (const s of sections) {
+    t += (LEAD[s.type] ?? 0) * bar;
+    for (const l of s.lines) { l.start = +t.toFixed(3); t += l.bars * bar; }
+    s.end = t;
+  }
+  for (let i = 0; i < sections.length; i++) {
+    const s = sections[i], next = sections[i + 1];
+    s.start = i === 0 ? 0 : sections[i - 1].end;
+    s.end = +(next ? next.lines[0].start - (LEAD[next.type] ?? 0) * bar : s.end + 2 * bar).toFixed(3);
+    s.start = +s.start.toFixed(3);
+    for (let j = 0; j < s.lines.length; j++) {
+      const nl = s.lines[j + 1];
+      s.lines[j].end = nl ? nl.start : Math.min(s.end, s.lines[j].start + s.lines[j].bars * bar + bar);
+    }
   }
 }
-const duration = +(timing?.duration ?? sections.at(-1).end + 4).toFixed(3);
-const out = { bpm, beatOffset: timing?.beatOffset ?? 1.0, duration, sections };
-fs.writeFileSync(DIR + 'timeline.js', 'window.TIMELINE = ' + JSON.stringify(out, null, 1) + ';\n');
+// a few seconds past the audio for the closing title card
+const audioDuration = aligned?.duration ?? sections.at(-1).end;
+const duration = +(audioDuration + 3).toFixed(3);
+sections.at(-1).end = duration;
+const env = readJson('timing/vocal_env.json');
+const out = { bpm, beatOffset: beatsJson?.beats?.[0] ?? 1.0, beats: beatsJson?.beats ?? null, downbeats: beatsJson?.downbeats ?? null,
+  envFps: env?.fps ?? null, env: env ? env.env.map((v) => +(+v).toFixed(2)) : null, audioDuration, duration, aligned: !!aligned, sections };
+fs.writeFileSync(DIR + 'timeline.js', 'window.TIMELINE = ' + JSON.stringify(out) + ';\n');
 console.log(`timeline: ${sections.length} sections, ${idx} lines, ${duration.toFixed(1)}s @ ${bpm} bpm`);
 for (const s of sections) console.log(`  ${s.start.toFixed(1).padStart(6)}s  ${s.type}${s.char ? ':' + s.char : ''}`);

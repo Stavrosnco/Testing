@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Make It So</title>
+<style>
+  @font-face { font-family: 'Antonio'; src: url('assets/antonio.woff2') format('woff2'); font-weight: 100 700; }
+  html, body { margin: 0; background: #000; overflow: hidden; }
+  canvas { display: block; width: 100vw; height: 56.25vw; max-height: 100vh; max-width: 177.78vh; margin: auto; }
+  #ui { position: fixed; bottom: 8px; left: 8px; color: #fc9; font: 14px Antonio, sans-serif; }
+</style>
+</head>
+<body>
+<canvas id="c" width="1920" height="1080"></canvas>
+<div id="ui"></div>
+<script src="timeline.js"></script>
+<script src="scene.js"></script>
+<script>
+  // Preview mode: open scene.html?preview to play along with the song (click to start, arrows to seek).
+  if (location.search.includes('preview')) {
+    const audio = new Audio('audio/song.mp3');
+    const ui = document.getElementById('ui');
+    ui.textContent = 'click to play · ←/→ seek 5s';
+    document.addEventListener('click', () => (audio.paused ? audio.play() : audio.pause()));
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowRight') audio.currentTime += 5;
+      if (e.key === 'ArrowLeft') audio.currentTime -= 5;
+    });
+    window.sceneReady.then(() => {
+      const loop = () => { renderFrame(audio.currentTime); ui.textContent = audio.currentTime.toFixed(2) + 's'; requestAnimationFrame(loop); };
+      loop();
+    });
+  }
+</script>
+</body>
+</html>

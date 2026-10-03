@@ -4,7 +4,7 @@ The cloud session building the music video can't download speech models, so it n
 word-level timing for the song. You only produce data files — don't touch the renderer or other code.
 
 ## Inputs (repo `Stavrosnco/Testing`, branch `claude/tng-music-video`)
-- `tng-music-video/audio/song.mp3` — the Suno track (~4:28)
+- `tng-music-video/audio/song.mp3` — the Suno track (~4:46)
 - `tng-music-video/LYRICS.md` — the intended lyrics: the fenced block under `## Lyrics`.
   Lines like `[Picard: British male rap]` are section tags, not sung. A leading `(Ensemble)` /
   `(Picard, roaring)` is a voice note, not sung; parentheticals elsewhere, e.g. `(Make it so!)`, ARE sung.
@@ -30,7 +30,7 @@ word-level timing for the song. You only produce data files — don't touch the 
 - `lines.json`:
   ```json
   {
-    "duration": 268.560000,
+    "duration": 286.68,
     "lines": [
       {"idx": 0, "section": "Intro", "text": "Space... the final frontier.", "start": 1.23, "end": 4.56,
        "words": [{"w": "Space", "start": 1.23, "end": 1.80}, ...], "confidence": 0.9}

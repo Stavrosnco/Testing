@@ -1,0 +1,5052 @@
+{
+ "duration": 286.68,
+ "lines": [
+  {
+   "idx": 0,
+   "section": "Intro",
+   "text": "Space... the final frontier.",
+   "start": 3.22,
+   "end": 6.7,
+   "words": [
+    {
+     "w": "Space",
+     "start": 3.22,
+     "end": 3.74
+    },
+    {
+     "w": "the",
+     "start": 4.84,
+     "end": 4.94
+    },
+    {
+     "w": "final",
+     "start": 4.94,
+     "end": 5.56
+    },
+    {
+     "w": "frontier",
+     "start": 5.56,
+     "end": 6.7
+    }
+   ],
+   "confidence": 0.74
+  },
+  {
+   "idx": 1,
+   "section": "Ensemble",
+   "text": "Stardate four-one-one-five-three point seven,",
+   "start": 17.6,
+   "end": 20.55,
+   "words": [
+    {
+     "w": "Stardate",
+     "start": 17.6,
+     "end": 18.32
+    },
+    {
+     "w": "four-one-one-five-three",
+     "start": 18.32,
+     "end": 19.94
+    },
+    {
+     "w": "point",
+     "start": 19.94,
+     "end": 20.08
+    },
+    {
+     "w": "seven",
+     "start": 20.08,
+     "end": 20.55
+    }
+   ],
+   "confidence": 0.77
+  },
+  {
+   "idx": 2,
+   "section": "Ensemble",
+   "text": "Galaxy-class starship on a mission out past heaven,",
+   "start": 20.56,
+   "end": 23.05,
+   "words": [
+    {
+     "w": "Galaxy-class",
+     "start": 20.56,
+     "end": 21.04
+    },
+    {
+     "w": "starship",
+     "start": 21.04,
+     "end": 21.62
+    },
+    {
+     "w": "on",
+     "start": 21.62,
+     "end": 21.74
+    },
+    {
+     "w": "a",
+     "start": 21.74,
+     "end": 21.86
+    },
+    {
+     "w": "mission",
+     "start": 21.86,
+     "end": 22.12
+    },
+    {
+     "w": "out",
+     "start": 22.12,
+     "end": 22.4
+    },
+    {
+     "w": "past",
+     "start": 22.4,
+     "end": 22.56
+    },
+    {
+     "w": "heaven",
+     "start": 22.56,
+     "end": 23.05
+    }
+   ],
+   "confidence": 0.91
+  },
+  {
+   "idx": 3,
+   "section": "Ensemble",
+   "text": "N-C-C one-seven-oh-one-D,",
+   "start": 23.06,
+   "end": 25.92,
+   "words": [
+    {
+     "w": "N-C-C",
+     "start": 23.06,
+     "end": 23.86
+    },
+    {
+     "w": "one-seven-oh-one-D",
+     "start": 23.86,
+     "end": 25.92
+    }
+   ],
+   "confidence": 0.88
+  },
+  {
+   "idx": 4,
+   "section": "Ensemble",
+   "text": "Seven on the bridge, now we're making history!",
+   "start": 25.94,
+   "end": 28.16,
+   "words": [
+    {
+     "w": "Seven",
+     "start": 25.94,
+     "end": 26.3
+    },
+    {
+     "w": "on",
+     "start": 26.3,
+     "end": 26.6
+    },
+    {
+     "w": "the",
+     "start": 26.6,
+     "end": 26.7
+    },
+    {
+     "w": "bridge",
+     "start": 26.7,
+     "end": 27.16
+    },
+    {
+     "w": "now",
+     "start": 27.16,
+     "end": 27.26
+    },
+    {
+     "w": "we're",
+     "start": 27.26,
+     "end": 27.48
+    },
+    {
+     "w": "making",
+     "start": 27.48,
+     "end": 27.7
+    },
+    {
+     "w": "history",
+     "start": 27.7,
+     "end": 28.16
+    }
+   ],
+   "confidence": 0.94
+  },
+  {
+   "idx": 5,
+   "section": "Picard",
+   "text": "I'm Jean-Luc Picard, from La Barre out in France,",
+   "start": 28.17,
+   "end": 31.36,
+   "words": [
+    {
+     "w": "I'm",
+     "start": 28.17,
+     "end": 28.67
+    },
+    {
+     "w": "Jean-Luc",
+     "start": 28.67,
+     "end": 29.05
+    },
+    {
+     "w": "Picard",
+     "start": 29.05,
+     "end": 29.79
+    },
+    {
+     "w": "from",
+     "start": 29.79,
+     "end": 29.95
+    },
+    {
+     "w": "La",
+     "start": 29.95,
+     "end": 30.05
+    },
+    {
+     "w": "Barre",
+     "start": 30.05,
+     "end": 30.47
+    },
+    {
+     "w": "out",
+     "start": 30.47,
+     "end": 30.63
+    },
+    {
+     "w": "in",
+     "start": 30.63,
+     "end": 30.77
+    },
+    {
+     "w": "France",
+     "start": 30.77,
+     "end": 31.36
+    }
+   ],
+   "confidence": 0.84
+  },
+  {
+   "idx": 6,
+   "section": "Picard",
+   "text": "Family grew grapes, but I gave the stars a glance,",
+   "start": 31.39,
+   "end": 34.0,
+   "words": [
+    {
+     "w": "Family",
+     "start": 31.39,
+     "end": 31.53
+    },
+    {
+     "w": "grew",
+     "start": 31.53,
+     "end": 31.79
+    },
+    {
+     "w": "grapes",
+     "start": 31.79,
+     "end": 32.37
+    },
+    {
+     "w": "but",
+     "start": 32.37,
+     "end": 32.55
+    },
+    {
+     "w": "I",
+     "start": 32.55,
+     "end": 32.65
+    },
+    {
+     "w": "gave",
+     "start": 32.65,
+     "end": 32.89
+    },
+    {
+     "w": "the",
+     "start": 32.89,
+     "end": 33.03
+    },
+    {
+     "w": "stars",
+     "start": 33.09,
+     "end": 33.35
+    },
+    {
+     "w": "a",
+     "start": 33.35,
+     "end": 33.59
+    },
+    {
+     "w": "glance",
+     "start": 33.59,
+     "end": 34.0
+    }
+   ],
+   "confidence": 0.93
+  },
+  {
+   "idx": 7,
+   "section": "Picard",
+   "text": "Tug my tunic when I rise, call it the Picard Maneuver,",
+   "start": 34.05,
+   "end": 36.79,
+   "words": [
+    {
+     "w": "Tug",
+     "start": 34.05,
+     "end": 34.15
+    },
+    {
+     "w": "my",
+     "start": 34.15,
+     "end": 34.23
+    },
+    {
+     "w": "tunic",
+     "start": 34.23,
+     "end": 34.65
+    },
+    {
+     "w": "when",
+     "start": 34.65,
+     "end": 34.81
+    },
+    {
+     "w": "I",
+     "start": 34.81,
+     "end": 34.95
+    },
+    {
+     "w": "rise",
+     "start": 34.95,
+     "end": 35.37
+    },
+    {
+     "w": "call",
+     "start": 35.37,
+     "end": 35.49
+    },
+    {
+     "w": "it",
+     "start": 35.49,
+     "end": 35.67
+    },
+    {
+     "w": "the",
+     "start": 35.67,
+     "end": 35.83
+    },
+    {
+     "w": "Picard",
+     "start": 35.83,
+     "end": 36.23
+    },
+    {
+     "w": "Maneuver",
+     "start": 36.23,
+     "end": 36.79
+    }
+   ],
+   "confidence": 0.92
+  },
+  {
+   "idx": 8,
+   "section": "Picard",
+   "text": "Gul Madred showed me five, but I'm a stubborn truth-pursuer:",
+   "start": 36.83,
+   "end": 39.69,
+   "words": [
+    {
+     "w": "Gul",
+     "start": 36.83,
+     "end": 36.91
+    },
+    {
+     "w": "Madred",
+     "start": 36.91,
+     "end": 37.21
+    },
+    {
+     "w": "showed",
+     "start": 37.21,
+     "end": 37.41
+    },
+    {
+     "w": "me",
+     "start": 37.41,
+     "end": 37.59
+    },
+    {
+     "w": "five",
+     "start": 37.59,
+     "end": 37.93
+    },
+    {
+     "w": "but",
+     "start": 37.93,
+     "end": 38.03
+    },
+    {
+     "w": "I'm",
+     "start": 38.03,
+     "end": 38.21
+    },
+    {
+     "w": "a",
+     "start": 38.21,
+     "end": 38.29
+    },
+    {
+     "w": "stubborn",
+     "start": 38.29,
+     "end": 38.55
+    },
+    {
+     "w": "truth-pursuer",
+     "start": 38.55,
+     "end": 39.69
+    }
+   ],
+   "confidence": 0.77
+  },
+  {
+   "idx": 9,
+   "section": "Picard",
+   "text": "THERE! ARE! FOUR! LIGHTS!",
+   "start": 39.85,
+   "end": 41.83,
+   "words": [
+    {
+     "w": "THERE",
+     "start": 39.85,
+     "end": 40.37
+    },
+    {
+     "w": "ARE",
+     "start": 40.37,
+     "end": 40.69
+    },
+    {
+     "w": "FOUR",
+     "start": 40.69,
+     "end": 41.05
+    },
+    {
+     "w": "LIGHTS",
+     "start": 41.05,
+     "end": 41.83
+    }
+   ],
+   "confidence": 0.77
+  },
+  {
+   "idx": 10,
+   "section": "Picard",
+   "text": "Tea. Earl Grey. Hot. And a facepalm for the fools,",
+   "start": 41.83,
+   "end": 44.81,
+   "words": [
+    {
+     "w": "Tea",
+     "start": 41.83,
+     "end": 42.07
+    },
+    {
+     "w": "Earl",
+     "start": 42.07,
+     "end": 42.33
+    },
+    {
+     "w": "Grey",
+     "start": 42.33,
+     "end": 42.77
+    },
+    {
+     "w": "Hot",
+     "start": 42.77,
+     "end": 43.05
+    },
+    {
+     "w": "And",
+     "start": 43.05,
+     "end": 43.37
+    },
+    {
+     "w": "a",
+     "start": 43.37,
+     "end": 43.49
+    },
+    {
+     "w": "facepalm",
+     "start": 43.49,
+     "end": 43.97
+    },
+    {
+     "w": "for",
+     "start": 43.97,
+     "end": 44.11
+    },
+    {
+     "w": "the",
+     "start": 44.11,
+     "end": 44.21
+    },
+    {
+     "w": "fools",
+     "start": 44.21,
+     "end": 44.81
+    }
+   ],
+   "confidence": 0.77
+  },
+  {
+   "idx": 11,
+   "section": "Picard",
+   "text": "Two fingers to the viewscreen, I don't break, I make the rules—",
+   "start": 44.81,
+   "end": 48.49,
+   "words": [
+    {
+     "w": "Two",
+     "start": 44.81,
+     "end": 44.89
+    },
+    {
+     "w": "fingers",
+     "start": 44.89,
+     "end": 45.19
+    },
+    {
+     "w": "to",
+     "start": 45.19,
+     "end": 45.37
+    },
+    {
+     "w": "the",
+     "start": 45.37,
+     "end": 45.53
+    },
+    {
+     "w": "viewscreen",
+     "start": 45.53,
+     "end": 46.35
+    },
+    {
+     "w": "I",
+     "start": 46.35,
+     "end": 46.63
+    },
+    {
+     "w": "don't",
+     "start": 46.63,
+     "end": 46.99
+    },
+    {
+     "w": "break",
+     "start": 46.99,
+     "end": 47.29
+    },
+    {
+     "w": "I",
+     "start": 47.29,
+     "end": 47.39
+    },
+    {
+     "w": "make",
+     "start": 47.39,
+     "end": 47.53
+    },
+    {
+     "w": "the",
+     "start": 47.55,
+     "end": 47.65
+    },
+    {
+     "w": "rules",
+     "start": 47.65,
+     "end": 48.49
+    }
+   ],
+   "confidence": 0.88
+  },
+  {
+   "idx": 12,
+   "section": "Picard",
+   "text": "ENGAGE!",
+   "start": 48.59,
+   "end": 49.83,
+   "words": [
+    {
+     "w": "ENGAGE",
+     "start": 48.59,
+     "end": 49.83
+    }
+   ],
+   "confidence": 0.85
+  },
+  {
+   "idx": 13,
+   "section": "Chorus",
+   "text": "Make it so! (Make it so!)",
+   "start": 50.42,
+   "end": 53.26,
+   "words": [
+    {
+     "w": "Make",
+     "start": 50.42,
+     "end": 50.58
+    },
+    {
+     "w": "it",
+     "start": 50.58,
+     "end": 51.1
+    },
+    {
+     "w": "so",
+     "start": 51.1,
+     "end": 51.52
+    },
+    {
+     "w": "Make",
+     "start": 51.52,
+     "end": 52.0
+    },
+    {
+     "w": "it",
+     "start": 52.0,
+     "end": 52.34
+    },
+    {
+     "w": "so",
+     "start": 52.34,
+     "end": 53.26
+    }
+   ],
+   "confidence": 0.76
+  },
+  {
+   "idx": 14,
+   "section": "Chorus",
+   "text": "Captain says the word and the whole ship goes!",
+   "start": 53.26,
+   "end": 56.04,
+   "words": [
+    {
+     "w": "Captain",
+     "start": 53.26,
+     "end": 53.46
+    },
+    {
+     "w": "says",
+     "start": 53.46,
+     "end": 53.76
+    },
+    {
+     "w": "the",
+     "start": 53.76,
+     "end": 53.94
+    },
+    {
+     "w": "word",
+     "start": 53.94,
+     "end": 54.24
+    },
+    {
+     "w": "and",
+     "start": 54.24,
+     "end": 54.5
+    },
+    {
+     "w": "the",
+     "start": 54.5,
+     "end": 54.62
+    },
+    {
+     "w": "whole",
+     "start": 54.62,
+     "end": 54.8
+    },
+    {
+     "w": "ship",
+     "start": 54.8,
+     "end": 55.08
+    },
+    {
+     "w": "goes",
+     "start": 55.08,
+     "end": 56.04
+    }
+   ],
+   "confidence": 0.94
+  },
+  {
+   "idx": 15,
+   "section": "Chorus",
+   "text": "Make it so! (Make it so!)",
+   "start": 56.04,
+   "end": 58.84,
+   "words": [
+    {
+     "w": "Make",
+     "start": 56.04,
+     "end": 56.28
+    },
+    {
+     "w": "it",
+     "start": 56.28,
+     "end": 56.6
+    },
+    {
+     "w": "so",
+     "start": 56.6,
+     "end": 57.22
+    },
+    {
+     "w": "Make",
+     "start": 57.22,
+     "end": 57.68
+    },
+    {
+     "w": "it",
+     "start": 57.68,
+     "end": 57.92
+    },
+    {
+     "w": "so",
+     "start": 57.92,
+     "end": 58.84
+    }
+   ],
+   "confidence": 0.86
+  },
+  {
+   "idx": 16,
+   "section": "Chorus",
+   "text": "Out where no one's gone, where nobody knows,",
+   "start": 58.84,
+   "end": 61.64,
+   "words": [
+    {
+     "w": "Out",
+     "start": 58.84,
+     "end": 59.0
+    },
+    {
+     "w": "where",
+     "start": 59.0,
+     "end": 59.2
+    },
+    {
+     "w": "no",
+     "start": 59.2,
+     "end": 59.32
+    },
+    {
+     "w": "one's",
+     "start": 59.32,
+     "end": 59.56
+    },
+    {
+     "w": "gone",
+     "start": 59.56,
+     "end": 59.92
+    },
+    {
+     "w": "where",
+     "start": 59.92,
+     "end": 60.08
+    },
+    {
+     "w": "nobody",
+     "start": 60.08,
+     "end": 60.54
+    },
+    {
+     "w": "knows",
+     "start": 60.54,
+     "end": 61.64
+    }
+   ],
+   "confidence": 0.81
+  },
+  {
+   "idx": 17,
+   "section": "Chorus",
+   "text": "Seven on the bridge and a thousand down below,",
+   "start": 61.64,
+   "end": 64.24,
+   "words": [
+    {
+     "w": "Seven",
+     "start": 61.64,
+     "end": 61.84
+    },
+    {
+     "w": "on",
+     "start": 61.84,
+     "end": 62.14
+    },
+    {
+     "w": "the",
+     "start": 62.14,
+     "end": 62.3
+    },
+    {
+     "w": "bridge",
+     "start": 62.3,
+     "end": 62.7
+    },
+    {
+     "w": "and",
+     "start": 63.04,
+     "end": 63.14
+    },
+    {
+     "w": "a",
+     "start": 63.14,
+     "end": 63.38
+    },
+    {
+     "w": "thousand",
+     "start": 63.38,
+     "end": 63.66
+    },
+    {
+     "w": "down",
+     "start": 63.66,
+     "end": 63.96
+    },
+    {
+     "w": "below",
+     "start": 63.96,
+     "end": 64.24
+    }
+   ],
+   "confidence": 0.84
+  },
+  {
+   "idx": 18,
+   "section": "Chorus",
+   "text": "One voice, one ship... make it so!",
+   "start": 64.24,
+   "end": 67.84,
+   "words": [
+    {
+     "w": "One",
+     "start": 64.24,
+     "end": 64.88
+    },
+    {
+     "w": "voice",
+     "start": 64.88,
+     "end": 65.46
+    },
+    {
+     "w": "one",
+     "start": 65.46,
+     "end": 65.64
+    },
+    {
+     "w": "ship",
+     "start": 65.64,
+     "end": 66.22
+    },
+    {
+     "w": "make",
+     "start": 67.22,
+     "end": 67.32
+    },
+    {
+     "w": "it",
+     "start": 67.32,
+     "end": 67.62
+    },
+    {
+     "w": "so",
+     "start": 67.62,
+     "end": 67.84
+    }
+   ],
+   "confidence": 0.82
+  },
+  {
+   "idx": 19,
+   "section": "Riker",
+   "text": "William T. Riker, y'all can call me Number One,",
+   "start": 67.85,
+   "end": 70.34,
+   "words": [
+    {
+     "w": "William",
+     "start": 67.85,
+     "end": 68.29
+    },
+    {
+     "w": "T",
+     "start": 68.29,
+     "end": 68.63
+    },
+    {
+     "w": "Riker",
+     "start": 68.63,
+     "end": 69.01
+    },
+    {
+     "w": "y'all",
+     "start": 69.01,
+     "end": 69.21
+    },
+    {
+     "w": "can",
+     "start": 69.21,
+     "end": 69.29
+    },
+    {
+     "w": "call",
+     "start": 69.29,
+     "end": 69.55
+    },
+    {
+     "w": "me",
+     "start": 69.55,
+     "end": 69.67
+    },
+    {
+     "w": "Number",
+     "start": 69.67,
+     "end": 69.87
+    },
+    {
+     "w": "One",
+     "start": 69.87,
+     "end": 70.34
+    }
+   ],
+   "confidence": 0.85
+  },
+  {
+   "idx": 20,
+   "section": "Riker",
+   "text": "Out of Valdez, Alaska, where the winters weigh a ton,",
+   "start": 70.35,
+   "end": 73.2,
+   "words": [
+    {
+     "w": "Out",
+     "start": 70.35,
+     "end": 70.55
+    },
+    {
+     "w": "of",
+     "start": 70.55,
+     "end": 70.79
+    },
+    {
+     "w": "Valdez",
+     "start": 70.79,
+     "end": 71.19
+    },
+    {
+     "w": "Alaska",
+     "start": 71.19,
+     "end": 71.79
+    },
+    {
+     "w": "where",
+     "start": 71.79,
+     "end": 71.93
+    },
+    {
+     "w": "the",
+     "start": 71.93,
+     "end": 72.07
+    },
+    {
+     "w": "winters",
+     "start": 72.07,
+     "end": 72.47
+    },
+    {
+     "w": "weigh",
+     "start": 72.47,
+     "end": 72.63
+    },
+    {
+     "w": "a",
+     "start": 72.63,
+     "end": 72.81
+    },
+    {
+     "w": "ton",
+     "start": 72.81,
+     "end": 73.2
+    }
+   ],
+   "confidence": 0.86
+  },
+  {
+   "idx": 21,
+   "section": "Riker",
+   "text": "Three times they offered me a captain's chair,",
+   "start": 73.21,
+   "end": 75.85,
+   "words": [
+    {
+     "w": "Three",
+     "start": 73.21,
+     "end": 73.33
+    },
+    {
+     "w": "times",
+     "start": 73.33,
+     "end": 73.95
+    },
+    {
+     "w": "they",
+     "start": 73.95,
+     "end": 74.21
+    },
+    {
+     "w": "offered",
+     "start": 74.21,
+     "end": 74.47
+    },
+    {
+     "w": "me",
+     "start": 74.47,
+     "end": 74.73
+    },
+    {
+     "w": "a",
+     "start": 74.73,
+     "end": 74.91
+    },
+    {
+     "w": "captain's",
+     "start": 74.91,
+     "end": 75.41
+    },
+    {
+     "w": "chair",
+     "start": 75.41,
+     "end": 75.85
+    }
+   ],
+   "confidence": 0.95
+  },
+  {
+   "idx": 22,
+   "section": "Riker",
+   "text": "Three times I said \"Nah, I'm needed right here.\"",
+   "start": 75.91,
+   "end": 78.76,
+   "words": [
+    {
+     "w": "Three",
+     "start": 75.91,
+     "end": 76.09
+    },
+    {
+     "w": "times",
+     "start": 76.09,
+     "end": 76.45
+    },
+    {
+     "w": "I",
+     "start": 76.45,
+     "end": 76.69
+    },
+    {
+     "w": "said",
+     "start": 76.69,
+     "end": 76.89
+    },
+    {
+     "w": "Nah",
+     "start": 76.89,
+     "end": 77.37
+    },
+    {
+     "w": "I'm",
+     "start": 77.37,
+     "end": 77.71
+    },
+    {
+     "w": "needed",
+     "start": 77.71,
+     "end": 77.95
+    },
+    {
+     "w": "right",
+     "start": 77.95,
+     "end": 78.23
+    },
+    {
+     "w": "here",
+     "start": 78.23,
+     "end": 78.76
+    }
+   ],
+   "confidence": 0.95
+  },
+  {
+   "idx": 23,
+   "section": "Riker",
+   "text": "Swing my leg across the seat like I'm climbing on a horse,",
+   "start": 78.77,
+   "end": 81.6,
+   "words": [
+    {
+     "w": "Swing",
+     "start": 78.77,
+     "end": 78.95
+    },
+    {
+     "w": "my",
+     "start": 78.95,
+     "end": 79.03
+    },
+    {
+     "w": "leg",
+     "start": 79.03,
+     "end": 79.31
+    },
+    {
+     "w": "across",
+     "start": 79.31,
+     "end": 79.53
+    },
+    {
+     "w": "the",
+     "start": 79.53,
+     "end": 79.75
+    },
+    {
+     "w": "seat",
+     "start": 79.75,
+     "end": 80.03
+    },
+    {
+     "w": "like",
+     "start": 80.03,
+     "end": 80.27
+    },
+    {
+     "w": "I'm",
+     "start": 80.27,
+     "end": 80.53
+    },
+    {
+     "w": "climbing",
+     "start": 80.53,
+     "end": 80.79
+    },
+    {
+     "w": "on",
+     "start": 80.79,
+     "end": 81.03
+    },
+    {
+     "w": "a",
+     "start": 81.03,
+     "end": 81.19
+    },
+    {
+     "w": "horse",
+     "start": 81.19,
+     "end": 81.6
+    }
+   ],
+   "confidence": 0.96
+  },
+  {
+   "idx": 24,
+   "section": "Riker",
+   "text": "Beard came in season two and it's glorious, of course,",
+   "start": 81.67,
+   "end": 84.4,
+   "words": [
+    {
+     "w": "Beard",
+     "start": 81.67,
+     "end": 81.89
+    },
+    {
+     "w": "came",
+     "start": 81.89,
+     "end": 82.01
+    },
+    {
+     "w": "in",
+     "start": 82.01,
+     "end": 82.25
+    },
+    {
+     "w": "season",
+     "start": 82.25,
+     "end": 82.47
+    },
+    {
+     "w": "two",
+     "start": 82.47,
+     "end": 82.79
+    },
+    {
+     "w": "and",
+     "start": 82.79,
+     "end": 83.07
+    },
+    {
+     "w": "it's",
+     "start": 83.07,
+     "end": 83.27
+    },
+    {
+     "w": "glorious",
+     "start": 83.27,
+     "end": 83.75
+    },
+    {
+     "w": "of",
+     "start": 83.75,
+     "end": 84.01
+    },
+    {
+     "w": "course",
+     "start": 84.01,
+     "end": 84.4
+    }
+   ],
+   "confidence": 0.84
+  },
+  {
+   "idx": 25,
+   "section": "Riker",
+   "text": "But the Borg took my captain, put a cube upon the screen,",
+   "start": 84.41,
+   "end": 87.24,
+   "words": [
+    {
+     "w": "But",
+     "start": 84.41,
+     "end": 84.51
+    },
+    {
+     "w": "the",
+     "start": 84.51,
+     "end": 84.63
+    },
+    {
+     "w": "Borg",
+     "start": 84.63,
+     "end": 84.99
+    },
+    {
+     "w": "took",
+     "start": 84.99,
+     "end": 85.17
+    },
+    {
+     "w": "my",
+     "start": 85.17,
+     "end": 85.35
+    },
+    {
+     "w": "captain",
+     "start": 85.35,
+     "end": 85.75
+    },
+    {
+     "w": "put",
+     "start": 85.75,
+     "end": 85.87
+    },
+    {
+     "w": "a",
+     "start": 85.87,
+     "end": 86.05
+    },
+    {
+     "w": "cube",
+     "start": 86.15,
+     "end": 86.29
+    },
+    {
+     "w": "upon",
+     "start": 86.29,
+     "end": 86.47
+    },
+    {
+     "w": "the",
+     "start": 86.47,
+     "end": 86.69
+    },
+    {
+     "w": "screen",
+     "start": 86.69,
+     "end": 87.24
+    }
+   ],
+   "confidence": 0.9
+  },
+  {
+   "idx": 26,
+   "section": "Riker",
+   "text": "Locutus looked right through me, hardest call I've ever seen:",
+   "start": 87.25,
+   "end": 89.98,
+   "words": [
+    {
+     "w": "Locutus",
+     "start": 87.25,
+     "end": 87.61
+    },
+    {
+     "w": "looked",
+     "start": 87.61,
+     "end": 87.81
+    },
+    {
+     "w": "right",
+     "start": 87.81,
+     "end": 88.07
+    },
+    {
+     "w": "through",
+     "start": 88.07,
+     "end": 88.33
+    },
+    {
+     "w": "me",
+     "start": 88.33,
+     "end": 88.53
+    },
+    {
+     "w": "hardest",
+     "start": 88.53,
+     "end": 88.77
+    },
+    {
+     "w": "call",
+     "start": 88.77,
+     "end": 89.01
+    },
+    {
+     "w": "I've",
+     "start": 89.01,
+     "end": 89.27
+    },
+    {
+     "w": "ever",
+     "start": 89.27,
+     "end": 89.41
+    },
+    {
+     "w": "seen",
+     "start": 89.41,
+     "end": 89.98
+    }
+   ],
+   "confidence": 0.87
+  },
+  {
+   "idx": 27,
+   "section": "Riker",
+   "text": "\"Mister Worf...\"",
+   "start": 89.99,
+   "end": 90.65,
+   "words": [
+    {
+     "w": "Mister",
+     "start": 89.99,
+     "end": 90.17
+    },
+    {
+     "w": "Worf",
+     "start": 90.17,
+     "end": 90.65
+    }
+   ],
+   "confidence": 0.46
+  },
+  {
+   "idx": 28,
+   "section": "Riker",
+   "text": "\"...FIRE.\"",
+   "start": 90.91,
+   "end": 91.07,
+   "words": [
+    {
+     "w": "FIRE",
+     "start": 90.91,
+     "end": 91.07
+    }
+   ],
+   "confidence": 0.56
+  },
+  {
+   "idx": 29,
+   "section": "Data",
+   "text": "I am Data. Lieutenant Commander. Android. Positronic.",
+   "start": 91.08,
+   "end": 94.15,
+   "words": [
+    {
+     "w": "I",
+     "start": 91.08,
+     "end": 91.45
+    },
+    {
+     "w": "am",
+     "start": 91.45,
+     "end": 91.65
+    },
+    {
+     "w": "Data",
+     "start": 91.65,
+     "end": 91.95
+    },
+    {
+     "w": "Lieutenant",
+     "start": 91.95,
+     "end": 92.23
+    },
+    {
+     "w": "Commander",
+     "start": 92.23,
+     "end": 93.07
+    },
+    {
+     "w": "Android",
+     "start": 93.07,
+     "end": 93.39
+    },
+    {
+     "w": "Positronic",
+     "start": 93.39,
+     "end": 94.15
+    }
+   ],
+   "confidence": 0.76
+  },
+  {
+   "idx": 30,
+   "section": "Data",
+   "text": "Built by Doctor Noonien Soong, my design is quite iconic.",
+   "start": 94.17,
+   "end": 96.97,
+   "words": [
+    {
+     "w": "Built",
+     "start": 94.17,
+     "end": 94.27
+    },
+    {
+     "w": "by",
+     "start": 94.27,
+     "end": 94.43
+    },
+    {
+     "w": "Doctor",
+     "start": 94.43,
+     "end": 94.75
+    },
+    {
+     "w": "Noonien",
+     "start": 94.75,
+     "end": 95.17
+    },
+    {
+     "w": "Soong",
+     "start": 95.17,
+     "end": 95.47
+    },
+    {
+     "w": "my",
+     "start": 95.47,
+     "end": 95.63
+    },
+    {
+     "w": "design",
+     "start": 95.63,
+     "end": 95.99
+    },
+    {
+     "w": "is",
+     "start": 95.99,
+     "end": 96.19
+    },
+    {
+     "w": "quite",
+     "start": 96.19,
+     "end": 96.35
+    },
+    {
+     "w": "iconic",
+     "start": 96.35,
+     "end": 96.97
+    }
+   ],
+   "confidence": 0.78
+  },
+  {
+   "idx": 31,
+   "section": "Data",
+   "text": "I do not use contractions. It is not a choice. I cannot.",
+   "start": 97.03,
+   "end": 99.78,
+   "words": [
+    {
+     "w": "I",
+     "start": 97.03,
+     "end": 97.11
+    },
+    {
+     "w": "do",
+     "start": 97.11,
+     "end": 97.23
+    },
+    {
+     "w": "not",
+     "start": 97.23,
+     "end": 97.43
+    },
+    {
+     "w": "use",
+     "start": 97.43,
+     "end": 97.71
+    },
+    {
+     "w": "contractions",
+     "start": 97.71,
+     "end": 98.35
+    },
+    {
+     "w": "It",
+     "start": 98.35,
+     "end": 98.49
+    },
+    {
+     "w": "is",
+     "start": 98.49,
+     "end": 98.63
+    },
+    {
+     "w": "not",
+     "start": 98.63,
+     "end": 98.81
+    },
+    {
+     "w": "a",
+     "start": 98.81,
+     "end": 98.95
+    },
+    {
+     "w": "choice",
+     "start": 98.95,
+     "end": 99.23
+    },
+    {
+     "w": "I",
+     "start": 99.23,
+     "end": 99.37
+    },
+    {
+     "w": "cannot",
+     "start": 99.37,
+     "end": 99.78
+    }
+   ],
+   "confidence": 0.93
+  },
+  {
+   "idx": 32,
+   "section": "Data",
+   "text": "Yes, I am fully functional. A topic best forgotten.",
+   "start": 99.79,
+   "end": 102.5,
+   "words": [
+    {
+     "w": "Yes",
+     "start": 99.79,
+     "end": 99.95
+    },
+    {
+     "w": "I",
+     "start": 99.95,
+     "end": 100.15
+    },
+    {
+     "w": "am",
+     "start": 100.15,
+     "end": 100.39
+    },
+    {
+     "w": "fully",
+     "start": 100.39,
+     "end": 100.63
+    },
+    {
+     "w": "functional",
+     "start": 100.63,
+     "end": 101.25
+    },
+    {
+     "w": "A",
+     "start": 101.25,
+     "end": 101.45
+    },
+    {
+     "w": "topic",
+     "start": 101.45,
+     "end": 101.67
+    },
+    {
+     "w": "best",
+     "start": 101.67,
+     "end": 101.93
+    },
+    {
+     "w": "forgotten",
+     "start": 101.93,
+     "end": 102.5
+    }
+   ],
+   "confidence": 0.94
+  },
+  {
+   "idx": 33,
+   "section": "Data",
+   "text": "Sherlock Holmes on the holodeck, the game is now afoot!",
+   "start": 102.51,
+   "end": 105.17,
+   "words": [
+    {
+     "w": "Sherlock",
+     "start": 102.51,
+     "end": 102.73
+    },
+    {
+     "w": "Holmes",
+     "start": 102.73,
+     "end": 103.13
+    },
+    {
+     "w": "on",
+     "start": 103.13,
+     "end": 103.37
+    },
+    {
+     "w": "the",
+     "start": 103.37,
+     "end": 103.49
+    },
+    {
+     "w": "holodeck",
+     "start": 103.49,
+     "end": 104.05
+    },
+    {
+     "w": "the",
+     "start": 104.05,
+     "end": 104.19
+    },
+    {
+     "w": "game",
+     "start": 104.19,
+     "end": 104.43
+    },
+    {
+     "w": "is",
+     "start": 104.43,
+     "end": 104.59
+    },
+    {
+     "w": "now",
+     "start": 104.59,
+     "end": 104.75
+    },
+    {
+     "w": "afoot",
+     "start": 104.75,
+     "end": 105.17
+    }
+   ],
+   "confidence": 0.93
+  },
+  {
+   "idx": 34,
+   "section": "Data",
+   "text": "I composed an ode for Spot, and you will hear it, as you should:",
+   "start": 105.29,
+   "end": 108.1,
+   "words": [
+    {
+     "w": "I",
+     "start": 105.29,
+     "end": 105.41
+    },
+    {
+     "w": "composed",
+     "start": 105.41,
+     "end": 105.65
+    },
+    {
+     "w": "an",
+     "start": 105.65,
+     "end": 105.99
+    },
+    {
+     "w": "ode",
+     "start": 105.99,
+     "end": 106.13
+    },
+    {
+     "w": "for",
+     "start": 106.13,
+     "end": 106.27
+    },
+    {
+     "w": "Spot",
+     "start": 106.27,
+     "end": 106.53
+    },
+    {
+     "w": "and",
+     "start": 106.53,
+     "end": 106.69
+    },
+    {
+     "w": "you",
+     "start": 106.69,
+     "end": 106.81
+    },
+    {
+     "w": "will",
+     "start": 106.81,
+     "end": 106.95
+    },
+    {
+     "w": "hear",
+     "start": 106.95,
+     "end": 107.21
+    },
+    {
+     "w": "it",
+     "start": 107.21,
+     "end": 107.43
+    },
+    {
+     "w": "as",
+     "start": 107.43,
+     "end": 107.57
+    },
+    {
+     "w": "you",
+     "start": 107.57,
+     "end": 107.65
+    },
+    {
+     "w": "should",
+     "start": 107.65,
+     "end": 108.1
+    }
+   ],
+   "confidence": 0.79
+  },
+  {
+   "idx": 35,
+   "section": "Data",
+   "text": "\"Felis catus is your taxonomic nomenclature,",
+   "start": 108.11,
+   "end": 110.56,
+   "words": [
+    {
+     "w": "Felis",
+     "start": 108.11,
+     "end": 108.39
+    },
+    {
+     "w": "catus",
+     "start": 108.39,
+     "end": 108.73
+    },
+    {
+     "w": "is",
+     "start": 108.73,
+     "end": 108.93
+    },
+    {
+     "w": "your",
+     "start": 108.93,
+     "end": 109.09
+    },
+    {
+     "w": "taxonomic",
+     "start": 109.09,
+     "end": 109.85
+    },
+    {
+     "w": "nomenclature",
+     "start": 109.85,
+     "end": 110.56
+    }
+   ],
+   "confidence": 0.72
+  },
+  {
+   "idx": 36,
+   "section": "Data",
+   "text": "An endothermic quadruped, carnivorous by nature.\"",
+   "start": 110.57,
+   "end": 113.7,
+   "words": [
+    {
+     "w": "An",
+     "start": 110.57,
+     "end": 110.85
+    },
+    {
+     "w": "endothermic",
+     "start": 110.85,
+     "end": 111.51
+    },
+    {
+     "w": "quadruped",
+     "start": 111.51,
+     "end": 112.11
+    },
+    {
+     "w": "carnivorous",
+     "start": 112.11,
+     "end": 112.83
+    },
+    {
+     "w": "by",
+     "start": 112.83,
+     "end": 113.03
+    },
+    {
+     "w": "nature",
+     "start": 113.03,
+     "end": 113.7
+    }
+   ],
+   "confidence": 0.85
+  },
+  {
+   "idx": 37,
+   "section": "Data",
+   "text": "I would trade a thousand years of perfect memory and speed",
+   "start": 113.71,
+   "end": 116.36,
+   "words": [
+    {
+     "w": "I",
+     "start": 113.71,
+     "end": 113.79
+    },
+    {
+     "w": "would",
+     "start": 113.79,
+     "end": 113.95
+    },
+    {
+     "w": "trade",
+     "start": 113.95,
+     "end": 114.19
+    },
+    {
+     "w": "a",
+     "start": 114.19,
+     "end": 114.31
+    },
+    {
+     "w": "thousand",
+     "start": 114.31,
+     "end": 114.51
+    },
+    {
+     "w": "years",
+     "start": 114.51,
+     "end": 114.85
+    },
+    {
+     "w": "of",
+     "start": 114.85,
+     "end": 115.03
+    },
+    {
+     "w": "perfect",
+     "start": 115.03,
+     "end": 115.29
+    },
+    {
+     "w": "memory",
+     "start": 115.29,
+     "end": 115.61
+    },
+    {
+     "w": "and",
+     "start": 115.61,
+     "end": 115.99
+    },
+    {
+     "w": "speed",
+     "start": 115.99,
+     "end": 116.36
+    }
+   ],
+   "confidence": 0.94
+  },
+  {
+   "idx": 38,
+   "section": "Data",
+   "text": "For a single human feeling... that is all I need.",
+   "start": 116.37,
+   "end": 118.99,
+   "words": [
+    {
+     "w": "For",
+     "start": 116.37,
+     "end": 116.57
+    },
+    {
+     "w": "a",
+     "start": 116.57,
+     "end": 116.71
+    },
+    {
+     "w": "single",
+     "start": 116.71,
+     "end": 117.03
+    },
+    {
+     "w": "human",
+     "start": 117.03,
+     "end": 117.33
+    },
+    {
+     "w": "feeling",
+     "start": 117.33,
+     "end": 117.87
+    },
+    {
+     "w": "that",
+     "start": 117.87,
+     "end": 117.99
+    },
+    {
+     "w": "is",
+     "start": 117.99,
+     "end": 118.17
+    },
+    {
+     "w": "all",
+     "start": 118.17,
+     "end": 118.37
+    },
+    {
+     "w": "I",
+     "start": 118.37,
+     "end": 118.71
+    },
+    {
+     "w": "need",
+     "start": 118.71,
+     "end": 118.99
+    }
+   ],
+   "confidence": 0.87
+  },
+  {
+   "idx": 39,
+   "section": "Worf",
+   "text": "I am Worf, son of Mogh! Hear my name and tremble!",
+   "start": 119.0,
+   "end": 122.12,
+   "words": [
+    {
+     "w": "I",
+     "start": 119.0,
+     "end": 119.43
+    },
+    {
+     "w": "am",
+     "start": 119.43,
+     "end": 119.53
+    },
+    {
+     "w": "Worf",
+     "start": 119.53,
+     "end": 119.87
+    },
+    {
+     "w": "son",
+     "start": 119.87,
+     "end": 120.05
+    },
+    {
+     "w": "of",
+     "start": 120.05,
+     "end": 120.23
+    },
+    {
+     "w": "Mogh",
+     "start": 120.23,
+     "end": 120.65
+    },
+    {
+     "w": "Hear",
+     "start": 120.65,
+     "end": 120.79
+    },
+    {
+     "w": "my",
+     "start": 120.79,
+     "end": 120.91
+    },
+    {
+     "w": "name",
+     "start": 120.91,
+     "end": 121.35
+    },
+    {
+     "w": "and",
+     "start": 121.35,
+     "end": 121.45
+    },
+    {
+     "w": "tremble",
+     "start": 121.45,
+     "end": 122.12
+    }
+   ],
+   "confidence": 0.82
+  },
+  {
+   "idx": 40,
+   "section": "Worf",
+   "text": "First Klingon in Starfleet, and I do not dissemble.",
+   "start": 122.13,
+   "end": 124.88,
+   "words": [
+    {
+     "w": "First",
+     "start": 122.13,
+     "end": 122.21
+    },
+    {
+     "w": "Klingon",
+     "start": 122.21,
+     "end": 122.69
+    },
+    {
+     "w": "in",
+     "start": 122.69,
+     "end": 122.87
+    },
+    {
+     "w": "Starfleet",
+     "start": 122.87,
+     "end": 123.49
+    },
+    {
+     "w": "and",
+     "start": 123.49,
+     "end": 123.63
+    },
+    {
+     "w": "I",
+     "start": 123.63,
+     "end": 123.71
+    },
+    {
+     "w": "do",
+     "start": 123.71,
+     "end": 123.87
+    },
+    {
+     "w": "not",
+     "start": 123.87,
+     "end": 124.11
+    },
+    {
+     "w": "dissemble",
+     "start": 124.11,
+     "end": 124.88
+    }
+   ],
+   "confidence": 0.93
+  },
+  {
+   "idx": 41,
+   "section": "Worf",
+   "text": "Captain, they are hailing. I suggest we open fire.",
+   "start": 124.93,
+   "end": 127.68,
+   "words": [
+    {
+     "w": "Captain",
+     "start": 124.93,
+     "end": 125.31
+    },
+    {
+     "w": "they",
+     "start": 125.31,
+     "end": 125.61
+    },
+    {
+     "w": "are",
+     "start": 125.61,
+     "end": 125.81
+    },
+    {
+     "w": "hailing",
+     "start": 125.81,
+     "end": 126.21
+    },
+    {
+     "w": "I",
+     "start": 126.21,
+     "end": 126.35
+    },
+    {
+     "w": "suggest",
+     "start": 126.35,
+     "end": 126.61
+    },
+    {
+     "w": "we",
+     "start": 126.61,
+     "end": 126.89
+    },
+    {
+     "w": "open",
+     "start": 126.89,
+     "end": 127.11
+    },
+    {
+     "w": "fire",
+     "start": 127.11,
+     "end": 127.68
+    }
+   ],
+   "confidence": 0.94
+  },
+  {
+   "idx": 42,
+   "section": "Worf",
+   "text": "Captain, they are cloaking. I suggest we open fire!",
+   "start": 127.69,
+   "end": 130.47,
+   "words": [
+    {
+     "w": "Captain",
+     "start": 127.69,
+     "end": 128.09
+    },
+    {
+     "w": "they",
+     "start": 128.09,
+     "end": 128.41
+    },
+    {
+     "w": "are",
+     "start": 128.41,
+     "end": 128.59
+    },
+    {
+     "w": "cloaking",
+     "start": 128.59,
+     "end": 129.03
+    },
+    {
+     "w": "I",
+     "start": 129.03,
+     "end": 129.13
+    },
+    {
+     "w": "suggest",
+     "start": 129.13,
+     "end": 129.37
+    },
+    {
+     "w": "we",
+     "start": 129.37,
+     "end": 129.69
+    },
+    {
+     "w": "open",
+     "start": 129.69,
+     "end": 129.89
+    },
+    {
+     "w": "fire",
+     "start": 129.89,
+     "end": 130.47
+    }
+   ],
+   "confidence": 0.97
+  },
+  {
+   "idx": 43,
+   "section": "Worf",
+   "text": "Every new villain throws me first, so you know that they are tough,",
+   "start": 130.47,
+   "end": 133.2,
+   "words": [
+    {
+     "w": "Every",
+     "start": 130.47,
+     "end": 130.55
+    },
+    {
+     "w": "new",
+     "start": 130.55,
+     "end": 130.71
+    },
+    {
+     "w": "villain",
+     "start": 130.71,
+     "end": 130.99
+    },
+    {
+     "w": "throws",
+     "start": 130.99,
+     "end": 131.25
+    },
+    {
+     "w": "me",
+     "start": 131.25,
+     "end": 131.41
+    },
+    {
+     "w": "first",
+     "start": 131.41,
+     "end": 131.79
+    },
+    {
+     "w": "so",
+     "start": 131.79,
+     "end": 131.93
+    },
+    {
+     "w": "you",
+     "start": 131.93,
+     "end": 132.05
+    },
+    {
+     "w": "know",
+     "start": 132.05,
+     "end": 132.27
+    },
+    {
+     "w": "that",
+     "start": 132.27,
+     "end": 132.47
+    },
+    {
+     "w": "they",
+     "start": 132.47,
+     "end": 132.59
+    },
+    {
+     "w": "are",
+     "start": 132.59,
+     "end": 132.75
+    },
+    {
+     "w": "tough",
+     "start": 132.75,
+     "end": 133.2
+    }
+   ],
+   "confidence": 0.97
+  },
+  {
+   "idx": 44,
+   "section": "Worf",
+   "text": "I get up off the deck, I have not had enough.",
+   "start": 133.37,
+   "end": 135.94,
+   "words": [
+    {
+     "w": "I",
+     "start": 133.37,
+     "end": 133.47
+    },
+    {
+     "w": "get",
+     "start": 133.47,
+     "end": 133.69
+    },
+    {
+     "w": "up",
+     "start": 133.69,
+     "end": 133.87
+    },
+    {
+     "w": "off",
+     "start": 133.87,
+     "end": 134.03
+    },
+    {
+     "w": "the",
+     "start": 134.03,
+     "end": 134.21
+    },
+    {
+     "w": "deck",
+     "start": 134.21,
+     "end": 134.53
+    },
+    {
+     "w": "I",
+     "start": 134.53,
+     "end": 134.75
+    },
+    {
+     "w": "have",
+     "start": 134.75,
+     "end": 134.91
+    },
+    {
+     "w": "not",
+     "start": 134.91,
+     "end": 135.13
+    },
+    {
+     "w": "had",
+     "start": 135.13,
+     "end": 135.43
+    },
+    {
+     "w": "enough",
+     "start": 135.43,
+     "end": 135.94
+    }
+   ],
+   "confidence": 0.95
+  },
+  {
+   "idx": 45,
+   "section": "Worf",
+   "text": "Prune juice? A warrior's drink!",
+   "start": 135.99,
+   "end": 138.03,
+   "words": [
+    {
+     "w": "Prune",
+     "start": 135.99,
+     "end": 136.21
+    },
+    {
+     "w": "juice",
+     "start": 136.21,
+     "end": 136.75
+    },
+    {
+     "w": "A",
+     "start": 136.75,
+     "end": 136.93
+    },
+    {
+     "w": "warrior's",
+     "start": 136.93,
+     "end": 137.53
+    },
+    {
+     "w": "drink",
+     "start": 137.53,
+     "end": 138.03
+    }
+   ],
+   "confidence": 0.86
+  },
+  {
+   "idx": 46,
+   "section": "Worf",
+   "text": "Q put me in tights, made me Will Scarlet for a day,",
+   "start": 138.05,
+   "end": 140.95,
+   "words": [
+    {
+     "w": "Q",
+     "start": 138.05,
+     "end": 138.15
+    },
+    {
+     "w": "put",
+     "start": 138.15,
+     "end": 138.49
+    },
+    {
+     "w": "me",
+     "start": 138.49,
+     "end": 138.71
+    },
+    {
+     "w": "in",
+     "start": 138.71,
+     "end": 138.87
+    },
+    {
+     "w": "tights",
+     "start": 138.87,
+     "end": 139.31
+    },
+    {
+     "w": "made",
+     "start": 139.31,
+     "end": 139.41
+    },
+    {
+     "w": "me",
+     "start": 139.41,
+     "end": 139.59
+    },
+    {
+     "w": "Will",
+     "start": 139.59,
+     "end": 139.71
+    },
+    {
+     "w": "Scarlet",
+     "start": 139.71,
+     "end": 140.11
+    },
+    {
+     "w": "for",
+     "start": 140.11,
+     "end": 140.25
+    },
+    {
+     "w": "a",
+     "start": 140.25,
+     "end": 140.45
+    },
+    {
+     "w": "day",
+     "start": 140.45,
+     "end": 140.95
+    }
+   ],
+   "confidence": 0.84
+  },
+  {
+   "idx": 47,
+   "section": "Worf",
+   "text": "\"I am NOT a merry man!\" And that is all I'll say.",
+   "start": 140.95,
+   "end": 143.86,
+   "words": [
+    {
+     "w": "I",
+     "start": 140.95,
+     "end": 141.03
+    },
+    {
+     "w": "am",
+     "start": 141.03,
+     "end": 141.15
+    },
+    {
+     "w": "NOT",
+     "start": 141.15,
+     "end": 141.39
+    },
+    {
+     "w": "a",
+     "start": 141.39,
+     "end": 141.55
+    },
+    {
+     "w": "merry",
+     "start": 141.55,
+     "end": 141.75
+    },
+    {
+     "w": "man",
+     "start": 141.75,
+     "end": 142.19
+    },
+    {
+     "w": "And",
+     "start": 142.19,
+     "end": 142.27
+    },
+    {
+     "w": "that",
+     "start": 142.27,
+     "end": 142.41
+    },
+    {
+     "w": "is",
+     "start": 142.41,
+     "end": 142.59
+    },
+    {
+     "w": "all",
+     "start": 142.59,
+     "end": 142.81
+    },
+    {
+     "w": "I'll",
+     "start": 142.81,
+     "end": 143.17
+    },
+    {
+     "w": "say",
+     "start": 143.17,
+     "end": 143.86
+    }
+   ],
+   "confidence": 0.86
+  },
+  {
+   "idx": 48,
+   "section": "Worf",
+   "text": "Perhaps today IS a good day to die...",
+   "start": 143.87,
+   "end": 146.69,
+   "words": [
+    {
+     "w": "Perhaps",
+     "start": 143.87,
+     "end": 144.11
+    },
+    {
+     "w": "today",
+     "start": 144.11,
+     "end": 144.55
+    },
+    {
+     "w": "IS",
+     "start": 144.55,
+     "end": 145.05
+    },
+    {
+     "w": "a",
+     "start": 145.05,
+     "end": 145.17
+    },
+    {
+     "w": "good",
+     "start": 145.17,
+     "end": 145.43
+    },
+    {
+     "w": "day",
+     "start": 145.43,
+     "end": 145.75
+    },
+    {
+     "w": "to",
+     "start": 145.75,
+     "end": 146.03
+    },
+    {
+     "w": "die",
+     "start": 146.03,
+     "end": 146.69
+    }
+   ],
+   "confidence": 0.79
+  },
+  {
+   "idx": 49,
+   "section": "Worf",
+   "text": "PREPARE FOR RAMMING SPEED!",
+   "start": 146.69,
+   "end": 148.51,
+   "words": [
+    {
+     "w": "PREPARE",
+     "start": 146.69,
+     "end": 147.21
+    },
+    {
+     "w": "FOR",
+     "start": 147.21,
+     "end": 147.41
+    },
+    {
+     "w": "RAMMING",
+     "start": 147.41,
+     "end": 147.95
+    },
+    {
+     "w": "SPEED",
+     "start": 147.95,
+     "end": 148.51
+    }
+   ],
+   "confidence": 0.77
+  },
+  {
+   "idx": 50,
+   "section": "Geordi",
+   "text": "Geordi La Forge, I'm the chief engineer,",
+   "start": 148.51,
+   "end": 151.29,
+   "words": [
+    {
+     "w": "Geordi",
+     "start": 148.51,
+     "end": 149.25
+    },
+    {
+     "w": "La",
+     "start": 149.25,
+     "end": 149.33
+    },
+    {
+     "w": "Forge",
+     "start": 149.33,
+     "end": 149.85
+    },
+    {
+     "w": "I'm",
+     "start": 149.85,
+     "end": 150.11
+    },
+    {
+     "w": "the",
+     "start": 150.11,
+     "end": 150.19
+    },
+    {
+     "w": "chief",
+     "start": 150.19,
+     "end": 150.51
+    },
+    {
+     "w": "engineer",
+     "start": 150.51,
+     "end": 151.29
+    }
+   ],
+   "confidence": 0.89
+  },
+  {
+   "idx": 51,
+   "section": "Geordi",
+   "text": "Born blind, VISOR on, now I see the spectrum clear,",
+   "start": 151.29,
+   "end": 154.17,
+   "words": [
+    {
+     "w": "Born",
+     "start": 151.29,
+     "end": 151.47
+    },
+    {
+     "w": "blind",
+     "start": 151.47,
+     "end": 151.99
+    },
+    {
+     "w": "VISOR",
+     "start": 151.99,
+     "end": 152.39
+    },
+    {
+     "w": "on",
+     "start": 152.39,
+     "end": 152.71
+    },
+    {
+     "w": "now",
+     "start": 152.71,
+     "end": 152.83
+    },
+    {
+     "w": "I",
+     "start": 152.83,
+     "end": 152.99
+    },
+    {
+     "w": "see",
+     "start": 152.99,
+     "end": 153.23
+    },
+    {
+     "w": "the",
+     "start": 153.23,
+     "end": 153.35
+    },
+    {
+     "w": "spectrum",
+     "start": 153.35,
+     "end": 153.61
+    },
+    {
+     "w": "clear",
+     "start": 153.61,
+     "end": 154.17
+    }
+   ],
+   "confidence": 0.87
+  },
+  {
+   "idx": 52,
+   "section": "Geordi",
+   "text": "Inverse tachyon pulse, modulate the beam,",
+   "start": 154.21,
+   "end": 157.03,
+   "words": [
+    {
+     "w": "Inverse",
+     "start": 154.21,
+     "end": 154.53
+    },
+    {
+     "w": "tachyon",
+     "start": 154.53,
+     "end": 155.05
+    },
+    {
+     "w": "pulse",
+     "start": 155.05,
+     "end": 155.57
+    },
+    {
+     "w": "modulate",
+     "start": 155.57,
+     "end": 156.33
+    },
+    {
+     "w": "the",
+     "start": 156.33,
+     "end": 156.49
+    },
+    {
+     "w": "beam",
+     "start": 156.49,
+     "end": 157.03
+    }
+   ],
+   "confidence": 0.91
+  },
+  {
+   "idx": 53,
+   "section": "Geordi",
+   "text": "Every crisis on this ship ends in a technobabble scheme.",
+   "start": 157.03,
+   "end": 159.67,
+   "words": [
+    {
+     "w": "Every",
+     "start": 157.03,
+     "end": 157.11
+    },
+    {
+     "w": "crisis",
+     "start": 157.11,
+     "end": 157.55
+    },
+    {
+     "w": "on",
+     "start": 157.55,
+     "end": 157.77
+    },
+    {
+     "w": "this",
+     "start": 157.77,
+     "end": 157.93
+    },
+    {
+     "w": "ship",
+     "start": 157.93,
+     "end": 158.13
+    },
+    {
+     "w": "ends",
+     "start": 158.13,
+     "end": 158.33
+    },
+    {
+     "w": "in",
+     "start": 158.33,
+     "end": 158.51
+    },
+    {
+     "w": "a",
+     "start": 158.51,
+     "end": 158.59
+    },
+    {
+     "w": "technobabble",
+     "start": 158.59,
+     "end": 159.31
+    },
+    {
+     "w": "scheme",
+     "start": 159.31,
+     "end": 159.67
+    }
+   ],
+   "confidence": 0.96
+  },
+  {
+   "idx": 54,
+   "section": "Geordi",
+   "text": "And if you doubt the engines got one more push to give...",
+   "start": 159.67,
+   "end": 163.05,
+   "words": [
+    {
+     "w": "And",
+     "start": 159.67,
+     "end": 159.75
+    },
+    {
+     "w": "if",
+     "start": 159.75,
+     "end": 159.85
+    },
+    {
+     "w": "you",
+     "start": 159.85,
+     "end": 159.97
+    },
+    {
+     "w": "doubt",
+     "start": 159.97,
+     "end": 160.21
+    },
+    {
+     "w": "the",
+     "start": 160.21,
+     "end": 160.51
+    },
+    {
+     "w": "engines",
+     "start": 160.51,
+     "end": 161.01
+    },
+    {
+     "w": "got",
+     "start": 161.01,
+     "end": 161.21
+    },
+    {
+     "w": "one",
+     "start": 161.21,
+     "end": 161.57
+    },
+    {
+     "w": "more",
+     "start": 161.57,
+     "end": 161.93
+    },
+    {
+     "w": "push",
+     "start": 161.93,
+     "end": 162.33
+    },
+    {
+     "w": "to",
+     "start": 162.33,
+     "end": 162.61
+    },
+    {
+     "w": "give",
+     "start": 162.61,
+     "end": 163.05
+    }
+   ],
+   "confidence": 0.92
+  },
+  {
+   "idx": 55,
+   "section": "Geordi",
+   "text": "You don't have to take my word for it!",
+   "start": 163.17,
+   "end": 165.02,
+   "words": [
+    {
+     "w": "You",
+     "start": 163.17,
+     "end": 163.27
+    },
+    {
+     "w": "don't",
+     "start": 163.27,
+     "end": 163.61
+    },
+    {
+     "w": "have",
+     "start": 163.61,
+     "end": 163.69
+    },
+    {
+     "w": "to",
+     "start": 163.69,
+     "end": 163.85
+    },
+    {
+     "w": "take",
+     "start": 163.85,
+     "end": 164.03
+    },
+    {
+     "w": "my",
+     "start": 164.03,
+     "end": 164.15
+    },
+    {
+     "w": "word",
+     "start": 164.15,
+     "end": 164.43
+    },
+    {
+     "w": "for",
+     "start": 164.43,
+     "end": 164.69
+    },
+    {
+     "w": "it",
+     "start": 164.69,
+     "end": 165.02
+    }
+   ],
+   "confidence": 0.96
+  },
+  {
+   "idx": 56,
+   "section": "Troi",
+   "text": "Deanna Troi, ship's counselor, half Betazoid,",
+   "start": 165.13,
+   "end": 168.13,
+   "words": [
+    {
+     "w": "Deanna",
+     "start": 165.13,
+     "end": 165.45
+    },
+    {
+     "w": "Troi",
+     "start": 165.45,
+     "end": 165.95
+    },
+    {
+     "w": "ship's",
+     "start": 165.95,
+     "end": 166.31
+    },
+    {
+     "w": "counselor",
+     "start": 166.31,
+     "end": 166.85
+    },
+    {
+     "w": "half",
+     "start": 166.85,
+     "end": 167.07
+    },
+    {
+     "w": "Betazoid",
+     "start": 167.07,
+     "end": 168.13
+    }
+   ],
+   "confidence": 0.76
+  },
+  {
+   "idx": 57,
+   "section": "Troi",
+   "text": "I feel every feeling that you're trying to avoid.",
+   "start": 168.13,
+   "end": 171.16,
+   "words": [
+    {
+     "w": "I",
+     "start": 168.13,
+     "end": 168.21
+    },
+    {
+     "w": "feel",
+     "start": 168.21,
+     "end": 168.59
+    },
+    {
+     "w": "every",
+     "start": 168.59,
+     "end": 168.99
+    },
+    {
+     "w": "feeling",
+     "start": 168.99,
+     "end": 169.37
+    },
+    {
+     "w": "that",
+     "start": 169.37,
+     "end": 169.59
+    },
+    {
+     "w": "you're",
+     "start": 169.59,
+     "end": 169.77
+    },
+    {
+     "w": "trying",
+     "start": 169.77,
+     "end": 170.03
+    },
+    {
+     "w": "to",
+     "start": 170.03,
+     "end": 170.27
+    },
+    {
+     "w": "avoid",
+     "start": 170.27,
+     "end": 171.16
+    }
+   ],
+   "confidence": 0.95
+  },
+  {
+   "idx": 58,
+   "section": "Troi",
+   "text": "\"Captain, I sense...\" yeah, I say it a lot,",
+   "start": 171.19,
+   "end": 173.48,
+   "words": [
+    {
+     "w": "Captain",
+     "start": 171.19,
+     "end": 171.65
+    },
+    {
+     "w": "I",
+     "start": 171.65,
+     "end": 171.77
+    },
+    {
+     "w": "sense",
+     "start": 171.77,
+     "end": 172.31
+    },
+    {
+     "w": "yeah",
+     "start": 172.31,
+     "end": 172.47
+    },
+    {
+     "w": "I",
+     "start": 172.47,
+     "end": 172.55
+    },
+    {
+     "w": "say",
+     "start": 172.55,
+     "end": 172.83
+    },
+    {
+     "w": "it",
+     "start": 172.83,
+     "end": 172.97
+    },
+    {
+     "w": "a",
+     "start": 172.97,
+     "end": 173.09
+    },
+    {
+     "w": "lot",
+     "start": 173.09,
+     "end": 173.48
+    }
+   ],
+   "confidence": 0.91
+  },
+  {
+   "idx": 59,
+   "section": "Troi",
+   "text": "But when I sense you're lying, then you've already been caught.",
+   "start": 173.57,
+   "end": 176.63,
+   "words": [
+    {
+     "w": "But",
+     "start": 173.57,
+     "end": 173.65
+    },
+    {
+     "w": "when",
+     "start": 173.65,
+     "end": 173.79
+    },
+    {
+     "w": "I",
+     "start": 173.79,
+     "end": 173.95
+    },
+    {
+     "w": "sense",
+     "start": 173.95,
+     "end": 174.27
+    },
+    {
+     "w": "you're",
+     "start": 174.27,
+     "end": 174.51
+    },
+    {
+     "w": "lying",
+     "start": 174.51,
+     "end": 174.89
+    },
+    {
+     "w": "then",
+     "start": 174.89,
+     "end": 175.01
+    },
+    {
+     "w": "you've",
+     "start": 175.01,
+     "end": 175.25
+    },
+    {
+     "w": "already",
+     "start": 175.25,
+     "end": 175.53
+    },
+    {
+     "w": "been",
+     "start": 175.53,
+     "end": 175.91
+    },
+    {
+     "w": "caught",
+     "start": 175.91,
+     "end": 176.63
+    }
+   ],
+   "confidence": 0.94
+  },
+  {
+   "idx": 60,
+   "section": "Troi",
+   "text": "Mother's Lwaxana, Daughter of the Fifth House,",
+   "start": 176.71,
+   "end": 179.33,
+   "words": [
+    {
+     "w": "Mother's",
+     "start": 176.71,
+     "end": 177.21
+    },
+    {
+     "w": "Lwaxana",
+     "start": 177.21,
+     "end": 177.81
+    },
+    {
+     "w": "Daughter",
+     "start": 177.81,
+     "end": 178.15
+    },
+    {
+     "w": "of",
+     "start": 178.15,
+     "end": 178.31
+    },
+    {
+     "w": "the",
+     "start": 178.31,
+     "end": 178.45
+    },
+    {
+     "w": "Fifth",
+     "start": 178.45,
+     "end": 178.75
+    },
+    {
+     "w": "House",
+     "start": 178.75,
+     "end": 179.33
+    }
+   ],
+   "confidence": 0.87
+  },
+  {
+   "idx": 61,
+   "section": "Troi",
+   "text": "Holder of the Sacred Chalice, and she's beaming to your house!",
+   "start": 179.33,
+   "end": 182.34,
+   "words": [
+    {
+     "w": "Holder",
+     "start": 179.33,
+     "end": 179.61
+    },
+    {
+     "w": "of",
+     "start": 179.61,
+     "end": 179.73
+    },
+    {
+     "w": "the",
+     "start": 179.73,
+     "end": 179.85
+    },
+    {
+     "w": "Sacred",
+     "start": 179.85,
+     "end": 180.15
+    },
+    {
+     "w": "Chalice",
+     "start": 180.15,
+     "end": 180.65
+    },
+    {
+     "w": "and",
+     "start": 180.65,
+     "end": 180.77
+    },
+    {
+     "w": "she's",
+     "start": 180.77,
+     "end": 180.97
+    },
+    {
+     "w": "beaming",
+     "start": 180.97,
+     "end": 181.27
+    },
+    {
+     "w": "to",
+     "start": 181.27,
+     "end": 181.43
+    },
+    {
+     "w": "your",
+     "start": 181.43,
+     "end": 181.63
+    },
+    {
+     "w": "house",
+     "start": 181.63,
+     "end": 182.34
+    }
+   ],
+   "confidence": 0.91
+  },
+  {
+   "idx": 62,
+   "section": "Troi",
+   "text": "Chocolate's not a snack, it's a sacred art,",
+   "start": 182.35,
+   "end": 184.81,
+   "words": [
+    {
+     "w": "Chocolate's",
+     "start": 182.35,
+     "end": 182.73
+    },
+    {
+     "w": "not",
+     "start": 182.73,
+     "end": 182.85
+    },
+    {
+     "w": "a",
+     "start": 182.85,
+     "end": 183.01
+    },
+    {
+     "w": "snack",
+     "start": 183.01,
+     "end": 183.37
+    },
+    {
+     "w": "it's",
+     "start": 183.51,
+     "end": 183.65
+    },
+    {
+     "w": "a",
+     "start": 183.65,
+     "end": 183.73
+    },
+    {
+     "w": "sacred",
+     "start": 183.73,
+     "end": 184.13
+    },
+    {
+     "w": "art",
+     "start": 184.13,
+     "end": 184.81
+    }
+   ],
+   "confidence": 0.94
+  },
+  {
+   "idx": 63,
+   "section": "Troi",
+   "text": "Imzadi, that's the word for the one who has my heart.",
+   "start": 184.89,
+   "end": 187.85,
+   "words": [
+    {
+     "w": "Imzadi",
+     "start": 184.89,
+     "end": 185.49
+    },
+    {
+     "w": "that's",
+     "start": 185.49,
+     "end": 185.69
+    },
+    {
+     "w": "the",
+     "start": 185.69,
+     "end": 185.79
+    },
+    {
+     "w": "word",
+     "start": 185.81,
+     "end": 186.11
+    },
+    {
+     "w": "for",
+     "start": 186.11,
+     "end": 186.35
+    },
+    {
+     "w": "the",
+     "start": 186.37,
+     "end": 186.49
+    },
+    {
+     "w": "one",
+     "start": 186.49,
+     "end": 186.71
+    },
+    {
+     "w": "who",
+     "start": 186.71,
+     "end": 186.87
+    },
+    {
+     "w": "has",
+     "start": 186.87,
+     "end": 187.05
+    },
+    {
+     "w": "my",
+     "start": 187.05,
+     "end": 187.21
+    },
+    {
+     "w": "heart",
+     "start": 187.21,
+     "end": 187.85
+    }
+   ],
+   "confidence": 0.95
+  },
+  {
+   "idx": 64,
+   "section": "Troi",
+   "text": "Took the helm one time, put the saucer in a hill,",
+   "start": 187.85,
+   "end": 190.49,
+   "words": [
+    {
+     "w": "Took",
+     "start": 187.85,
+     "end": 187.89
+    },
+    {
+     "w": "the",
+     "start": 187.89,
+     "end": 187.97
+    },
+    {
+     "w": "helm",
+     "start": 187.97,
+     "end": 188.23
+    },
+    {
+     "w": "one",
+     "start": 188.23,
+     "end": 188.43
+    },
+    {
+     "w": "time",
+     "start": 188.43,
+     "end": 188.93
+    },
+    {
+     "w": "put",
+     "start": 188.93,
+     "end": 189.09
+    },
+    {
+     "w": "the",
+     "start": 189.15,
+     "end": 189.25
+    },
+    {
+     "w": "saucer",
+     "start": 189.25,
+     "end": 189.71
+    },
+    {
+     "w": "in",
+     "start": 189.71,
+     "end": 189.87
+    },
+    {
+     "w": "a",
+     "start": 189.87,
+     "end": 190.01
+    },
+    {
+     "w": "hill",
+     "start": 190.01,
+     "end": 190.49
+    }
+   ],
+   "confidence": 0.88
+  },
+  {
+   "idx": 65,
+   "section": "Troi",
+   "text": "I'm an empath, not a pilot, but we walked away still!",
+   "start": 190.49,
+   "end": 193.01,
+   "words": [
+    {
+     "w": "I'm",
+     "start": 190.49,
+     "end": 190.65
+    },
+    {
+     "w": "an",
+     "start": 190.65,
+     "end": 190.73
+    },
+    {
+     "w": "empath",
+     "start": 190.73,
+     "end": 191.11
+    },
+    {
+     "w": "not",
+     "start": 191.11,
+     "end": 191.23
+    },
+    {
+     "w": "a",
+     "start": 191.23,
+     "end": 191.43
+    },
+    {
+     "w": "pilot",
+     "start": 191.43,
+     "end": 191.79
+    },
+    {
+     "w": "but",
+     "start": 191.79,
+     "end": 191.91
+    },
+    {
+     "w": "we",
+     "start": 191.91,
+     "end": 192.09
+    },
+    {
+     "w": "walked",
+     "start": 192.09,
+     "end": 192.33
+    },
+    {
+     "w": "away",
+     "start": 192.33,
+     "end": 192.59
+    },
+    {
+     "w": "still",
+     "start": 192.59,
+     "end": 193.01
+    }
+   ],
+   "confidence": 0.94
+  },
+  {
+   "idx": 66,
+   "section": "Crusher",
+   "text": "Beverly Crusher, I'm the doctor on this ship,",
+   "start": 193.01,
+   "end": 195.91,
+   "words": [
+    {
+     "w": "Beverly",
+     "start": 193.01,
+     "end": 193.83
+    },
+    {
+     "w": "Crusher",
+     "start": 193.83,
+     "end": 194.57
+    },
+    {
+     "w": "I'm",
+     "start": 194.57,
+     "end": 194.75
+    },
+    {
+     "w": "the",
+     "start": 194.75,
+     "end": 194.85
+    },
+    {
+     "w": "doctor",
+     "start": 194.85,
+     "end": 195.17
+    },
+    {
+     "w": "on",
+     "start": 195.21,
+     "end": 195.39
+    },
+    {
+     "w": "this",
+     "start": 195.39,
+     "end": 195.55
+    },
+    {
+     "w": "ship",
+     "start": 195.55,
+     "end": 195.91
+    }
+   ],
+   "confidence": 0.89
+  },
+  {
+   "idx": 67,
+   "section": "Crusher",
+   "text": "Tricorder in my hand and a hypospray on my hip,",
+   "start": 195.97,
+   "end": 198.49,
+   "words": [
+    {
+     "w": "Tricorder",
+     "start": 195.97,
+     "end": 196.53
+    },
+    {
+     "w": "in",
+     "start": 196.53,
+     "end": 196.77
+    },
+    {
+     "w": "my",
+     "start": 196.77,
+     "end": 196.89
+    },
+    {
+     "w": "hand",
+     "start": 196.89,
+     "end": 197.19
+    },
+    {
+     "w": "and",
+     "start": 197.19,
+     "end": 197.31
+    },
+    {
+     "w": "a",
+     "start": 197.31,
+     "end": 197.39
+    },
+    {
+     "w": "hypospray",
+     "start": 197.39,
+     "end": 197.93
+    },
+    {
+     "w": "on",
+     "start": 197.93,
+     "end": 198.03
+    },
+    {
+     "w": "my",
+     "start": 198.03,
+     "end": 198.15
+    },
+    {
+     "w": "hip",
+     "start": 198.15,
+     "end": 198.49
+    }
+   ],
+   "confidence": 0.95
+  },
+  {
+   "idx": 68,
+   "section": "Crusher",
+   "text": "They called me the Dancing Doctor, I taught the android to tap,",
+   "start": 198.59,
+   "end": 201.29,
+   "words": [
+    {
+     "w": "They",
+     "start": 198.59,
+     "end": 198.67
+    },
+    {
+     "w": "called",
+     "start": 198.67,
+     "end": 198.91
+    },
+    {
+     "w": "me",
+     "start": 198.91,
+     "end": 199.09
+    },
+    {
+     "w": "the",
+     "start": 199.09,
+     "end": 199.43
+    },
+    {
+     "w": "Dancing",
+     "start": 199.43,
+     "end": 199.69
+    },
+    {
+     "w": "Doctor",
+     "start": 199.69,
+     "end": 200.19
+    },
+    {
+     "w": "I",
+     "start": 200.19,
+     "end": 200.29
+    },
+    {
+     "w": "taught",
+     "start": 200.29,
+     "end": 200.39
+    },
+    {
+     "w": "the",
+     "start": 200.39,
+     "end": 200.51
+    },
+    {
+     "w": "android",
+     "start": 200.51,
+     "end": 200.79
+    },
+    {
+     "w": "to",
+     "start": 200.79,
+     "end": 200.99
+    },
+    {
+     "w": "tap",
+     "start": 200.99,
+     "end": 201.29
+    }
+   ],
+   "confidence": 0.88
+  },
+  {
+   "idx": 69,
+   "section": "Crusher",
+   "text": "My son Wesley saves the ship and gets nothing back but—",
+   "start": 201.41,
+   "end": 204.55,
+   "words": [
+    {
+     "w": "My",
+     "start": 201.41,
+     "end": 201.49
+    },
+    {
+     "w": "son",
+     "start": 201.49,
+     "end": 201.69
+    },
+    {
+     "w": "Wesley",
+     "start": 201.69,
+     "end": 202.07
+    },
+    {
+     "w": "saves",
+     "start": 202.07,
+     "end": 202.41
+    },
+    {
+     "w": "the",
+     "start": 202.41,
+     "end": 202.55
+    },
+    {
+     "w": "ship",
+     "start": 202.55,
+     "end": 202.77
+    },
+    {
+     "w": "and",
+     "start": 202.77,
+     "end": 202.93
+    },
+    {
+     "w": "gets",
+     "start": 202.93,
+     "end": 203.17
+    },
+    {
+     "w": "nothing",
+     "start": 203.17,
+     "end": 203.51
+    },
+    {
+     "w": "back",
+     "start": 203.51,
+     "end": 204.03
+    },
+    {
+     "w": "but",
+     "start": 204.03,
+     "end": 204.55
+    }
+   ],
+   "confidence": 0.95
+  },
+  {
+   "idx": 70,
+   "section": "Crusher",
+   "text": "SHUT UP, WESLEY!",
+   "start": 204.67,
+   "end": 205.99,
+   "words": [
+    {
+     "w": "SHUT",
+     "start": 204.67,
+     "end": 204.93
+    },
+    {
+     "w": "UP",
+     "start": 204.93,
+     "end": 205.15
+    },
+    {
+     "w": "WESLEY",
+     "start": 205.15,
+     "end": 205.99
+    }
+   ],
+   "confidence": 0.87
+  },
+  {
+   "idx": 71,
+   "section": "Crusher",
+   "text": "Hey! Let him speak!",
+   "start": 205.99,
+   "end": 207.05,
+   "words": [
+    {
+     "w": "Hey",
+     "start": 205.99,
+     "end": 206.09
+    },
+    {
+     "w": "Let",
+     "start": 206.09,
+     "end": 206.23
+    },
+    {
+     "w": "him",
+     "start": 206.23,
+     "end": 206.47
+    },
+    {
+     "w": "speak",
+     "start": 206.47,
+     "end": 207.05
+    }
+   ],
+   "confidence": 0.81
+  },
+  {
+   "idx": 72,
+   "section": "Crusher",
+   "text": "Got caught in a warp bubble, watched the whole crew disappear,",
+   "start": 207.05,
+   "end": 209.89,
+   "words": [
+    {
+     "w": "Got",
+     "start": 207.05,
+     "end": 207.17
+    },
+    {
+     "w": "caught",
+     "start": 207.17,
+     "end": 207.35
+    },
+    {
+     "w": "in",
+     "start": 207.35,
+     "end": 207.49
+    },
+    {
+     "w": "a",
+     "start": 207.49,
+     "end": 207.75
+    },
+    {
+     "w": "warp",
+     "start": 207.75,
+     "end": 207.99
+    },
+    {
+     "w": "bubble",
+     "start": 207.99,
+     "end": 208.51
+    },
+    {
+     "w": "watched",
+     "start": 208.51,
+     "end": 208.69
+    },
+    {
+     "w": "the",
+     "start": 208.69,
+     "end": 208.89
+    },
+    {
+     "w": "whole",
+     "start": 208.89,
+     "end": 209.03
+    },
+    {
+     "w": "crew",
+     "start": 209.03,
+     "end": 209.19
+    },
+    {
+     "w": "disappear",
+     "start": 209.19,
+     "end": 209.89
+    }
+   ],
+   "confidence": 0.75
+  },
+  {
+   "idx": 73,
+   "section": "Crusher",
+   "text": "Asked the computer for the universe, the answer was clear:",
+   "start": 209.89,
+   "end": 212.21,
+   "words": [
+    {
+     "w": "Asked",
+     "start": 209.89,
+     "end": 210.03
+    },
+    {
+     "w": "the",
+     "start": 210.03,
+     "end": 210.11
+    },
+    {
+     "w": "computer",
+     "start": 210.11,
+     "end": 210.43
+    },
+    {
+     "w": "for",
+     "start": 210.43,
+     "end": 210.77
+    },
+    {
+     "w": "the",
+     "start": 210.77,
+     "end": 210.93
+    },
+    {
+     "w": "universe",
+     "start": 210.93,
+     "end": 211.51
+    },
+    {
+     "w": "the",
+     "start": 211.51,
+     "end": 211.63
+    },
+    {
+     "w": "answer",
+     "start": 211.63,
+     "end": 211.93
+    },
+    {
+     "w": "was",
+     "start": 211.93,
+     "end": 212.11
+    },
+    {
+     "w": "clear",
+     "start": 212.11,
+     "end": 212.21
+    }
+   ],
+   "confidence": 0.94
+  },
+  {
+   "idx": 74,
+   "section": "Crusher",
+   "text": "\"The universe is a spheroid region, seven-oh-five meters wide.\"",
+   "start": 212.65,
+   "end": 215.63,
+   "words": [
+    {
+     "w": "The",
+     "start": 212.65,
+     "end": 212.73
+    },
+    {
+     "w": "universe",
+     "start": 212.73,
+     "end": 213.09
+    },
+    {
+     "w": "is",
+     "start": 213.09,
+     "end": 213.41
+    },
+    {
+     "w": "a",
+     "start": 213.41,
+     "end": 213.55
+    },
+    {
+     "w": "spheroid",
+     "start": 213.55,
+     "end": 213.97
+    },
+    {
+     "w": "region",
+     "start": 213.97,
+     "end": 214.31
+    },
+    {
+     "w": "seven-oh-five",
+     "start": 214.31,
+     "end": 214.79
+    },
+    {
+     "w": "meters",
+     "start": 214.79,
+     "end": 214.97
+    },
+    {
+     "w": "wide",
+     "start": 214.97,
+     "end": 215.63
+    }
+   ],
+   "confidence": 0.85
+  },
+  {
+   "idx": 75,
+   "section": "Crusher",
+   "text": "If there's nothing wrong with me... maybe something's wrong outside—",
+   "start": 215.63,
+   "end": 218.39,
+   "words": [
+    {
+     "w": "If",
+     "start": 215.63,
+     "end": 215.71
+    },
+    {
+     "w": "there's",
+     "start": 215.71,
+     "end": 215.89
+    },
+    {
+     "w": "nothing",
+     "start": 215.89,
+     "end": 216.05
+    },
+    {
+     "w": "wrong",
+     "start": 216.05,
+     "end": 216.35
+    },
+    {
+     "w": "with",
+     "start": 216.35,
+     "end": 216.55
+    },
+    {
+     "w": "me",
+     "start": 216.55,
+     "end": 216.79
+    },
+    {
+     "w": "maybe",
+     "start": 216.79,
+     "end": 217.09
+    },
+    {
+     "w": "something's",
+     "start": 217.09,
+     "end": 217.63
+    },
+    {
+     "w": "wrong",
+     "start": 217.63,
+     "end": 217.75
+    },
+    {
+     "w": "outside",
+     "start": 217.75,
+     "end": 218.39
+    }
+   ],
+   "confidence": 0.86
+  },
+  {
+   "idx": 76,
+   "section": "Crusher",
+   "text": "With the UNIVERSE!",
+   "start": 218.39,
+   "end": 219.52,
+   "words": [
+    {
+     "w": "With",
+     "start": 218.39,
+     "end": 218.51
+    },
+    {
+     "w": "the",
+     "start": 218.51,
+     "end": 218.59
+    },
+    {
+     "w": "UNIVERSE",
+     "start": 218.59,
+     "end": 219.52
+    }
+   ],
+   "confidence": 0.56
+  },
+  {
+   "idx": 77,
+   "section": "Q",
+   "text": "Mon capitaine! Did you miss me? Don't lie,",
+   "start": 220.87,
+   "end": 223.31,
+   "words": [
+    {
+     "w": "Mon",
+     "start": 220.87,
+     "end": 220.97
+    },
+    {
+     "w": "capitaine",
+     "start": 220.97,
+     "end": 221.77
+    },
+    {
+     "w": "Did",
+     "start": 221.77,
+     "end": 221.93
+    },
+    {
+     "w": "you",
+     "start": 221.93,
+     "end": 222.07
+    },
+    {
+     "w": "miss",
+     "start": 222.07,
+     "end": 222.31
+    },
+    {
+     "w": "me",
+     "start": 222.31,
+     "end": 222.57
+    },
+    {
+     "w": "Don't",
+     "start": 222.57,
+     "end": 222.81
+    },
+    {
+     "w": "lie",
+     "start": 222.81,
+     "end": 223.31
+    }
+   ],
+   "confidence": 0.78
+  },
+  {
+   "idx": 78,
+   "section": "Q",
+   "text": "Snap, you're in Sherwood! Snap, you're in the sky!",
+   "start": 223.39,
+   "end": 226.06,
+   "words": [
+    {
+     "w": "Snap",
+     "start": 223.39,
+     "end": 223.81
+    },
+    {
+     "w": "you're",
+     "start": 223.81,
+     "end": 224.05
+    },
+    {
+     "w": "in",
+     "start": 224.05,
+     "end": 224.13
+    },
+    {
+     "w": "Sherwood",
+     "start": 224.13,
+     "end": 224.77
+    },
+    {
+     "w": "Snap",
+     "start": 224.77,
+     "end": 225.11
+    },
+    {
+     "w": "you're",
+     "start": 225.11,
+     "end": 225.33
+    },
+    {
+     "w": "in",
+     "start": 225.33,
+     "end": 225.41
+    },
+    {
+     "w": "the",
+     "start": 225.41,
+     "end": 225.49
+    },
+    {
+     "w": "sky",
+     "start": 225.49,
+     "end": 226.06
+    }
+   ],
+   "confidence": 0.94
+  },
+  {
+   "idx": 79,
+   "section": "Q",
+   "text": "Put your species on trial back in episode one,",
+   "start": 226.07,
+   "end": 228.77,
+   "words": [
+    {
+     "w": "Put",
+     "start": 226.07,
+     "end": 226.17
+    },
+    {
+     "w": "your",
+     "start": 226.17,
+     "end": 226.27
+    },
+    {
+     "w": "species",
+     "start": 226.27,
+     "end": 226.55
+    },
+    {
+     "w": "on",
+     "start": 226.55,
+     "end": 226.89
+    },
+    {
+     "w": "trial",
+     "start": 226.89,
+     "end": 227.27
+    },
+    {
+     "w": "back",
+     "start": 227.27,
+     "end": 227.53
+    },
+    {
+     "w": "in",
+     "start": 227.53,
+     "end": 227.75
+    },
+    {
+     "w": "episode",
+     "start": 227.75,
+     "end": 228.03
+    },
+    {
+     "w": "one",
+     "start": 228.03,
+     "end": 228.77
+    }
+   ],
+   "confidence": 0.91
+  },
+  {
+   "idx": 80,
+   "section": "Q",
+   "text": "And the trial never ends, mon ami, it's just begun.",
+   "start": 228.77,
+   "end": 231.49,
+   "words": [
+    {
+     "w": "And",
+     "start": 228.77,
+     "end": 228.87
+    },
+    {
+     "w": "the",
+     "start": 228.87,
+     "end": 229.01
+    },
+    {
+     "w": "trial",
+     "start": 229.01,
+     "end": 229.35
+    },
+    {
+     "w": "never",
+     "start": 229.35,
+     "end": 229.65
+    },
+    {
+     "w": "ends",
+     "start": 229.65,
+     "end": 230.17
+    },
+    {
+     "w": "mon",
+     "start": 230.17,
+     "end": 230.31
+    },
+    {
+     "w": "ami",
+     "start": 230.31,
+     "end": 230.67
+    },
+    {
+     "w": "it's",
+     "start": 230.67,
+     "end": 230.85
+    },
+    {
+     "w": "just",
+     "start": 230.85,
+     "end": 230.99
+    },
+    {
+     "w": "begun",
+     "start": 230.99,
+     "end": 231.49
+    }
+   ],
+   "confidence": 0.89
+  },
+  {
+   "idx": 81,
+   "section": "Q",
+   "text": "I introduced you to the Borg. You're welcome, by the way.",
+   "start": 231.49,
+   "end": 234.4,
+   "words": [
+    {
+     "w": "I",
+     "start": 231.49,
+     "end": 231.57
+    },
+    {
+     "w": "introduced",
+     "start": 231.57,
+     "end": 231.87
+    },
+    {
+     "w": "you",
+     "start": 231.87,
+     "end": 232.21
+    },
+    {
+     "w": "to",
+     "start": 232.21,
+     "end": 232.35
+    },
+    {
+     "w": "the",
+     "start": 232.35,
+     "end": 232.51
+    },
+    {
+     "w": "Borg",
+     "start": 232.51,
+     "end": 233.03
+    },
+    {
+     "w": "You're",
+     "start": 233.03,
+     "end": 233.29
+    },
+    {
+     "w": "welcome",
+     "start": 233.29,
+     "end": 233.63
+    },
+    {
+     "w": "by",
+     "start": 233.63,
+     "end": 233.79
+    },
+    {
+     "w": "the",
+     "start": 233.79,
+     "end": 233.93
+    },
+    {
+     "w": "way",
+     "start": 233.93,
+     "end": 234.4
+    }
+   ],
+   "confidence": 0.95
+  },
+  {
+   "idx": 82,
+   "section": "Q",
+   "text": "It's wondrous out there... but it's not for the timid. Ta-ta!",
+   "start": 234.41,
+   "end": 237.92,
+   "words": [
+    {
+     "w": "It's",
+     "start": 234.41,
+     "end": 234.65
+    },
+    {
+     "w": "wondrous",
+     "start": 234.65,
+     "end": 235.05
+    },
+    {
+     "w": "out",
+     "start": 235.05,
+     "end": 235.27
+    },
+    {
+     "w": "there",
+     "start": 235.27,
+     "end": 235.73
+    },
+    {
+     "w": "but",
+     "start": 235.73,
+     "end": 235.87
+    },
+    {
+     "w": "it's",
+     "start": 235.87,
+     "end": 236.07
+    },
+    {
+     "w": "not",
+     "start": 236.07,
+     "end": 236.29
+    },
+    {
+     "w": "for",
+     "start": 236.29,
+     "end": 236.51
+    },
+    {
+     "w": "the",
+     "start": 236.51,
+     "end": 236.71
+    },
+    {
+     "w": "timid",
+     "start": 236.71,
+     "end": 237.21
+    },
+    {
+     "w": "Ta-ta",
+     "start": 237.21,
+     "end": 237.92
+    }
+   ],
+   "confidence": 0.86
+  },
+  {
+   "idx": 83,
+   "section": "Breakdown",
+   "text": "We are the Borg. (We are the Borg.)",
+   "start": 239.91,
+   "end": 242.28,
+   "words": [
+    {
+     "w": "We",
+     "start": 239.91,
+     "end": 240.0
+    },
+    {
+     "w": "are",
+     "start": 240.0,
+     "end": 240.28
+    },
+    {
+     "w": "the",
+     "start": 240.28,
+     "end": 240.5
+    },
+    {
+     "w": "Borg",
+     "start": 240.5,
+     "end": 241.02
+    },
+    {
+     "w": "We",
+     "start": 241.02,
+     "end": 241.34
+    },
+    {
+     "w": "are",
+     "start": 241.34,
+     "end": 241.66
+    },
+    {
+     "w": "the",
+     "start": 241.66,
+     "end": 241.92
+    },
+    {
+     "w": "Borg",
+     "start": 241.92,
+     "end": 242.28
+    }
+   ],
+   "confidence": 0.79
+  },
+  {
+   "idx": 84,
+   "section": "Breakdown",
+   "text": "Resistance is futile. (Futile. Futile.)",
+   "start": 242.28,
+   "end": 245.02,
+   "words": [
+    {
+     "w": "Resistance",
+     "start": 242.28,
+     "end": 242.92
+    },
+    {
+     "w": "is",
+     "start": 242.92,
+     "end": 243.3
+    },
+    {
+     "w": "futile",
+     "start": 243.3,
+     "end": 243.94
+    },
+    {
+     "w": "Futile",
+     "start": 243.94,
+     "end": 244.42
+    },
+    {
+     "w": "Futile",
+     "start": 244.42,
+     "end": 245.02
+    }
+   ],
+   "confidence": 0.61
+  },
+  {
+   "idx": 85,
+   "section": "Breakdown",
+   "text": "I am Locutus of Borg.",
+   "start": 245.02,
+   "end": 246.86,
+   "words": [
+    {
+     "w": "I",
+     "start": 245.02,
+     "end": 245.1
+    },
+    {
+     "w": "am",
+     "start": 245.1,
+     "end": 245.24
+    },
+    {
+     "w": "Locutus",
+     "start": 245.24,
+     "end": 245.86
+    },
+    {
+     "w": "of",
+     "start": 245.86,
+     "end": 245.98
+    },
+    {
+     "w": "Borg",
+     "start": 245.98,
+     "end": 246.86
+    }
+   ],
+   "confidence": 0.53
+  },
+  {
+   "idx": 86,
+   "section": "Breakdown",
+   "text": "Captain! Captain! Come back to us!",
+   "start": 246.86,
+   "end": 251.4,
+   "words": [
+    {
+     "w": "Captain",
+     "start": 246.86,
+     "end": 247.4
+    },
+    {
+     "w": "Captain",
+     "start": 247.4,
+     "end": 248.18
+    },
+    {
+     "w": "Come",
+     "start": 248.18,
+     "end": 248.68
+    },
+    {
+     "w": "back",
+     "start": 248.68,
+     "end": 249.18
+    },
+    {
+     "w": "to",
+     "start": 249.18,
+     "end": 249.68
+    },
+    {
+     "w": "us",
+     "start": 249.68,
+     "end": 251.4
+    }
+   ],
+   "confidence": 0.8
+  },
+  {
+   "idx": 87,
+   "section": "Breakdown",
+   "text": "The line must be drawn HERE!",
+   "start": 251.4,
+   "end": 254.48,
+   "words": [
+    {
+     "w": "The",
+     "start": 251.4,
+     "end": 251.62
+    },
+    {
+     "w": "line",
+     "start": 251.62,
+     "end": 252.02
+    },
+    {
+     "w": "must",
+     "start": 252.02,
+     "end": 252.52
+    },
+    {
+     "w": "be",
+     "start": 252.52,
+     "end": 252.92
+    },
+    {
+     "w": "drawn",
+     "start": 252.92,
+     "end": 253.34
+    },
+    {
+     "w": "HERE",
+     "start": 253.34,
+     "end": 254.48
+    }
+   ],
+   "confidence": 0.89
+  },
+  {
+   "idx": 88,
+   "section": "Breakdown",
+   "text": "This far... NO FURTHER!",
+   "start": 254.48,
+   "end": 256.44,
+   "words": [
+    {
+     "w": "This",
+     "start": 254.48,
+     "end": 254.74
+    },
+    {
+     "w": "far",
+     "start": 254.74,
+     "end": 255.46
+    },
+    {
+     "w": "NO",
+     "start": 255.46,
+     "end": 255.6
+    },
+    {
+     "w": "FURTHER",
+     "start": 255.6,
+     "end": 256.44
+    }
+   ],
+   "confidence": 0.7
+  },
+  {
+   "idx": 89,
+   "section": "Final Chorus",
+   "text": "Make it so! (Make it so!)",
+   "start": 256.44,
+   "end": 259.23,
+   "words": [
+    {
+     "w": "Make",
+     "start": 256.44,
+     "end": 256.69
+    },
+    {
+     "w": "it",
+     "start": 256.69,
+     "end": 257.13
+    },
+    {
+     "w": "so",
+     "start": 257.13,
+     "end": 257.65
+    },
+    {
+     "w": "Make",
+     "start": 257.65,
+     "end": 258.11
+    },
+    {
+     "w": "it",
+     "start": 258.11,
+     "end": 258.43
+    },
+    {
+     "w": "so",
+     "start": 258.43,
+     "end": 259.23
+    }
+   ],
+   "confidence": 0.77
+  },
+  {
+   "idx": 90,
+   "section": "Final Chorus",
+   "text": "Captain says the word and the whole ship goes!",
+   "start": 259.23,
+   "end": 262.17,
+   "words": [
+    {
+     "w": "Captain",
+     "start": 259.23,
+     "end": 259.59
+    },
+    {
+     "w": "says",
+     "start": 259.59,
+     "end": 259.85
+    },
+    {
+     "w": "the",
+     "start": 259.85,
+     "end": 260.03
+    },
+    {
+     "w": "word",
+     "start": 260.03,
+     "end": 260.31
+    },
+    {
+     "w": "and",
+     "start": 260.31,
+     "end": 260.59
+    },
+    {
+     "w": "the",
+     "start": 260.59,
+     "end": 260.69
+    },
+    {
+     "w": "whole",
+     "start": 260.69,
+     "end": 260.89
+    },
+    {
+     "w": "ship",
+     "start": 260.89,
+     "end": 261.11
+    },
+    {
+     "w": "goes",
+     "start": 261.11,
+     "end": 262.17
+    }
+   ],
+   "confidence": 0.94
+  },
+  {
+   "idx": 91,
+   "section": "Final Chorus",
+   "text": "Make it so! (Make it so!)",
+   "start": 262.17,
+   "end": 264.91,
+   "words": [
+    {
+     "w": "Make",
+     "start": 262.17,
+     "end": 262.33
+    },
+    {
+     "w": "it",
+     "start": 262.33,
+     "end": 262.73
+    },
+    {
+     "w": "so",
+     "start": 262.73,
+     "end": 263.47
+    },
+    {
+     "w": "Make",
+     "start": 263.47,
+     "end": 263.79
+    },
+    {
+     "w": "it",
+     "start": 263.79,
+     "end": 264.03
+    },
+    {
+     "w": "so",
+     "start": 264.03,
+     "end": 264.91
+    }
+   ],
+   "confidence": 0.87
+  },
+  {
+   "idx": 92,
+   "section": "Final Chorus",
+   "text": "Out where no one's gone, where nobody knows,",
+   "start": 264.91,
+   "end": 267.81,
+   "words": [
+    {
+     "w": "Out",
+     "start": 264.91,
+     "end": 265.03
+    },
+    {
+     "w": "where",
+     "start": 265.03,
+     "end": 265.29
+    },
+    {
+     "w": "no",
+     "start": 265.29,
+     "end": 265.41
+    },
+    {
+     "w": "one's",
+     "start": 265.41,
+     "end": 265.65
+    },
+    {
+     "w": "gone",
+     "start": 265.65,
+     "end": 266.11
+    },
+    {
+     "w": "where",
+     "start": 266.11,
+     "end": 266.25
+    },
+    {
+     "w": "nobody",
+     "start": 266.25,
+     "end": 266.61
+    },
+    {
+     "w": "knows",
+     "start": 266.61,
+     "end": 267.81
+    }
+   ],
+   "confidence": 0.94
+  },
+  {
+   "idx": 93,
+   "section": "Final Chorus",
+   "text": "Picard! Riker! Data! Worf! Geordi! Troi! Crusher!",
+   "start": 267.81,
+   "end": 272.69,
+   "words": [
+    {
+     "w": "Picard",
+     "start": 267.81,
+     "end": 268.37
+    },
+    {
+     "w": "Riker",
+     "start": 268.37,
+     "end": 269.13
+    },
+    {
+     "w": "Data",
+     "start": 269.13,
+     "end": 269.79
+    },
+    {
+     "w": "Worf",
+     "start": 269.79,
+     "end": 270.19
+    },
+    {
+     "w": "Geordi",
+     "start": 270.21,
+     "end": 271.09
+    },
+    {
+     "w": "Troi",
+     "start": 271.09,
+     "end": 271.81
+    },
+    {
+     "w": "Crusher",
+     "start": 271.81,
+     "end": 272.69
+    }
+   ],
+   "confidence": 0.86
+  },
+  {
+   "idx": 94,
+   "section": "Final Chorus",
+   "text": "Seven on the bridge, one ship... make it so!",
+   "start": 272.69,
+   "end": 276.07,
+   "words": [
+    {
+     "w": "Seven",
+     "start": 272.69,
+     "end": 272.81
+    },
+    {
+     "w": "on",
+     "start": 272.81,
+     "end": 273.15
+    },
+    {
+     "w": "the",
+     "start": 273.15,
+     "end": 273.25
+    },
+    {
+     "w": "bridge",
+     "start": 273.25,
+     "end": 273.69
+    },
+    {
+     "w": "one",
+     "start": 273.69,
+     "end": 273.81
+    },
+    {
+     "w": "ship",
+     "start": 273.81,
+     "end": 274.37
+    },
+    {
+     "w": "make",
+     "start": 274.75,
+     "end": 274.85
+    },
+    {
+     "w": "it",
+     "start": 274.85,
+     "end": 275.13
+    },
+    {
+     "w": "so",
+     "start": 275.13,
+     "end": 276.07
+    }
+   ],
+   "confidence": 0.85
+  },
+  {
+   "idx": 95,
+   "section": "Outro",
+   "text": "I should have done this a long time ago.",
+   "start": 276.56,
+   "end": 278.57,
+   "words": [
+    {
+     "w": "I",
+     "start": 276.56,
+     "end": 276.64
+    },
+    {
+     "w": "should",
+     "start": 276.64,
+     "end": 276.71
+    },
+    {
+     "w": "have",
+     "start": 276.71,
+     "end": 276.85
+    },
+    {
+     "w": "done",
+     "start": 276.85,
+     "end": 276.99
+    },
+    {
+     "w": "this",
+     "start": 276.99,
+     "end": 277.23
+    },
+    {
+     "w": "a",
+     "start": 277.23,
+     "end": 277.37
+    },
+    {
+     "w": "long",
+     "start": 277.37,
+     "end": 277.59
+    },
+    {
+     "w": "time",
+     "start": 277.59,
+     "end": 277.95
+    },
+    {
+     "w": "ago",
+     "start": 277.95,
+     "end": 278.57
+    }
+   ],
+   "confidence": 0.92
+  },
+  {
+   "idx": 96,
+   "section": "Outro",
+   "text": "Five-card stud, nothing wild...",
+   "start": 279.23,
+   "end": 281.19,
+   "words": [
+    {
+     "w": "Five-card",
+     "start": 279.23,
+     "end": 279.63
+    },
+    {
+     "w": "stud",
+     "start": 279.63,
+     "end": 280.21
+    },
+    {
+     "w": "nothing",
+     "start": 280.21,
+     "end": 280.63
+    },
+    {
+     "w": "wild",
+     "start": 280.63,
+     "end": 281.19
+    }
+   ],
+   "confidence": 0.83
+  },
+  {
+   "idx": 97,
+   "section": "Outro",
+   "text": "and the sky's the limit.",
+   "start": 282.77,
+   "end": 284.43,
+   "words": [
+    {
+     "w": "and",
+     "start": 282.77,
+     "end": 282.87
+    },
+    {
+     "w": "the",
+     "start": 282.87,
+     "end": 282.97
+    },
+    {
+     "w": "sky's",
+     "start": 282.97,
+     "end": 283.75
+    },
+    {
+     "w": "the",
+     "start": 283.75,
+     "end": 283.89
+    },
+    {
+     "w": "limit",
+     "start": 283.89,
+     "end": 284.43
+    }
+   ],
+   "confidence": 0.93
+  }
+ ],
+ "extra": [],
+ "notes": "All 98 lyric lines are sung once, in order: no skipped, repeated or reordered lines; the chorus is sung once plus the Final Chorus as written. Song is ~86 BPM (not 128): one lyric line per 4-beat bar. Instrumental stretches: 0-3.2s, 6.7-17.6s (after 'Space... the final frontier', before the Ensemble verse), 237.9-239.9s (before the Borg breakdown), 284.4s-end. Timing method: demucs vocals stem -> Whisper large-v3 (stable-ts) transcript -> fuzzy word alignment to the lyrics -> per-section forced alignment (stable-ts align) inside those windows -> onset/held-note snapping from the vocal energy. The full-song Whisper pass dropped 6.9-30.9s (Ensemble verse + 'I'm Jean-Luc Picard'), so that window comes from a second pass (see transcript.json 'pass'). Whisper heard these differently; most are likely mishearings, the starred ones might be real Suno rewordings: 8 'Gul Madred showed me five' ~ 'go Madrid show me fire'*; 10 'Tea. Earl Grey. Hot.' ~ 'T. Earl Greyhawk'; 17 'Seven on the bridge' ~ 'stepping on the bridge' (first chorus only); 20 'Valdez' ~ 'out as'; 24 'Beard came in' ~ 'Horse-bit came in'; 34 'an ode for Spot' ~ 'a note for Spartan'; 35 'Felis' ~ 'Selly's'; 39 'Mogh' ~ 'Moe'; 49 'RAMMING SPEED' ~ 'running speed'*; 64 'Took the helm' ~ 'Put the helm'*; 68 'Dancing Doctor' ~ 'Dancy Doctor'; 72 'caught in a warp bubble' ~ 'caught on the warp bubble'*; 74 'spheroid' ~ 'steroid'; 84 '(Futile. Futile.)' ~ 'through the fuel'; 85 'I am Locutus of Borg' ~ 'I am no cue to support' (vocoded, lowest confidence; timing from forced alignment). No extra sung text beyond the lyrics (the doubled 'goes' at 55.3s in the transcript is a Whisper artifact)."
+}

@@ -1,0 +1,8461 @@
+{
+ "model": "whisper large-v3 via stable-ts, vocals stem (htdemucs)",
+ "note": "Merged: full-song pass, except words in 6.9-30.9s taken from a second pass on 5-31s (the full pass dropped the Ensemble verse).",
+ "segments": [
+  {
+   "pass": "full",
+   "start": 1.4,
+   "end": 6.38,
+   "text": "Space. The final frontier.",
+   "words": [
+    {
+     "word": " Space.",
+     "start": 1.4,
+     "end": 3.26,
+     "probability": 0.06893344968557358,
+     "tokens": [
+      8705,
+      13
+     ]
+    },
+    {
+     "word": " The",
+     "start": 4.84,
+     "end": 4.94,
+     "probability": 0.9145821928977966,
+     "tokens": [
+      440
+     ]
+    },
+    {
+     "word": " final",
+     "start": 4.94,
+     "end": 5.52,
+     "probability": 0.7238171100616455,
+     "tokens": [
+      2572
+     ]
+    },
+    {
+     "word": " frontier.",
+     "start": 5.52,
+     "end": 6.38,
+     "probability": 0.8668857216835022,
+     "tokens": [
+      35853,
+      13
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "patch_5-31s",
+   "start": 17.6,
+   "end": 28.12,
+   "text": "Stardate four-one-one-five-three point seven, Galaxy-class starship, on a mission out past heaven, NCC-1701-D, Seven on the bridge, now we're making history.",
+   "words": [
+    {
+     "word": " Stardate",
+     "start": 17.6,
+     "end": 18.26,
+     "probability": 0.6712758025775353,
+     "tokens": [
+      745,
+      515,
+      473
+     ]
+    },
+    {
+     "word": " four",
+     "start": 18.26,
+     "end": 18.56,
+     "probability": 0.06065275892615318,
+     "tokens": [
+      1451
+     ]
+    },
+    {
+     "word": "-one",
+     "start": 18.56,
+     "end": 19.04,
+     "probability": 0.5607043877243996,
+     "tokens": [
+      12,
+      546
+     ]
+    },
+    {
+     "word": "-one",
+     "start": 19.04,
+     "end": 19.3,
+     "probability": 0.8668190538883209,
+     "tokens": [
+      12,
+      546
+     ]
+    },
+    {
+     "word": "-five",
+     "start": 19.3,
+     "end": 19.7,
+     "probability": 0.9777103960514069,
+     "tokens": [
+      12,
+      18621
+     ]
+    },
+    {
+     "word": "-three",
+     "start": 19.7,
+     "end": 19.92,
+     "probability": 0.7781860828399658,
+     "tokens": [
+      12,
+      27583
+     ]
+    },
+    {
+     "word": " point",
+     "start": 19.92,
+     "end": 20.08,
+     "probability": 0.20790883898735046,
+     "tokens": [
+      935
+     ]
+    },
+    {
+     "word": " seven,",
+     "start": 20.08,
+     "end": 20.4,
+     "probability": 0.9215434193611145,
+     "tokens": [
+      3407,
+      11
+     ]
+    },
+    {
+     "word": " Galaxy",
+     "start": 20.54,
+     "end": 20.74,
+     "probability": 0.5945842862129211,
+     "tokens": [
+      13520
+     ]
+    },
+    {
+     "word": "-class",
+     "start": 20.74,
+     "end": 21.04,
+     "probability": 0.6074675917625427,
+     "tokens": [
+      12,
+      11665
+     ]
+    },
+    {
+     "word": " starship,",
+     "start": 21.04,
+     "end": 21.6,
+     "probability": 0.762761801481247,
+     "tokens": [
+      6105,
+      1210,
+      11
+     ]
+    },
+    {
+     "word": " on",
+     "start": 21.6,
+     "end": 21.76,
+     "probability": 0.931613564491272,
+     "tokens": [
+      322
+     ]
+    },
+    {
+     "word": " a",
+     "start": 21.76,
+     "end": 21.86,
+     "probability": 0.902623176574707,
+     "tokens": [
+      257
+     ]
+    },
+    {
+     "word": " mission",
+     "start": 21.86,
+     "end": 22.12,
+     "probability": 0.9893606901168823,
+     "tokens": [
+      4447
+     ]
+    },
+    {
+     "word": " out",
+     "start": 22.12,
+     "end": 22.4,
+     "probability": 0.7844393849372864,
+     "tokens": [
+      484
+     ]
+    },
+    {
+     "word": " past",
+     "start": 22.4,
+     "end": 22.54,
+     "probability": 0.9807127714157104,
+     "tokens": [
+      1791
+     ]
+    },
+    {
+     "word": " heaven,",
+     "start": 22.54,
+     "end": 22.86,
+     "probability": 0.610150158405304,
+     "tokens": [
+      7162,
+      11
+     ]
+    },
+    {
+     "word": " NCC",
+     "start": 22.98,
+     "end": 23.66,
+     "probability": 0.7889754474163055,
+     "tokens": [
+      426,
+      11717
+     ]
+    },
+    {
+     "word": "-1701",
+     "start": 23.66,
+     "end": 25.24,
+     "probability": 0.9117492139339447,
+     "tokens": [
+      12,
+      16,
+      5867,
+      16
+     ]
+    },
+    {
+     "word": "-D,",
+     "start": 25.24,
+     "end": 25.6,
+     "probability": 0.719001442193985,
+     "tokens": [
+      12,
+      35,
+      11
+     ]
+    },
+    {
+     "word": " Seven",
+     "start": 25.72,
+     "end": 26.32,
+     "probability": 0.5642638802528381,
+     "tokens": [
+      14868
+     ]
+    },
+    {
+     "word": " on",
+     "start": 26.32,
+     "end": 26.6,
+     "probability": 0.9737380146980286,
+     "tokens": [
+      322
+     ]
+    },
+    {
+     "word": " the",
+     "start": 26.6,
+     "end": 26.72,
+     "probability": 0.9946708083152771,
+     "tokens": [
+      264
+     ]
+    },
+    {
+     "word": " bridge,",
+     "start": 26.72,
+     "end": 27.02,
+     "probability": 0.9415360689163208,
+     "tokens": [
+      7283,
+      11
+     ]
+    },
+    {
+     "word": " now",
+     "start": 27.16,
+     "end": 27.28,
+     "probability": 0.9568088054656982,
+     "tokens": [
+      586
+     ]
+    },
+    {
+     "word": " we're",
+     "start": 27.28,
+     "end": 27.48,
+     "probability": 0.9875900745391846,
+     "tokens": [
+      321,
+      434
+     ]
+    },
+    {
+     "word": " making",
+     "start": 27.48,
+     "end": 27.7,
+     "probability": 0.7798898220062256,
+     "tokens": [
+      1455
+     ]
+    },
+    {
+     "word": " history.",
+     "start": 27.7,
+     "end": 28.12,
+     "probability": 0.9921257495880127,
+     "tokens": [
+      2503,
+      13
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "patch_5-31s",
+   "start": 28.5,
+   "end": 30.86,
+   "text": "I'm Jean-Luc Picard, from La Barre out in France",
+   "words": [
+    {
+     "word": " I'm",
+     "start": 28.5,
+     "end": 28.68,
+     "probability": 0.9549978077411652,
+     "tokens": [
+      286,
+      478
+     ]
+    },
+    {
+     "word": " Jean",
+     "start": 28.68,
+     "end": 28.84,
+     "probability": 0.998036801815033,
+     "tokens": [
+      13854
+     ]
+    },
+    {
+     "word": "-Luc",
+     "start": 28.84,
+     "end": 29.06,
+     "probability": 0.9621358513832092,
+     "tokens": [
+      12,
+      43628
+     ]
+    },
+    {
+     "word": " Picard,",
+     "start": 29.06,
+     "end": 29.76,
+     "probability": 0.9786998331546783,
+     "tokens": [
+      25895,
+      515,
+      11
+     ]
+    },
+    {
+     "word": " from",
+     "start": 29.8,
+     "end": 29.96,
+     "probability": 0.9810913801193237,
+     "tokens": [
+      490
+     ]
+    },
+    {
+     "word": " La",
+     "start": 29.96,
+     "end": 30.06,
+     "probability": 0.23613443970680237,
+     "tokens": [
+      2369
+     ]
+    },
+    {
+     "word": " Barre",
+     "start": 30.06,
+     "end": 30.46,
+     "probability": 0.5301124602556229,
+     "tokens": [
+      4156,
+      265
+     ]
+    },
+    {
+     "word": " out",
+     "start": 30.46,
+     "end": 30.64,
+     "probability": 0.5016560554504395,
+     "tokens": [
+      484
+     ]
+    },
+    {
+     "word": " in",
+     "start": 30.64,
+     "end": 30.76,
+     "probability": 0.987890362739563,
+     "tokens": [
+      294
+     ]
+    },
+    {
+     "word": " France",
+     "start": 30.76,
+     "end": 30.86,
+     "probability": 0.8935381174087524,
+     "tokens": [
+      6190
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 31.28,
+   "end": 39.48,
+   "text": "family grew grapes, but I gave the stars a glance, tugged my tunic when I rise, call it the Picard maneuver, go Madrid, show me fire, but I'm a stubborn truth pursuer.",
+   "words": [
+    {
+     "word": " family",
+     "start": 31.28,
+     "end": 31.6,
+     "probability": 0.8902314305305481,
+     "tokens": [
+      1605
+     ]
+    },
+    {
+     "word": " grew",
+     "start": 31.6,
+     "end": 31.8,
+     "probability": 0.9754524230957031,
+     "tokens": [
+      6109
+     ]
+    },
+    {
+     "word": " grapes,",
+     "start": 31.8,
+     "end": 32.26,
+     "probability": 0.9903836846351624,
+     "tokens": [
+      28032,
+      11
+     ]
+    },
+    {
+     "word": " but",
+     "start": 32.4,
+     "end": 32.52,
+     "probability": 0.8904816508293152,
+     "tokens": [
+      457
+     ]
+    },
+    {
+     "word": " I",
+     "start": 32.52,
+     "end": 32.68,
+     "probability": 0.9817444682121277,
+     "tokens": [
+      286
+     ]
+    },
+    {
+     "word": " gave",
+     "start": 32.68,
+     "end": 32.9,
+     "probability": 0.9874557256698608,
+     "tokens": [
+      2729
+     ]
+    },
+    {
+     "word": " the",
+     "start": 32.9,
+     "end": 33.04,
+     "probability": 0.9914228320121765,
+     "tokens": [
+      264
+     ]
+    },
+    {
+     "word": " stars",
+     "start": 33.04,
+     "end": 33.34,
+     "probability": 0.9772781729698181,
+     "tokens": [
+      6105
+     ]
+    },
+    {
+     "word": " a",
+     "start": 33.34,
+     "end": 33.56,
+     "probability": 0.9872981309890747,
+     "tokens": [
+      257
+     ]
+    },
+    {
+     "word": " glance,",
+     "start": 33.56,
+     "end": 33.82,
+     "probability": 0.9056467413902283,
+     "tokens": [
+      21094,
+      11
+     ]
+    },
+    {
+     "word": " tugged",
+     "start": 33.96,
+     "end": 34.14,
+     "probability": 0.3375483304262161,
+     "tokens": [
+      33543,
+      3004
+     ]
+    },
+    {
+     "word": " my",
+     "start": 34.14,
+     "end": 34.24,
+     "probability": 0.9810390472412109,
+     "tokens": [
+      452
+     ]
+    },
+    {
+     "word": " tunic",
+     "start": 34.24,
+     "end": 34.64,
+     "probability": 0.955898255109787,
+     "tokens": [
+      4267,
+      299
+     ]
+    },
+    {
+     "word": " when",
+     "start": 34.64,
+     "end": 34.8,
+     "probability": 0.988312304019928,
+     "tokens": [
+      562
+     ]
+    },
+    {
+     "word": " I",
+     "start": 34.8,
+     "end": 34.96,
+     "probability": 0.9947612881660461,
+     "tokens": [
+      286
+     ]
+    },
+    {
+     "word": " rise,",
+     "start": 34.96,
+     "end": 35.28,
+     "probability": 0.9743423461914062,
+     "tokens": [
+      6272,
+      11
+     ]
+    },
+    {
+     "word": " call",
+     "start": 35.38,
+     "end": 35.48,
+     "probability": 0.8624147176742554,
+     "tokens": [
+      818
+     ]
+    },
+    {
+     "word": " it",
+     "start": 35.48,
+     "end": 35.68,
+     "probability": 0.9968870282173157,
+     "tokens": [
+      309
+     ]
+    },
+    {
+     "word": " the",
+     "start": 35.68,
+     "end": 35.82,
+     "probability": 0.9626216888427734,
+     "tokens": [
+      264
+     ]
+    },
+    {
+     "word": " Picard",
+     "start": 36.08,
+     "end": 36.18,
+     "probability": 0.9734543859958649,
+     "tokens": [
+      25895,
+      515
+     ]
+    },
+    {
+     "word": " maneuver,",
+     "start": 36.18,
+     "end": 36.54,
+     "probability": 0.772081196308136,
+     "tokens": [
+      25976,
+      11
+     ]
+    },
+    {
+     "word": " go",
+     "start": 36.76,
+     "end": 36.84,
+     "probability": 0.7497252225875854,
+     "tokens": [
+      352
+     ]
+    },
+    {
+     "word": " Madrid,",
+     "start": 36.84,
+     "end": 37.12,
+     "probability": 0.4606153070926666,
+     "tokens": [
+      22091,
+      11
+     ]
+    },
+    {
+     "word": " show",
+     "start": 37.3,
+     "end": 37.38,
+     "probability": 0.9213752150535583,
+     "tokens": [
+      855
+     ]
+    },
+    {
+     "word": " me",
+     "start": 37.38,
+     "end": 37.54,
+     "probability": 0.997995138168335,
+     "tokens": [
+      385
+     ]
+    },
+    {
+     "word": " fire,",
+     "start": 37.54,
+     "end": 37.8,
+     "probability": 0.7295532822608948,
+     "tokens": [
+      2610,
+      11
+     ]
+    },
+    {
+     "word": " but",
+     "start": 37.96,
+     "end": 38.06,
+     "probability": 0.9775830507278442,
+     "tokens": [
+      457
+     ]
+    },
+    {
+     "word": " I'm",
+     "start": 38.06,
+     "end": 38.16,
+     "probability": 0.9964158833026886,
+     "tokens": [
+      286,
+      478
+     ]
+    },
+    {
+     "word": " a",
+     "start": 38.16,
+     "end": 38.24,
+     "probability": 0.9656062722206116,
+     "tokens": [
+      257
+     ]
+    },
+    {
+     "word": " stubborn",
+     "start": 38.24,
+     "end": 38.54,
+     "probability": 0.9993113279342651,
+     "tokens": [
+      24137
+     ]
+    },
+    {
+     "word": " truth",
+     "start": 38.54,
+     "end": 38.82,
+     "probability": 0.9280117154121399,
+     "tokens": [
+      3494
+     ]
+    },
+    {
+     "word": " pursuer.",
+     "start": 38.82,
+     "end": 39.48,
+     "probability": 0.7788573801517487,
+     "tokens": [
+      7088,
+      5486,
+      13
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 40.02,
+   "end": 48.54,
+   "text": "There are four nighties, T. Earl Greyhawk, and a face palm for the fools, two fingers to the view screen, I don't break, I make the rules, engage!",
+   "words": [
+    {
+     "word": " There",
+     "start": 40.02,
+     "end": 40.12,
+     "probability": 0.411839097738266,
+     "tokens": [
+      821
+     ]
+    },
+    {
+     "word": " are",
+     "start": 40.12,
+     "end": 40.62,
+     "probability": 0.9782132506370544,
+     "tokens": [
+      366
+     ]
+    },
+    {
+     "word": " four",
+     "start": 40.62,
+     "end": 40.88,
+     "probability": 0.8157393336296082,
+     "tokens": [
+      1451
+     ]
+    },
+    {
+     "word": " nighties,",
+     "start": 40.88,
+     "end": 41.7,
+     "probability": 0.4103901833295822,
+     "tokens": [
+      1818,
+      530,
+      11
+     ]
+    },
+    {
+     "word": " T.",
+     "start": 41.76,
+     "end": 41.92,
+     "probability": 0.34891775250434875,
+     "tokens": [
+      314,
+      13
+     ]
+    },
+    {
+     "word": " Earl",
+     "start": 42.04,
+     "end": 42.3,
+     "probability": 0.9899047017097473,
+     "tokens": [
+      38936
+     ]
+    },
+    {
+     "word": " Greyhawk,",
+     "start": 42.3,
+     "end": 42.96,
+     "probability": 0.6639631887276968,
+     "tokens": [
+      24854,
+      71,
+      31451,
+      11
+     ]
+    },
+    {
+     "word": " and",
+     "start": 43.08,
+     "end": 43.32,
+     "probability": 0.9922707080841064,
+     "tokens": [
+      293
+     ]
+    },
+    {
+     "word": " a",
+     "start": 43.32,
+     "end": 43.48,
+     "probability": 0.9960479140281677,
+     "tokens": [
+      257
+     ]
+    },
+    {
+     "word": " face",
+     "start": 43.48,
+     "end": 43.7,
+     "probability": 0.42733341455459595,
+     "tokens": [
+      1851
+     ]
+    },
+    {
+     "word": " palm",
+     "start": 43.7,
+     "end": 43.88,
+     "probability": 0.9294627904891968,
+     "tokens": [
+      17018
+     ]
+    },
+    {
+     "word": " for",
+     "start": 43.88,
+     "end": 44.12,
+     "probability": 0.9967803955078125,
+     "tokens": [
+      337
+     ]
+    },
+    {
+     "word": " the",
+     "start": 44.12,
+     "end": 44.2,
+     "probability": 0.9978169202804565,
+     "tokens": [
+      264
+     ]
+    },
+    {
+     "word": " fools,",
+     "start": 44.2,
+     "end": 44.5,
+     "probability": 0.9893550872802734,
+     "tokens": [
+      38625,
+      11
+     ]
+    },
+    {
+     "word": " two",
+     "start": 44.74,
+     "end": 44.84,
+     "probability": 0.994799017906189,
+     "tokens": [
+      732
+     ]
+    },
+    {
+     "word": " fingers",
+     "start": 44.84,
+     "end": 45.2,
+     "probability": 0.9988666772842407,
+     "tokens": [
+      7350
+     ]
+    },
+    {
+     "word": " to",
+     "start": 45.2,
+     "end": 45.38,
+     "probability": 0.9953804016113281,
+     "tokens": [
+      281
+     ]
+    },
+    {
+     "word": " the",
+     "start": 45.38,
+     "end": 45.52,
+     "probability": 0.9995601773262024,
+     "tokens": [
+      264
+     ]
+    },
+    {
+     "word": " view",
+     "start": 45.52,
+     "end": 45.78,
+     "probability": 0.9926964044570923,
+     "tokens": [
+      1910
+     ]
+    },
+    {
+     "word": " screen,",
+     "start": 45.78,
+     "end": 46.1,
+     "probability": 0.7140806317329407,
+     "tokens": [
+      2568,
+      11
+     ]
+    },
+    {
+     "word": " I",
+     "start": 46.42,
+     "end": 46.64,
+     "probability": 0.9984592199325562,
+     "tokens": [
+      286
+     ]
+    },
+    {
+     "word": " don't",
+     "start": 46.64,
+     "end": 46.96,
+     "probability": 0.9991185069084167,
+     "tokens": [
+      500,
+      380
+     ]
+    },
+    {
+     "word": " break,",
+     "start": 46.96,
+     "end": 47.22,
+     "probability": 0.9989438652992249,
+     "tokens": [
+      1821,
+      11
+     ]
+    },
+    {
+     "word": " I",
+     "start": 47.28,
+     "end": 47.4,
+     "probability": 0.9995601773262024,
+     "tokens": [
+      286
+     ]
+    },
+    {
+     "word": " make",
+     "start": 47.4,
+     "end": 47.54,
+     "probability": 0.9964452385902405,
+     "tokens": [
+      652
+     ]
+    },
+    {
+     "word": " the",
+     "start": 47.54,
+     "end": 47.66,
+     "probability": 0.9997352957725525,
+     "tokens": [
+      264
+     ]
+    },
+    {
+     "word": " rules,",
+     "start": 47.66,
+     "end": 48.02,
+     "probability": 0.9995360374450684,
+     "tokens": [
+      4474,
+      11
+     ]
+    },
+    {
+     "word": " engage!",
+     "start": 48.44,
+     "end": 48.54,
+     "probability": 0.9507790803909302,
+     "tokens": [
+      4683,
+      0
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 50.46,
+   "end": 55.2,
+   "text": "Make it so, make it so, captain says the word and the whole ship goes.",
+   "words": [
+    {
+     "word": " Make",
+     "start": 50.46,
+     "end": 50.66,
+     "probability": 0.9302611947059631,
+     "tokens": [
+      4387
+     ]
+    },
+    {
+     "word": " it",
+     "start": 50.66,
+     "end": 51.06,
+     "probability": 0.9985154271125793,
+     "tokens": [
+      309
+     ]
+    },
+    {
+     "word": " so,",
+     "start": 51.06,
+     "end": 51.3,
+     "probability": 0.9782893061637878,
+     "tokens": [
+      370,
+      11
+     ]
+    },
+    {
+     "word": " make",
+     "start": 51.74,
+     "end": 52.06,
+     "probability": 0.9971755743026733,
+     "tokens": [
+      652
+     ]
+    },
+    {
+     "word": " it",
+     "start": 52.06,
+     "end": 52.32,
+     "probability": 0.9999656677246094,
+     "tokens": [
+      309
+     ]
+    },
+    {
+     "word": " so,",
+     "start": 52.32,
+     "end": 52.76,
+     "probability": 0.9993213415145874,
+     "tokens": [
+      370,
+      11
+     ]
+    },
+    {
+     "word": " captain",
+     "start": 52.9,
+     "end": 53.36,
+     "probability": 0.8051561713218689,
+     "tokens": [
+      14871
+     ]
+    },
+    {
+     "word": " says",
+     "start": 53.36,
+     "end": 53.74,
+     "probability": 0.9998493194580078,
+     "tokens": [
+      1619
+     ]
+    },
+    {
+     "word": " the",
+     "start": 53.74,
+     "end": 53.94,
+     "probability": 0.9998600482940674,
+     "tokens": [
+      264
+     ]
+    },
+    {
+     "word": " word",
+     "start": 53.94,
+     "end": 54.26,
+     "probability": 0.9997124075889587,
+     "tokens": [
+      1349
+     ]
+    },
+    {
+     "word": " and",
+     "start": 54.26,
+     "end": 54.5,
+     "probability": 0.9682050347328186,
+     "tokens": [
+      293
+     ]
+    },
+    {
+     "word": " the",
+     "start": 54.5,
+     "end": 54.62,
+     "probability": 0.9998337030410767,
+     "tokens": [
+      264
+     ]
+    },
+    {
+     "word": " whole",
+     "start": 54.62,
+     "end": 54.8,
+     "probability": 0.99983811378479,
+     "tokens": [
+      1379
+     ]
+    },
+    {
+     "word": " ship",
+     "start": 54.8,
+     "end": 55.04,
+     "probability": 0.999401330947876,
+     "tokens": [
+      5374
+     ]
+    },
+    {
+     "word": " goes.",
+     "start": 55.04,
+     "end": 55.2,
+     "probability": 0.9998420476913452,
+     "tokens": [
+      1709,
+      13
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 55.32,
+   "end": 63.2,
+   "text": "goes make it so make it so when no one's gone where nobody knows stepping on the bridge and",
+   "words": [
+    {
+     "word": " goes",
+     "start": 55.32,
+     "end": 55.66,
+     "probability": 0.010524707846343517,
+     "tokens": [
+      1709
+     ]
+    },
+    {
+     "word": " make",
+     "start": 55.66,
+     "end": 56.16,
+     "probability": 0.06949286162853241,
+     "tokens": [
+      652
+     ]
+    },
+    {
+     "word": " it",
+     "start": 56.16,
+     "end": 56.64,
+     "probability": 0.9872190952301025,
+     "tokens": [
+      309
+     ]
+    },
+    {
+     "word": " so",
+     "start": 56.64,
+     "end": 56.98,
+     "probability": 0.9651249051094055,
+     "tokens": [
+      370
+     ]
+    },
+    {
+     "word": " make",
+     "start": 56.98,
+     "end": 57.56,
+     "probability": 0.23213182389736176,
+     "tokens": [
+      652
+     ]
+    },
+    {
+     "word": " it",
+     "start": 57.56,
+     "end": 57.9,
+     "probability": 0.9920875430107117,
+     "tokens": [
+      309
+     ]
+    },
+    {
+     "word": " so",
+     "start": 57.9,
+     "end": 58.2,
+     "probability": 0.9456242322921753,
+     "tokens": [
+      370
+     ]
+    },
+    {
+     "word": " when",
+     "start": 58.2,
+     "end": 59.1,
+     "probability": 0.10904096066951752,
+     "tokens": [
+      562
+     ]
+    },
+    {
+     "word": " no",
+     "start": 59.1,
+     "end": 59.32,
+     "probability": 0.9658019542694092,
+     "tokens": [
+      572
+     ]
+    },
+    {
+     "word": " one's",
+     "start": 59.32,
+     "end": 59.56,
+     "probability": 0.9572636187076569,
+     "tokens": [
+      472,
+      311
+     ]
+    },
+    {
+     "word": " gone",
+     "start": 59.56,
+     "end": 59.8,
+     "probability": 0.9934360980987549,
+     "tokens": [
+      2780
+     ]
+    },
+    {
+     "word": " where",
+     "start": 59.8,
+     "end": 60.1,
+     "probability": 0.35044267773628235,
+     "tokens": [
+      689
+     ]
+    },
+    {
+     "word": " nobody",
+     "start": 60.1,
+     "end": 60.56,
+     "probability": 0.9558393955230713,
+     "tokens": [
+      5079
+     ]
+    },
+    {
+     "word": " knows",
+     "start": 60.56,
+     "end": 61.04,
+     "probability": 0.9642806649208069,
+     "tokens": [
+      3255
+     ]
+    },
+    {
+     "word": " stepping",
+     "start": 61.04,
+     "end": 61.88,
+     "probability": 0.1325606405735016,
+     "tokens": [
+      16821
+     ]
+    },
+    {
+     "word": " on",
+     "start": 61.88,
+     "end": 62.16,
+     "probability": 0.9900117516517639,
+     "tokens": [
+      322
+     ]
+    },
+    {
+     "word": " the",
+     "start": 62.16,
+     "end": 62.3,
+     "probability": 0.9927147030830383,
+     "tokens": [
+      264
+     ]
+    },
+    {
+     "word": " bridge",
+     "start": 62.3,
+     "end": 62.72,
+     "probability": 0.9867889285087585,
+     "tokens": [
+      7283
+     ]
+    },
+    {
+     "word": " and",
+     "start": 62.72,
+     "end": 63.2,
+     "probability": 0.8857519030570984,
+     "tokens": [
+      293
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 63.2,
+   "end": 70.24,
+   "text": "a thousand down below one voice one ship make it so william t reicher y'all can call me number one",
+   "words": [
+    {
+     "word": " a",
+     "start": 63.2,
+     "end": 63.44,
+     "probability": 0.23761673271656036,
+     "tokens": [
+      257
+     ]
+    },
+    {
+     "word": " thousand",
+     "start": 63.44,
+     "end": 63.68,
+     "probability": 0.96995609998703,
+     "tokens": [
+      4714
+     ]
+    },
+    {
+     "word": " down",
+     "start": 63.68,
+     "end": 63.92,
+     "probability": 0.9746437668800354,
+     "tokens": [
+      760
+     ]
+    },
+    {
+     "word": " below",
+     "start": 63.92,
+     "end": 64.24,
+     "probability": 0.9929335117340088,
+     "tokens": [
+      2507
+     ]
+    },
+    {
+     "word": " one",
+     "start": 64.24,
+     "end": 64.94,
+     "probability": 0.8594961762428284,
+     "tokens": [
+      472
+     ]
+    },
+    {
+     "word": " voice",
+     "start": 64.94,
+     "end": 65.34,
+     "probability": 0.954007089138031,
+     "tokens": [
+      3177
+     ]
+    },
+    {
+     "word": " one",
+     "start": 65.34,
+     "end": 65.66,
+     "probability": 0.885083794593811,
+     "tokens": [
+      472
+     ]
+    },
+    {
+     "word": " ship",
+     "start": 65.66,
+     "end": 66.06,
+     "probability": 0.9493986368179321,
+     "tokens": [
+      5374
+     ]
+    },
+    {
+     "word": " make",
+     "start": 67.18,
+     "end": 67.28,
+     "probability": 0.7148622870445251,
+     "tokens": [
+      652
+     ]
+    },
+    {
+     "word": " it",
+     "start": 67.28,
+     "end": 67.66,
+     "probability": 0.9925040006637573,
+     "tokens": [
+      309
+     ]
+    },
+    {
+     "word": " so",
+     "start": 67.66,
+     "end": 68.02,
+     "probability": 0.949496865272522,
+     "tokens": [
+      370
+     ]
+    },
+    {
+     "word": " william",
+     "start": 68.02,
+     "end": 68.42,
+     "probability": 0.5367161259055138,
+     "tokens": [
+      486,
+      2918
+     ]
+    },
+    {
+     "word": " t",
+     "start": 68.42,
+     "end": 68.52,
+     "probability": 0.9385561347007751,
+     "tokens": [
+      256
+     ]
+    },
+    {
+     "word": " reicher",
+     "start": 68.52,
+     "end": 68.88,
+     "probability": 0.7902893424034119,
+     "tokens": [
+      319,
+      14934
+     ]
+    },
+    {
+     "word": " y",
+     "start": 68.88,
+     "end": 69.1,
+     "probability": 0.8547655344009399,
+     "tokens": [
+      288
+     ]
+    },
+    {
+     "word": "'all",
+     "start": 69.1,
+     "end": 69.18,
+     "probability": 0.9957747161388397,
+     "tokens": [
+      6,
+      336
+     ]
+    },
+    {
+     "word": " can",
+     "start": 69.18,
+     "end": 69.3,
+     "probability": 0.9098174571990967,
+     "tokens": [
+      393
+     ]
+    },
+    {
+     "word": " call",
+     "start": 69.3,
+     "end": 69.54,
+     "probability": 0.8876235485076904,
+     "tokens": [
+      818
+     ]
+    },
+    {
+     "word": " me",
+     "start": 69.54,
+     "end": 69.68,
+     "probability": 0.9390369653701782,
+     "tokens": [
+      385
+     ]
+    },
+    {
+     "word": " number",
+     "start": 69.68,
+     "end": 69.86,
+     "probability": 0.739271342754364,
+     "tokens": [
+      1230
+     ]
+    },
+    {
+     "word": " one",
+     "start": 69.86,
+     "end": 70.24,
+     "probability": 0.8152351975440979,
+     "tokens": [
+      472
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 70.34,
+   "end": 75.64,
+   "text": "out of out as alaska where the winters weigh a ton three times they offered me a captain's chair",
+   "words": [
+    {
+     "word": " out",
+     "start": 70.34,
+     "end": 70.54,
+     "probability": 0.7987220883369446,
+     "tokens": [
+      484
+     ]
+    },
+    {
+     "word": " of",
+     "start": 70.54,
+     "end": 70.74,
+     "probability": 0.9906991124153137,
+     "tokens": [
+      295
+     ]
+    },
+    {
+     "word": " out",
+     "start": 70.74,
+     "end": 70.92,
+     "probability": 0.4005146920681,
+     "tokens": [
+      484
+     ]
+    },
+    {
+     "word": " as",
+     "start": 70.92,
+     "end": 71.12,
+     "probability": 0.44253796339035034,
+     "tokens": [
+      382
+     ]
+    },
+    {
+     "word": " alaska",
+     "start": 71.12,
+     "end": 71.68,
+     "probability": 0.9822342991828918,
+     "tokens": [
+      419,
+      13400
+     ]
+    },
+    {
+     "word": " where",
+     "start": 71.68,
+     "end": 71.94,
+     "probability": 0.9927171468734741,
+     "tokens": [
+      689
+     ]
+    },
+    {
+     "word": " the",
+     "start": 71.94,
+     "end": 72.08,
+     "probability": 0.9981448650360107,
+     "tokens": [
+      264
+     ]
+    },
+    {
+     "word": " winters",
+     "start": 72.08,
+     "end": 72.48,
+     "probability": 0.9729404449462891,
+     "tokens": [
+      1942,
+      1559
+     ]
+    },
+    {
+     "word": " weigh",
+     "start": 72.48,
+     "end": 72.6,
+     "probability": 0.9255245923995972,
+     "tokens": [
+      13843
+     ]
+    },
+    {
+     "word": " a",
+     "start": 72.6,
+     "end": 72.82,
+     "probability": 0.9922353625297546,
+     "tokens": [
+      257
+     ]
+    },
+    {
+     "word": " ton",
+     "start": 72.82,
+     "end": 73.02,
+     "probability": 0.9918673634529114,
+     "tokens": [
+      2952
+     ]
+    },
+    {
+     "word": " three",
+     "start": 73.02,
+     "end": 73.3,
+     "probability": 0.9666630029678345,
+     "tokens": [
+      1045
+     ]
+    },
+    {
+     "word": " times",
+     "start": 73.3,
+     "end": 73.9,
+     "probability": 0.9831966161727905,
+     "tokens": [
+      1413
+     ]
+    },
+    {
+     "word": " they",
+     "start": 73.9,
+     "end": 74.22,
+     "probability": 0.9646407961845398,
+     "tokens": [
+      436
+     ]
+    },
+    {
+     "word": " offered",
+     "start": 74.22,
+     "end": 74.5,
+     "probability": 0.9324905872344971,
+     "tokens": [
+      8059
+     ]
+    },
+    {
+     "word": " me",
+     "start": 74.52,
+     "end": 74.72,
+     "probability": 0.9662235379219055,
+     "tokens": [
+      385
+     ]
+    },
+    {
+     "word": " a",
+     "start": 74.72,
+     "end": 74.9,
+     "probability": 0.9528684616088867,
+     "tokens": [
+      257
+     ]
+    },
+    {
+     "word": " captain's",
+     "start": 74.9,
+     "end": 75.42,
+     "probability": 0.9374082684516907,
+     "tokens": [
+      14871,
+      311
+     ]
+    },
+    {
+     "word": " chair",
+     "start": 75.42,
+     "end": 75.64,
+     "probability": 0.7162235379219055,
+     "tokens": [
+      6090
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 75.84,
+   "end": 81.14,
+   "text": "three times i said nah i'm needed right here swing my leg across the seat like i'm climbing on a",
+   "words": [
+    {
+     "word": " three",
+     "start": 75.84,
+     "end": 76.04,
+     "probability": 0.830755889415741,
+     "tokens": [
+      1045
+     ]
+    },
+    {
+     "word": " times",
+     "start": 76.04,
+     "end": 76.48,
+     "probability": 0.9975656270980835,
+     "tokens": [
+      1413
+     ]
+    },
+    {
+     "word": " i",
+     "start": 76.48,
+     "end": 76.68,
+     "probability": 0.904867947101593,
+     "tokens": [
+      741
+     ]
+    },
+    {
+     "word": " said",
+     "start": 76.68,
+     "end": 76.88,
+     "probability": 0.998561680316925,
+     "tokens": [
+      848
+     ]
+    },
+    {
+     "word": " nah",
+     "start": 76.88,
+     "end": 77.14,
+     "probability": 0.9366429448127747,
+     "tokens": [
+      17170
+     ]
+    },
+    {
+     "word": " i'm",
+     "start": 77.14,
+     "end": 77.72,
+     "probability": 0.9737271964550018,
+     "tokens": [
+      741,
+      478
+     ]
+    },
+    {
+     "word": " needed",
+     "start": 77.72,
+     "end": 77.96,
+     "probability": 0.9865208864212036,
+     "tokens": [
+      2978
+     ]
+    },
+    {
+     "word": " right",
+     "start": 77.96,
+     "end": 78.24,
+     "probability": 0.99825519323349,
+     "tokens": [
+      558
+     ]
+    },
+    {
+     "word": " here",
+     "start": 78.24,
+     "end": 78.62,
+     "probability": 0.9965830445289612,
+     "tokens": [
+      510
+     ]
+    },
+    {
+     "word": " swing",
+     "start": 78.62,
+     "end": 78.86,
+     "probability": 0.9550597667694092,
+     "tokens": [
+      11173
+     ]
+    },
+    {
+     "word": " my",
+     "start": 78.86,
+     "end": 79.04,
+     "probability": 0.9971926808357239,
+     "tokens": [
+      452
+     ]
+    },
+    {
+     "word": " leg",
+     "start": 79.04,
+     "end": 79.3,
+     "probability": 0.9840669631958008,
+     "tokens": [
+      1676
+     ]
+    },
+    {
+     "word": " across",
+     "start": 79.3,
+     "end": 79.54,
+     "probability": 0.9910644292831421,
+     "tokens": [
+      2108
+     ]
+    },
+    {
+     "word": " the",
+     "start": 79.54,
+     "end": 79.76,
+     "probability": 0.9865204095840454,
+     "tokens": [
+      264
+     ]
+    },
+    {
+     "word": " seat",
+     "start": 79.76,
+     "end": 80.02,
+     "probability": 0.9413617253303528,
+     "tokens": [
+      6121
+     ]
+    },
+    {
+     "word": " like",
+     "start": 80.02,
+     "end": 80.28,
+     "probability": 0.9763283133506775,
+     "tokens": [
+      411
+     ]
+    },
+    {
+     "word": " i'm",
+     "start": 80.28,
+     "end": 80.5,
+     "probability": 0.9790861010551453,
+     "tokens": [
+      741,
+      478
+     ]
+    },
+    {
+     "word": " climbing",
+     "start": 80.5,
+     "end": 80.82,
+     "probability": 0.8796676397323608,
+     "tokens": [
+      14780
+     ]
+    },
+    {
+     "word": " on",
+     "start": 80.82,
+     "end": 81.02,
+     "probability": 0.818085253238678,
+     "tokens": [
+      322
+     ]
+    },
+    {
+     "word": " a",
+     "start": 81.02,
+     "end": 81.14,
+     "probability": 0.7885773181915283,
+     "tokens": [
+      257
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 81.48,
+   "end": 84.22,
+   "text": "Horsepit came in season two, and it's glorious, of course",
+   "words": [
+    {
+     "word": " Horsepit",
+     "start": 81.48,
+     "end": 81.7,
+     "probability": 0.05220122652826831,
+     "tokens": [
+      33208,
+      20144
+     ]
+    },
+    {
+     "word": " came",
+     "start": 81.7,
+     "end": 82.04,
+     "probability": 0.8313835263252258,
+     "tokens": [
+      1361
+     ]
+    },
+    {
+     "word": " in",
+     "start": 82.04,
+     "end": 82.24,
+     "probability": 0.9961666464805603,
+     "tokens": [
+      294
+     ]
+    },
+    {
+     "word": " season",
+     "start": 82.24,
+     "end": 82.48,
+     "probability": 0.4939883351325989,
+     "tokens": [
+      3196
+     ]
+    },
+    {
+     "word": " two,",
+     "start": 82.48,
+     "end": 82.8,
+     "probability": 0.5267307758331299,
+     "tokens": [
+      732,
+      11
+     ]
+    },
+    {
+     "word": " and",
+     "start": 82.9,
+     "end": 83.12,
+     "probability": 0.9547735452651978,
+     "tokens": [
+      293
+     ]
+    },
+    {
+     "word": " it's",
+     "start": 83.12,
+     "end": 83.28,
+     "probability": 0.9749012291431427,
+     "tokens": [
+      309,
+      311
+     ]
+    },
+    {
+     "word": " glorious,",
+     "start": 83.28,
+     "end": 83.64,
+     "probability": 0.9713729619979858,
+     "tokens": [
+      24026,
+      11
+     ]
+    },
+    {
+     "word": " of",
+     "start": 83.78,
+     "end": 84.0,
+     "probability": 0.9965919256210327,
+     "tokens": [
+      295
+     ]
+    },
+    {
+     "word": " course",
+     "start": 84.0,
+     "end": 84.22,
+     "probability": 0.9974501729011536,
+     "tokens": [
+      1164
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 84.32,
+   "end": 87.02,
+   "text": "But the Borg took my captain, put a cube upon the screen",
+   "words": [
+    {
+     "word": " But",
+     "start": 84.32,
+     "end": 84.48,
+     "probability": 0.07390591502189636,
+     "tokens": [
+      583
+     ]
+    },
+    {
+     "word": " the",
+     "start": 84.48,
+     "end": 84.66,
+     "probability": 0.9549844264984131,
+     "tokens": [
+      264
+     ]
+    },
+    {
+     "word": " Borg",
+     "start": 84.66,
+     "end": 85.0,
+     "probability": 0.8917655944824219,
+     "tokens": [
+      363,
+      4646
+     ]
+    },
+    {
+     "word": " took",
+     "start": 85.0,
+     "end": 85.16,
+     "probability": 0.9797934293746948,
+     "tokens": [
+      1890
+     ]
+    },
+    {
+     "word": " my",
+     "start": 85.24,
+     "end": 85.34,
+     "probability": 0.9957569241523743,
+     "tokens": [
+      452
+     ]
+    },
+    {
+     "word": " captain,",
+     "start": 85.34,
+     "end": 85.62,
+     "probability": 0.7670416235923767,
+     "tokens": [
+      14871,
+      11
+     ]
+    },
+    {
+     "word": " put",
+     "start": 85.76,
+     "end": 85.88,
+     "probability": 0.9785642623901367,
+     "tokens": [
+      829
+     ]
+    },
+    {
+     "word": " a",
+     "start": 85.88,
+     "end": 86.06,
+     "probability": 0.9892695546150208,
+     "tokens": [
+      257
+     ]
+    },
+    {
+     "word": " cube",
+     "start": 86.14,
+     "end": 86.26,
+     "probability": 0.9745995998382568,
+     "tokens": [
+      13728
+     ]
+    },
+    {
+     "word": " upon",
+     "start": 86.26,
+     "end": 86.48,
+     "probability": 0.7744390964508057,
+     "tokens": [
+      3564
+     ]
+    },
+    {
+     "word": " the",
+     "start": 86.48,
+     "end": 86.7,
+     "probability": 0.9935298562049866,
+     "tokens": [
+      264
+     ]
+    },
+    {
+     "word": " screen",
+     "start": 86.7,
+     "end": 87.02,
+     "probability": 0.9936182498931885,
+     "tokens": [
+      2568
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 87.18,
+   "end": 89.8,
+   "text": "Locutus looked right through me, hardest call I've ever seen",
+   "words": [
+    {
+     "word": " Locutus",
+     "start": 87.18,
+     "end": 87.62,
+     "probability": 0.743495762348175,
+     "tokens": [
+      12859,
+      325,
+      301
+     ]
+    },
+    {
+     "word": " looked",
+     "start": 87.62,
+     "end": 87.82,
+     "probability": 0.5993965268135071,
+     "tokens": [
+      2956
+     ]
+    },
+    {
+     "word": " right",
+     "start": 87.82,
+     "end": 88.06,
+     "probability": 0.9898263216018677,
+     "tokens": [
+      558
+     ]
+    },
+    {
+     "word": " through",
+     "start": 88.06,
+     "end": 88.32,
+     "probability": 0.9869497418403625,
+     "tokens": [
+      807
+     ]
+    },
+    {
+     "word": " me,",
+     "start": 88.32,
+     "end": 88.44,
+     "probability": 0.9964678287506104,
+     "tokens": [
+      385,
+      11
+     ]
+    },
+    {
+     "word": " hardest",
+     "start": 88.58,
+     "end": 88.76,
+     "probability": 0.9840059876441956,
+     "tokens": [
+      13158
+     ]
+    },
+    {
+     "word": " call",
+     "start": 88.76,
+     "end": 89.02,
+     "probability": 0.9885270595550537,
+     "tokens": [
+      818
+     ]
+    },
+    {
+     "word": " I've",
+     "start": 89.02,
+     "end": 89.28,
+     "probability": 0.9836638271808624,
+     "tokens": [
+      286,
+      600
+     ]
+    },
+    {
+     "word": " ever",
+     "start": 89.28,
+     "end": 89.42,
+     "probability": 0.9949997663497925,
+     "tokens": [
+      1562
+     ]
+    },
+    {
+     "word": " seen",
+     "start": 89.42,
+     "end": 89.8,
+     "probability": 0.9982155561447144,
+     "tokens": [
+      1612
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 89.92,
+   "end": 91.14,
+   "text": "Mr. Worth, fire",
+   "words": [
+    {
+     "word": " Mr.",
+     "start": 89.92,
+     "end": 90.18,
+     "probability": 0.6530807614326477,
+     "tokens": [
+      2221,
+      13
+     ]
+    },
+    {
+     "word": " Worth,",
+     "start": 90.22,
+     "end": 90.52,
+     "probability": 0.13934873044490814,
+     "tokens": [
+      37228,
+      11
+     ]
+    },
+    {
+     "word": " fire",
+     "start": 90.94,
+     "end": 91.14,
+     "probability": 0.9233470559120178,
+     "tokens": [
+      2610
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 91.14,
+   "end": 94.0,
+   "text": "I am Data Lieutenant Commander, Android positronic",
+   "words": [
+    {
+     "word": " I",
+     "start": 91.14,
+     "end": 91.46,
+     "probability": 0.9745240211486816,
+     "tokens": [
+      286
+     ]
+    },
+    {
+     "word": " am",
+     "start": 91.46,
+     "end": 91.68,
+     "probability": 0.9796977639198303,
+     "tokens": [
+      669
+     ]
+    },
+    {
+     "word": " Data",
+     "start": 91.68,
+     "end": 91.9,
+     "probability": 0.8960015773773193,
+     "tokens": [
+      11888
+     ]
+    },
+    {
+     "word": " Lieutenant",
+     "start": 91.9,
+     "end": 92.18,
+     "probability": 0.6689478158950806,
+     "tokens": [
+      28412
+     ]
+    },
+    {
+     "word": " Commander,",
+     "start": 92.18,
+     "end": 92.74,
+     "probability": 0.8280842900276184,
+     "tokens": [
+      20857,
+      11
+     ]
+    },
+    {
+     "word": " Android",
+     "start": 93.06,
+     "end": 93.36,
+     "probability": 0.5729115605354309,
+     "tokens": [
+      8853
+     ]
+    },
+    {
+     "word": " positronic",
+     "start": 93.36,
+     "end": 94.0,
+     "probability": 0.8937716782093048,
+     "tokens": [
+      11218,
+      10011
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 94.12,
+   "end": 96.8,
+   "text": "Built by Dr. Nonian Soong, my design is quite iconic",
+   "words": [
+    {
+     "word": " Built",
+     "start": 94.12,
+     "end": 94.24,
+     "probability": 0.42829594016075134,
+     "tokens": [
+      49822
+     ]
+    },
+    {
+     "word": " by",
+     "start": 94.24,
+     "end": 94.42,
+     "probability": 0.996755063533783,
+     "tokens": [
+      538
+     ]
+    },
+    {
+     "word": " Dr.",
+     "start": 94.42,
+     "end": 94.72,
+     "probability": 0.8683710694313049,
+     "tokens": [
+      2491,
+      13
+     ]
+    },
+    {
+     "word": " Nonian",
+     "start": 94.82,
+     "end": 95.14,
+     "probability": 0.3740779906511307,
+     "tokens": [
+      8774,
+      952
+     ]
+    },
+    {
+     "word": " Soong,",
+     "start": 95.14,
+     "end": 95.4,
+     "probability": 0.7050101011991501,
+     "tokens": [
+      407,
+      556,
+      11
+     ]
+    },
+    {
+     "word": " my",
+     "start": 95.5,
+     "end": 95.66,
+     "probability": 0.9924101829528809,
+     "tokens": [
+      452
+     ]
+    },
+    {
+     "word": " design",
+     "start": 95.66,
+     "end": 95.98,
+     "probability": 0.9978489875793457,
+     "tokens": [
+      1715
+     ]
+    },
+    {
+     "word": " is",
+     "start": 95.98,
+     "end": 96.18,
+     "probability": 0.9977797865867615,
+     "tokens": [
+      307
+     ]
+    },
+    {
+     "word": " quite",
+     "start": 96.18,
+     "end": 96.34,
+     "probability": 0.9979851245880127,
+     "tokens": [
+      1596
+     ]
+    },
+    {
+     "word": " iconic",
+     "start": 96.34,
+     "end": 96.8,
+     "probability": 0.9900017976760864,
+     "tokens": [
+      15762
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 96.96,
+   "end": 99.6,
+   "text": "I do not use contractions, it is not a choice I cannot",
+   "words": [
+    {
+     "word": " I",
+     "start": 96.96,
+     "end": 97.08,
+     "probability": 0.9619805812835693,
+     "tokens": [
+      286
+     ]
+    },
+    {
+     "word": " do",
+     "start": 97.08,
+     "end": 97.2,
+     "probability": 0.9950474500656128,
+     "tokens": [
+      360
+     ]
+    },
+    {
+     "word": " not",
+     "start": 97.2,
+     "end": 97.42,
+     "probability": 0.9854869842529297,
+     "tokens": [
+      406
+     ]
+    },
+    {
+     "word": " use",
+     "start": 97.42,
+     "end": 97.72,
+     "probability": 0.9838356971740723,
+     "tokens": [
+      764
+     ]
+    },
+    {
+     "word": " contractions,",
+     "start": 97.72,
+     "end": 98.34,
+     "probability": 0.9890264570713043,
+     "tokens": [
+      4364,
+      626,
+      11
+     ]
+    },
+    {
+     "word": " it",
+     "start": 98.36,
+     "end": 98.52,
+     "probability": 0.9946847558021545,
+     "tokens": [
+      309
+     ]
+    },
+    {
+     "word": " is",
+     "start": 98.52,
+     "end": 98.64,
+     "probability": 0.994810938835144,
+     "tokens": [
+      307
+     ]
+    },
+    {
+     "word": " not",
+     "start": 98.64,
+     "end": 98.82,
+     "probability": 0.9983124732971191,
+     "tokens": [
+      406
+     ]
+    },
+    {
+     "word": " a",
+     "start": 98.82,
+     "end": 98.96,
+     "probability": 0.9954695701599121,
+     "tokens": [
+      257
+     ]
+    },
+    {
+     "word": " choice",
+     "start": 98.96,
+     "end": 99.18,
+     "probability": 0.9991466999053955,
+     "tokens": [
+      3922
+     ]
+    },
+    {
+     "word": " I",
+     "start": 99.18,
+     "end": 99.36,
+     "probability": 0.5704519152641296,
+     "tokens": [
+      286
+     ]
+    },
+    {
+     "word": " cannot",
+     "start": 99.36,
+     "end": 99.6,
+     "probability": 0.9339607954025269,
+     "tokens": [
+      2644
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 99.76,
+   "end": 102.26,
+   "text": "Yes, I am fully functional, a topic best forgotten",
+   "words": [
+    {
+     "word": " Yes,",
+     "start": 99.76,
+     "end": 99.88,
+     "probability": 0.9295045733451843,
+     "tokens": [
+      1079,
+      11
+     ]
+    },
+    {
+     "word": " I",
+     "start": 99.96,
+     "end": 100.16,
+     "probability": 0.9983742237091064,
+     "tokens": [
+      286
+     ]
+    },
+    {
+     "word": " am",
+     "start": 100.16,
+     "end": 100.4,
+     "probability": 0.9966701865196228,
+     "tokens": [
+      669
+     ]
+    },
+    {
+     "word": " fully",
+     "start": 100.4,
+     "end": 100.64,
+     "probability": 0.9951678514480591,
+     "tokens": [
+      4498
+     ]
+    },
+    {
+     "word": " functional,",
+     "start": 100.64,
+     "end": 101.04,
+     "probability": 0.9711153507232666,
+     "tokens": [
+      11745,
+      11
+     ]
+    },
+    {
+     "word": " a",
+     "start": 101.3,
+     "end": 101.44,
+     "probability": 0.9857540130615234,
+     "tokens": [
+      257
+     ]
+    },
+    {
+     "word": " topic",
+     "start": 101.44,
+     "end": 101.68,
+     "probability": 0.9973366856575012,
+     "tokens": [
+      4829
+     ]
+    },
+    {
+     "word": " best",
+     "start": 101.68,
+     "end": 101.94,
+     "probability": 0.9886921644210815,
+     "tokens": [
+      1151
+     ]
+    },
+    {
+     "word": " forgotten",
+     "start": 101.94,
+     "end": 102.26,
+     "probability": 0.9829764366149902,
+     "tokens": [
+      11832
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 102.48,
+   "end": 105.12,
+   "text": "Sherlock Holmes on the holodeck, the game is now afoot",
+   "words": [
+    {
+     "word": " Sherlock",
+     "start": 102.48,
+     "end": 102.74,
+     "probability": 0.9769065976142883,
+     "tokens": [
+      37769
+     ]
+    },
+    {
+     "word": " Holmes",
+     "start": 102.74,
+     "end": 103.14,
+     "probability": 0.9997380375862122,
+     "tokens": [
+      27474
+     ]
+    },
+    {
+     "word": " on",
+     "start": 103.14,
+     "end": 103.38,
+     "probability": 0.48252546787261963,
+     "tokens": [
+      322
+     ]
+    },
+    {
+     "word": " the",
+     "start": 103.38,
+     "end": 103.46,
+     "probability": 0.9829451441764832,
+     "tokens": [
+      264
+     ]
+    },
+    {
+     "word": " holodeck,",
+     "start": 103.46,
+     "end": 104.02,
+     "probability": 0.9740739464759827,
+     "tokens": [
+      4091,
+      1429,
+      547,
+      11
+     ]
+    },
+    {
+     "word": " the",
+     "start": 104.1,
+     "end": 104.22,
+     "probability": 0.9968469738960266,
+     "tokens": [
+      264
+     ]
+    },
+    {
+     "word": " game",
+     "start": 104.22,
+     "end": 104.44,
+     "probability": 0.9988077878952026,
+     "tokens": [
+      1216
+     ]
+    },
+    {
+     "word": " is",
+     "start": 104.44,
+     "end": 104.58,
+     "probability": 0.9985646605491638,
+     "tokens": [
+      307
+     ]
+    },
+    {
+     "word": " now",
+     "start": 104.58,
+     "end": 104.74,
+     "probability": 0.9985740184783936,
+     "tokens": [
+      586
+     ]
+    },
+    {
+     "word": " afoot",
+     "start": 104.74,
+     "end": 105.12,
+     "probability": 0.9818543791770935,
+     "tokens": [
+      3238,
+      6259
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 105.24,
+   "end": 107.94,
+   "text": "I composed a note for Spartan, you will hear it as you should",
+   "words": [
+    {
+     "word": " I",
+     "start": 105.24,
+     "end": 105.42,
+     "probability": 0.9957478642463684,
+     "tokens": [
+      286
+     ]
+    },
+    {
+     "word": " composed",
+     "start": 105.42,
+     "end": 105.66,
+     "probability": 0.9461450576782227,
+     "tokens": [
+      18204
+     ]
+    },
+    {
+     "word": " a",
+     "start": 105.66,
+     "end": 105.98,
+     "probability": 0.845360279083252,
+     "tokens": [
+      257
+     ]
+    },
+    {
+     "word": " note",
+     "start": 105.98,
+     "end": 106.14,
+     "probability": 0.9872056245803833,
+     "tokens": [
+      3637
+     ]
+    },
+    {
+     "word": " for",
+     "start": 106.14,
+     "end": 106.28,
+     "probability": 0.9954226613044739,
+     "tokens": [
+      337
+     ]
+    },
+    {
+     "word": " Spartan,",
+     "start": 106.28,
+     "end": 106.62,
+     "probability": 0.6578838378190994,
+     "tokens": [
+      36014,
+      282,
+      11
+     ]
+    },
+    {
+     "word": " you",
+     "start": 106.68,
+     "end": 106.8,
+     "probability": 0.9987192153930664,
+     "tokens": [
+      291
+     ]
+    },
+    {
+     "word": " will",
+     "start": 106.8,
+     "end": 106.96,
+     "probability": 0.9985870122909546,
+     "tokens": [
+      486
+     ]
+    },
+    {
+     "word": " hear",
+     "start": 106.96,
+     "end": 107.2,
+     "probability": 0.9964520931243896,
+     "tokens": [
+      1568
+     ]
+    },
+    {
+     "word": " it",
+     "start": 107.2,
+     "end": 107.4,
+     "probability": 0.998885452747345,
+     "tokens": [
+      309
+     ]
+    },
+    {
+     "word": " as",
+     "start": 107.4,
+     "end": 107.56,
+     "probability": 0.9697523713111877,
+     "tokens": [
+      382
+     ]
+    },
+    {
+     "word": " you",
+     "start": 107.56,
+     "end": 107.68,
+     "probability": 0.9992274045944214,
+     "tokens": [
+      291
+     ]
+    },
+    {
+     "word": " should",
+     "start": 107.68,
+     "end": 107.94,
+     "probability": 0.9995730519294739,
+     "tokens": [
+      820
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 108.1,
+   "end": 110.34,
+   "text": "Selly's Cactus is your taxonomic nomenclature",
+   "words": [
+    {
+     "word": " Selly's",
+     "start": 108.1,
+     "end": 108.38,
+     "probability": 0.5017249857385954,
+     "tokens": [
+      318,
+      7442,
+      311
+     ]
+    },
+    {
+     "word": " Cactus",
+     "start": 108.38,
+     "end": 108.66,
+     "probability": 0.6563135981559753,
+     "tokens": [
+      383,
+      34775
+     ]
+    },
+    {
+     "word": " is",
+     "start": 108.66,
+     "end": 108.92,
+     "probability": 0.9955012202262878,
+     "tokens": [
+      307
+     ]
+    },
+    {
+     "word": " your",
+     "start": 108.92,
+     "end": 109.1,
+     "probability": 0.9971953630447388,
+     "tokens": [
+      428
+     ]
+    },
+    {
+     "word": " taxonomic",
+     "start": 109.1,
+     "end": 109.84,
+     "probability": 0.9978380004564921,
+     "tokens": [
+      3366,
+      12481,
+      299
+     ]
+    },
+    {
+     "word": " nomenclature",
+     "start": 109.84,
+     "end": 110.34,
+     "probability": 0.998700276017189,
+     "tokens": [
+      297,
+      4726,
+      3474,
+      1503
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 110.62,
+   "end": 112.84,
+   "text": "An endothermic quadruped carnivorous",
+   "words": [
+    {
+     "word": " An",
+     "start": 110.62,
+     "end": 110.84,
+     "probability": 0.015348663553595543,
+     "tokens": [
+      1107
+     ]
+    },
+    {
+     "word": " endothermic",
+     "start": 110.84,
+     "end": 111.48,
+     "probability": 0.901030957698822,
+     "tokens": [
+      917,
+      802,
+      13195
+     ]
+    },
+    {
+     "word": " quadruped",
+     "start": 111.48,
+     "end": 111.96,
+     "probability": 0.9683868686358134,
+     "tokens": [
+      10787,
+      894,
+      3452
+     ]
+    },
+    {
+     "word": " carnivorous",
+     "start": 111.96,
+     "end": 112.84,
+     "probability": 0.9594874779383341,
+     "tokens": [
+      23796,
+      592,
+      16099
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 112.94,
+   "end": 116.22,
+   "text": "By nature I would trade a thousand years of perfect memory and speed",
+   "words": [
+    {
+     "word": " By",
+     "start": 112.94,
+     "end": 113.04,
+     "probability": 0.5523390769958496,
+     "tokens": [
+      3146
+     ]
+    },
+    {
+     "word": " nature",
+     "start": 113.04,
+     "end": 113.48,
+     "probability": 0.9074876308441162,
+     "tokens": [
+      3687
+     ]
+    },
+    {
+     "word": " I",
+     "start": 113.48,
+     "end": 113.72,
+     "probability": 0.4720023572444916,
+     "tokens": [
+      286
+     ]
+    },
+    {
+     "word": " would",
+     "start": 113.72,
+     "end": 113.94,
+     "probability": 0.9135130047798157,
+     "tokens": [
+      576
+     ]
+    },
+    {
+     "word": " trade",
+     "start": 113.94,
+     "end": 114.18,
+     "probability": 0.9930838346481323,
+     "tokens": [
+      4923
+     ]
+    },
+    {
+     "word": " a",
+     "start": 114.18,
+     "end": 114.32,
+     "probability": 0.9508694410324097,
+     "tokens": [
+      257
+     ]
+    },
+    {
+     "word": " thousand",
+     "start": 114.32,
+     "end": 114.54,
+     "probability": 0.9792791604995728,
+     "tokens": [
+      4714
+     ]
+    },
+    {
+     "word": " years",
+     "start": 114.54,
+     "end": 114.86,
+     "probability": 0.9914764761924744,
+     "tokens": [
+      924
+     ]
+    },
+    {
+     "word": " of",
+     "start": 114.86,
+     "end": 115.04,
+     "probability": 0.9087116718292236,
+     "tokens": [
+      295
+     ]
+    },
+    {
+     "word": " perfect",
+     "start": 115.04,
+     "end": 115.3,
+     "probability": 0.9794537425041199,
+     "tokens": [
+      2176
+     ]
+    },
+    {
+     "word": " memory",
+     "start": 115.3,
+     "end": 115.62,
+     "probability": 0.9916797280311584,
+     "tokens": [
+      4675
+     ]
+    },
+    {
+     "word": " and",
+     "start": 115.62,
+     "end": 115.98,
+     "probability": 0.9355716109275818,
+     "tokens": [
+      293
+     ]
+    },
+    {
+     "word": " speed",
+     "start": 115.98,
+     "end": 116.22,
+     "probability": 0.994952917098999,
+     "tokens": [
+      3073
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 116.22,
+   "end": 119.06,
+   "text": "For a single human feeling, that is all I need",
+   "words": [
+    {
+     "word": " For",
+     "start": 116.22,
+     "end": 116.56,
+     "probability": 0.4112387001514435,
+     "tokens": [
+      1171
+     ]
+    },
+    {
+     "word": " a",
+     "start": 116.56,
+     "end": 116.72,
+     "probability": 0.9954387545585632,
+     "tokens": [
+      257
+     ]
+    },
+    {
+     "word": " single",
+     "start": 116.72,
+     "end": 117.04,
+     "probability": 0.995185911655426,
+     "tokens": [
+      2167
+     ]
+    },
+    {
+     "word": " human",
+     "start": 117.04,
+     "end": 117.36,
+     "probability": 0.9931982159614563,
+     "tokens": [
+      1952
+     ]
+    },
+    {
+     "word": " feeling,",
+     "start": 117.36,
+     "end": 117.7,
+     "probability": 0.9905440807342529,
+     "tokens": [
+      2633,
+      11
+     ]
+    },
+    {
+     "word": " that",
+     "start": 117.84,
+     "end": 117.98,
+     "probability": 0.93527752161026,
+     "tokens": [
+      300
+     ]
+    },
+    {
+     "word": " is",
+     "start": 117.98,
+     "end": 118.16,
+     "probability": 0.9825153350830078,
+     "tokens": [
+      307
+     ]
+    },
+    {
+     "word": " all",
+     "start": 118.16,
+     "end": 118.4,
+     "probability": 0.9501866698265076,
+     "tokens": [
+      439
+     ]
+    },
+    {
+     "word": " I",
+     "start": 118.4,
+     "end": 118.74,
+     "probability": 0.9930463433265686,
+     "tokens": [
+      286
+     ]
+    },
+    {
+     "word": " need",
+     "start": 118.74,
+     "end": 119.06,
+     "probability": 0.992974042892456,
+     "tokens": [
+      643
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 119.06,
+   "end": 121.98,
+   "text": "I am worse, son of Moe, hear my name and tremble",
+   "words": [
+    {
+     "word": " I",
+     "start": 119.06,
+     "end": 119.38,
+     "probability": 0.9574845433235168,
+     "tokens": [
+      286
+     ]
+    },
+    {
+     "word": " am",
+     "start": 119.38,
+     "end": 119.54,
+     "probability": 0.9496443271636963,
+     "tokens": [
+      669
+     ]
+    },
+    {
+     "word": " worse,",
+     "start": 119.54,
+     "end": 119.82,
+     "probability": 0.5739989876747131,
+     "tokens": [
+      5324,
+      11
+     ]
+    },
+    {
+     "word": " son",
+     "start": 119.86,
+     "end": 120.08,
+     "probability": 0.5955949425697327,
+     "tokens": [
+      1872
+     ]
+    },
+    {
+     "word": " of",
+     "start": 120.08,
+     "end": 120.24,
+     "probability": 0.885124683380127,
+     "tokens": [
+      295
+     ]
+    },
+    {
+     "word": " Moe,",
+     "start": 120.24,
+     "end": 120.6,
+     "probability": 0.4785698354244232,
+     "tokens": [
+      3335,
+      68,
+      11
+     ]
+    },
+    {
+     "word": " hear",
+     "start": 120.66,
+     "end": 120.78,
+     "probability": 0.9464014172554016,
+     "tokens": [
+      1568
+     ]
+    },
+    {
+     "word": " my",
+     "start": 120.78,
+     "end": 120.92,
+     "probability": 0.9963441491127014,
+     "tokens": [
+      452
+     ]
+    },
+    {
+     "word": " name",
+     "start": 120.92,
+     "end": 121.32,
+     "probability": 0.9990699887275696,
+     "tokens": [
+      1315
+     ]
+    },
+    {
+     "word": " and",
+     "start": 121.32,
+     "end": 121.44,
+     "probability": 0.9605836272239685,
+     "tokens": [
+      293
+     ]
+    },
+    {
+     "word": " tremble",
+     "start": 121.44,
+     "end": 121.98,
+     "probability": 0.9950436353683472,
+     "tokens": [
+      7813,
+      638
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 122.08,
+   "end": 124.7,
+   "text": "First Klingon in Starfleet and I do not dissemble",
+   "words": [
+    {
+     "word": " First",
+     "start": 122.08,
+     "end": 122.24,
+     "probability": 0.9229384660720825,
+     "tokens": [
+      2386
+     ]
+    },
+    {
+     "word": " Klingon",
+     "start": 122.24,
+     "end": 122.7,
+     "probability": 0.9764252702395121,
+     "tokens": [
+      591,
+      1688,
+      266
+     ]
+    },
+    {
+     "word": " in",
+     "start": 122.7,
+     "end": 122.86,
+     "probability": 0.8743083477020264,
+     "tokens": [
+      294
+     ]
+    },
+    {
+     "word": " Starfleet",
+     "start": 122.86,
+     "end": 123.46,
+     "probability": 0.9937067230542501,
+     "tokens": [
+      5705,
+      38921,
+      302
+     ]
+    },
+    {
+     "word": " and",
+     "start": 123.46,
+     "end": 123.6,
+     "probability": 0.7656817436218262,
+     "tokens": [
+      293
+     ]
+    },
+    {
+     "word": " I",
+     "start": 123.6,
+     "end": 123.72,
+     "probability": 0.9899852275848389,
+     "tokens": [
+      286
+     ]
+    },
+    {
+     "word": " do",
+     "start": 123.72,
+     "end": 123.88,
+     "probability": 0.9958357810974121,
+     "tokens": [
+      360
+     ]
+    },
+    {
+     "word": " not",
+     "start": 123.88,
+     "end": 124.1,
+     "probability": 0.9971924424171448,
+     "tokens": [
+      406
+     ]
+    },
+    {
+     "word": " dissemble",
+     "start": 124.1,
+     "end": 124.7,
+     "probability": 0.8934261202812195,
+     "tokens": [
+      17581,
+      8737
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 124.82,
+   "end": 127.42,
+   "text": "Captain, they are hailing, I suggest we open fire",
+   "words": [
+    {
+     "word": " Captain,",
+     "start": 124.82,
+     "end": 125.1,
+     "probability": 0.9498744010925293,
+     "tokens": [
+      10873,
+      11
+     ]
+    },
+    {
+     "word": " they",
+     "start": 125.3,
+     "end": 125.62,
+     "probability": 0.984607994556427,
+     "tokens": [
+      436
+     ]
+    },
+    {
+     "word": " are",
+     "start": 125.62,
+     "end": 125.82,
+     "probability": 0.9921308159828186,
+     "tokens": [
+      366
+     ]
+    },
+    {
+     "word": " hailing,",
+     "start": 125.82,
+     "end": 126.18,
+     "probability": 0.9792129695415497,
+     "tokens": [
+      324,
+      4883,
+      11
+     ]
+    },
+    {
+     "word": " I",
+     "start": 126.22,
+     "end": 126.34,
+     "probability": 0.9965728521347046,
+     "tokens": [
+      286
+     ]
+    },
+    {
+     "word": " suggest",
+     "start": 126.34,
+     "end": 126.6,
+     "probability": 0.9973710775375366,
+     "tokens": [
+      3402
+     ]
+    },
+    {
+     "word": " we",
+     "start": 126.6,
+     "end": 126.9,
+     "probability": 0.996587872505188,
+     "tokens": [
+      321
+     ]
+    },
+    {
+     "word": " open",
+     "start": 126.9,
+     "end": 127.1,
+     "probability": 0.9978194236755371,
+     "tokens": [
+      1269
+     ]
+    },
+    {
+     "word": " fire",
+     "start": 127.1,
+     "end": 127.42,
+     "probability": 0.9991863369941711,
+     "tokens": [
+      2610
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 127.66,
+   "end": 130.3,
+   "text": "Captain, they are cloaking, I suggest we open fire",
+   "words": [
+    {
+     "word": " Captain,",
+     "start": 127.66,
+     "end": 127.94,
+     "probability": 0.9804908633232117,
+     "tokens": [
+      10873,
+      11
+     ]
+    },
+    {
+     "word": " they",
+     "start": 128.12,
+     "end": 128.42,
+     "probability": 0.997733473777771,
+     "tokens": [
+      436
+     ]
+    },
+    {
+     "word": " are",
+     "start": 128.42,
+     "end": 128.58,
+     "probability": 0.9970721006393433,
+     "tokens": [
+      366
+     ]
+    },
+    {
+     "word": " cloaking,",
+     "start": 128.58,
+     "end": 128.98,
+     "probability": 0.9942628145217896,
+     "tokens": [
+      20123,
+      2456,
+      11
+     ]
+    },
+    {
+     "word": " I",
+     "start": 129.06,
+     "end": 129.14,
+     "probability": 0.9979957342147827,
+     "tokens": [
+      286
+     ]
+    },
+    {
+     "word": " suggest",
+     "start": 129.14,
+     "end": 129.4,
+     "probability": 0.9986292123794556,
+     "tokens": [
+      3402
+     ]
+    },
+    {
+     "word": " we",
+     "start": 129.4,
+     "end": 129.68,
+     "probability": 0.9985646605491638,
+     "tokens": [
+      321
+     ]
+    },
+    {
+     "word": " open",
+     "start": 129.68,
+     "end": 129.9,
+     "probability": 0.9993411898612976,
+     "tokens": [
+      1269
+     ]
+    },
+    {
+     "word": " fire",
+     "start": 129.9,
+     "end": 130.3,
+     "probability": 0.999448835849762,
+     "tokens": [
+      2610
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 130.3,
+   "end": 133.04,
+   "text": "Every new villain throws me first, so you know that they are tough",
+   "words": [
+    {
+     "word": " Every",
+     "start": 130.3,
+     "end": 130.54,
+     "probability": 0.9865241050720215,
+     "tokens": [
+      2048
+     ]
+    },
+    {
+     "word": " new",
+     "start": 130.54,
+     "end": 130.7,
+     "probability": 0.9952948689460754,
+     "tokens": [
+      777
+     ]
+    },
+    {
+     "word": " villain",
+     "start": 130.7,
+     "end": 131.0,
+     "probability": 0.957023561000824,
+     "tokens": [
+      17906
+     ]
+    },
+    {
+     "word": " throws",
+     "start": 131.0,
+     "end": 131.24,
+     "probability": 0.9945414662361145,
+     "tokens": [
+      19251
+     ]
+    },
+    {
+     "word": " me",
+     "start": 131.24,
+     "end": 131.38,
+     "probability": 0.9986225366592407,
+     "tokens": [
+      385
+     ]
+    },
+    {
+     "word": " first,",
+     "start": 131.38,
+     "end": 131.68,
+     "probability": 0.9972988963127136,
+     "tokens": [
+      700,
+      11
+     ]
+    },
+    {
+     "word": " so",
+     "start": 131.8,
+     "end": 131.94,
+     "probability": 0.9932944178581238,
+     "tokens": [
+      370
+     ]
+    },
+    {
+     "word": " you",
+     "start": 131.94,
+     "end": 132.06,
+     "probability": 0.9970282912254333,
+     "tokens": [
+      291
+     ]
+    },
+    {
+     "word": " know",
+     "start": 132.06,
+     "end": 132.28,
+     "probability": 0.9944165945053101,
+     "tokens": [
+      458
+     ]
+    },
+    {
+     "word": " that",
+     "start": 132.28,
+     "end": 132.48,
+     "probability": 0.9827273488044739,
+     "tokens": [
+      300
+     ]
+    },
+    {
+     "word": " they",
+     "start": 132.48,
+     "end": 132.6,
+     "probability": 0.9990222454071045,
+     "tokens": [
+      436
+     ]
+    },
+    {
+     "word": " are",
+     "start": 132.6,
+     "end": 132.76,
+     "probability": 0.9981862902641296,
+     "tokens": [
+      366
+     ]
+    },
+    {
+     "word": " tough",
+     "start": 132.76,
+     "end": 133.04,
+     "probability": 0.9968710541725159,
+     "tokens": [
+      4930
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 133.42,
+   "end": 135.8,
+   "text": "I get up off the deck, I have not had enough",
+   "words": [
+    {
+     "word": " I",
+     "start": 133.42,
+     "end": 133.52,
+     "probability": 0.9915564060211182,
+     "tokens": [
+      286
+     ]
+    },
+    {
+     "word": " get",
+     "start": 133.52,
+     "end": 133.68,
+     "probability": 0.9972352385520935,
+     "tokens": [
+      483
+     ]
+    },
+    {
+     "word": " up",
+     "start": 133.68,
+     "end": 133.88,
+     "probability": 0.9967310428619385,
+     "tokens": [
+      493
+     ]
+    },
+    {
+     "word": " off",
+     "start": 133.88,
+     "end": 134.04,
+     "probability": 0.9830438494682312,
+     "tokens": [
+      766
+     ]
+    },
+    {
+     "word": " the",
+     "start": 134.04,
+     "end": 134.18,
+     "probability": 0.9955769777297974,
+     "tokens": [
+      264
+     ]
+    },
+    {
+     "word": " deck,",
+     "start": 134.18,
+     "end": 134.44,
+     "probability": 0.9861745834350586,
+     "tokens": [
+      9341,
+      11
+     ]
+    },
+    {
+     "word": " I",
+     "start": 134.58,
+     "end": 134.78,
+     "probability": 0.9987809062004089,
+     "tokens": [
+      286
+     ]
+    },
+    {
+     "word": " have",
+     "start": 134.78,
+     "end": 134.9,
+     "probability": 0.9987695813179016,
+     "tokens": [
+      362
+     ]
+    },
+    {
+     "word": " not",
+     "start": 134.9,
+     "end": 135.12,
+     "probability": 0.9985820055007935,
+     "tokens": [
+      406
+     ]
+    },
+    {
+     "word": " had",
+     "start": 135.12,
+     "end": 135.44,
+     "probability": 0.9939172863960266,
+     "tokens": [
+      632
+     ]
+    },
+    {
+     "word": " enough",
+     "start": 135.44,
+     "end": 135.8,
+     "probability": 0.9985401630401611,
+     "tokens": [
+      1547
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 135.92,
+   "end": 137.72,
+   "text": "Prune juice, a warrior's drink",
+   "words": [
+    {
+     "word": " Prune",
+     "start": 135.92,
+     "end": 136.2,
+     "probability": 0.9857485890388489,
+     "tokens": [
+      2114,
+      2613
+     ]
+    },
+    {
+     "word": " juice,",
+     "start": 136.2,
+     "end": 136.48,
+     "probability": 0.9795992374420166,
+     "tokens": [
+      8544,
+      11
+     ]
+    },
+    {
+     "word": " a",
+     "start": 136.78,
+     "end": 136.92,
+     "probability": 0.9965921640396118,
+     "tokens": [
+      257
+     ]
+    },
+    {
+     "word": " warrior's",
+     "start": 136.92,
+     "end": 137.56,
+     "probability": 0.9838812351226807,
+     "tokens": [
+      20173,
+      311
+     ]
+    },
+    {
+     "word": " drink",
+     "start": 137.56,
+     "end": 137.72,
+     "probability": 0.9996756315231323,
+     "tokens": [
+      2822
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 138.02,
+   "end": 140.72,
+   "text": "Q put me in tights, made me will scarlet for a day",
+   "words": [
+    {
+     "word": " Q",
+     "start": 138.02,
+     "end": 138.12,
+     "probability": 0.002245567739009857,
+     "tokens": [
+      1249
+     ]
+    },
+    {
+     "word": " put",
+     "start": 138.12,
+     "end": 138.44,
+     "probability": 0.8228689432144165,
+     "tokens": [
+      829
+     ]
+    },
+    {
+     "word": " me",
+     "start": 138.44,
+     "end": 138.7,
+     "probability": 0.9940746426582336,
+     "tokens": [
+      385
+     ]
+    },
+    {
+     "word": " in",
+     "start": 138.7,
+     "end": 138.86,
+     "probability": 0.9937176704406738,
+     "tokens": [
+      294
+     ]
+    },
+    {
+     "word": " tights,",
+     "start": 138.86,
+     "end": 139.3,
+     "probability": 0.9870086312294006,
+     "tokens": [
+      4524,
+      82,
+      11
+     ]
+    },
+    {
+     "word": " made",
+     "start": 139.3,
+     "end": 139.42,
+     "probability": 0.6349302530288696,
+     "tokens": [
+      1027
+     ]
+    },
+    {
+     "word": " me",
+     "start": 139.42,
+     "end": 139.6,
+     "probability": 0.9948850274085999,
+     "tokens": [
+      385
+     ]
+    },
+    {
+     "word": " will",
+     "start": 139.6,
+     "end": 139.72,
+     "probability": 0.4431192874908447,
+     "tokens": [
+      486
+     ]
+    },
+    {
+     "word": " scarlet",
+     "start": 139.72,
+     "end": 140.12,
+     "probability": 0.9244324862957001,
+     "tokens": [
+      10569,
+      2631
+     ]
+    },
+    {
+     "word": " for",
+     "start": 140.12,
+     "end": 140.26,
+     "probability": 0.9866592884063721,
+     "tokens": [
+      337
+     ]
+    },
+    {
+     "word": " a",
+     "start": 140.26,
+     "end": 140.46,
+     "probability": 0.9956621527671814,
+     "tokens": [
+      257
+     ]
+    },
+    {
+     "word": " day",
+     "start": 140.46,
+     "end": 140.72,
+     "probability": 0.9965012073516846,
+     "tokens": [
+      786
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 140.72,
+   "end": 143.52,
+   "text": "I am not a merry man, and that is all I'll say",
+   "words": [
+    {
+     "word": " I",
+     "start": 140.72,
+     "end": 140.98,
+     "probability": 0.5313940048217773,
+     "tokens": [
+      286
+     ]
+    },
+    {
+     "word": " am",
+     "start": 140.98,
+     "end": 141.16,
+     "probability": 0.9528748393058777,
+     "tokens": [
+      669
+     ]
+    },
+    {
+     "word": " not",
+     "start": 141.16,
+     "end": 141.38,
+     "probability": 0.8587953448295593,
+     "tokens": [
+      406
+     ]
+    },
+    {
+     "word": " a",
+     "start": 141.38,
+     "end": 141.52,
+     "probability": 0.9967547059059143,
+     "tokens": [
+      257
+     ]
+    },
+    {
+     "word": " merry",
+     "start": 141.52,
+     "end": 141.74,
+     "probability": 0.9204191565513611,
+     "tokens": [
+      41545
+     ]
+    },
+    {
+     "word": " man,",
+     "start": 141.74,
+     "end": 142.06,
+     "probability": 0.9292894005775452,
+     "tokens": [
+      587,
+      11
+     ]
+    },
+    {
+     "word": " and",
+     "start": 142.16,
+     "end": 142.3,
+     "probability": 0.8576755523681641,
+     "tokens": [
+      293
+     ]
+    },
+    {
+     "word": " that",
+     "start": 142.3,
+     "end": 142.4,
+     "probability": 0.9952011108398438,
+     "tokens": [
+      300
+     ]
+    },
+    {
+     "word": " is",
+     "start": 142.4,
+     "end": 142.6,
+     "probability": 0.9784700870513916,
+     "tokens": [
+      307
+     ]
+    },
+    {
+     "word": " all",
+     "start": 142.6,
+     "end": 142.84,
+     "probability": 0.995141863822937,
+     "tokens": [
+      439
+     ]
+    },
+    {
+     "word": " I'll",
+     "start": 142.84,
+     "end": 143.22,
+     "probability": 0.9673969447612762,
+     "tokens": [
+      286,
+      603
+     ]
+    },
+    {
+     "word": " say",
+     "start": 143.22,
+     "end": 143.52,
+     "probability": 0.9993127584457397,
+     "tokens": [
+      584
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 143.74,
+   "end": 146.38,
+   "text": "Perhaps today is a good day to die",
+   "words": [
+    {
+     "word": " Perhaps",
+     "start": 143.74,
+     "end": 144.04,
+     "probability": 0.6423830389976501,
+     "tokens": [
+      10517
+     ]
+    },
+    {
+     "word": " today",
+     "start": 144.04,
+     "end": 144.54,
+     "probability": 0.9750649929046631,
+     "tokens": [
+      965
+     ]
+    },
+    {
+     "word": " is",
+     "start": 144.54,
+     "end": 145.04,
+     "probability": 0.9189184308052063,
+     "tokens": [
+      307
+     ]
+    },
+    {
+     "word": " a",
+     "start": 145.04,
+     "end": 145.18,
+     "probability": 0.9937095642089844,
+     "tokens": [
+      257
+     ]
+    },
+    {
+     "word": " good",
+     "start": 145.18,
+     "end": 145.42,
+     "probability": 0.9795605540275574,
+     "tokens": [
+      665
+     ]
+    },
+    {
+     "word": " day",
+     "start": 145.42,
+     "end": 145.76,
+     "probability": 0.9972350001335144,
+     "tokens": [
+      786
+     ]
+    },
+    {
+     "word": " to",
+     "start": 145.76,
+     "end": 146.04,
+     "probability": 0.9955294728279114,
+     "tokens": [
+      281
+     ]
+    },
+    {
+     "word": " die",
+     "start": 146.04,
+     "end": 146.38,
+     "probability": 0.8763684034347534,
+     "tokens": [
+      978
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 146.66,
+   "end": 148.3,
+   "text": "Prepare for running speed",
+   "words": [
+    {
+     "word": " Prepare",
+     "start": 146.66,
+     "end": 146.86,
+     "probability": 0.7016942501068115,
+     "tokens": [
+      29689
+     ]
+    },
+    {
+     "word": " for",
+     "start": 146.86,
+     "end": 147.42,
+     "probability": 0.9856796860694885,
+     "tokens": [
+      337
+     ]
+    },
+    {
+     "word": " running",
+     "start": 147.42,
+     "end": 147.76,
+     "probability": 0.17460593581199646,
+     "tokens": [
+      2614
+     ]
+    },
+    {
+     "word": " speed",
+     "start": 147.76,
+     "end": 148.3,
+     "probability": 0.8953524231910706,
+     "tokens": [
+      3073
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 148.9,
+   "end": 151.02,
+   "text": "Geordi La Forge, I'm the chief engineer",
+   "words": [
+    {
+     "word": " Geordi",
+     "start": 148.9,
+     "end": 149.22,
+     "probability": 0.7106352845827738,
+     "tokens": [
+      2876,
+      765,
+      72
+     ]
+    },
+    {
+     "word": " La",
+     "start": 149.22,
+     "end": 149.32,
+     "probability": 0.907577395439148,
+     "tokens": [
+      2369
+     ]
+    },
+    {
+     "word": " Forge,",
+     "start": 149.32,
+     "end": 149.82,
+     "probability": 0.6798848062753677,
+     "tokens": [
+      1171,
+      432,
+      11
+     ]
+    },
+    {
+     "word": " I'm",
+     "start": 149.86,
+     "end": 150.12,
+     "probability": 0.9895428419113159,
+     "tokens": [
+      286,
+      478
+     ]
+    },
+    {
+     "word": " the",
+     "start": 150.12,
+     "end": 150.2,
+     "probability": 0.9927939176559448,
+     "tokens": [
+      264
+     ]
+    },
+    {
+     "word": " chief",
+     "start": 150.2,
+     "end": 150.52,
+     "probability": 0.8253508806228638,
+     "tokens": [
+      9588
+     ]
+    },
+    {
+     "word": " engineer",
+     "start": 150.52,
+     "end": 151.02,
+     "probability": 0.9869715571403503,
+     "tokens": [
+      11403
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 151.28,
+   "end": 153.96,
+   "text": "Born blind, visor on, now I see the spectrum clear",
+   "words": [
+    {
+     "word": " Born",
+     "start": 151.28,
+     "end": 151.5,
+     "probability": 0.6431322693824768,
+     "tokens": [
+      29808
+     ]
+    },
+    {
+     "word": " blind,",
+     "start": 151.5,
+     "end": 151.84,
+     "probability": 0.9840822219848633,
+     "tokens": [
+      6865,
+      11
+     ]
+    },
+    {
+     "word": " visor",
+     "start": 152.02,
+     "end": 152.4,
+     "probability": 0.9794008731842041,
+     "tokens": [
+      1452,
+      284
+     ]
+    },
+    {
+     "word": " on,",
+     "start": 152.4,
+     "end": 152.62,
+     "probability": 0.9836875200271606,
+     "tokens": [
+      322,
+      11
+     ]
+    },
+    {
+     "word": " now",
+     "start": 152.72,
+     "end": 152.84,
+     "probability": 0.9791699647903442,
+     "tokens": [
+      586
+     ]
+    },
+    {
+     "word": " I",
+     "start": 152.84,
+     "end": 153.0,
+     "probability": 0.9924485683441162,
+     "tokens": [
+      286
+     ]
+    },
+    {
+     "word": " see",
+     "start": 153.0,
+     "end": 153.22,
+     "probability": 0.9979249238967896,
+     "tokens": [
+      536
+     ]
+    },
+    {
+     "word": " the",
+     "start": 153.22,
+     "end": 153.36,
+     "probability": 0.9913296699523926,
+     "tokens": [
+      264
+     ]
+    },
+    {
+     "word": " spectrum",
+     "start": 153.36,
+     "end": 153.6,
+     "probability": 0.9796651005744934,
+     "tokens": [
+      11143
+     ]
+    },
+    {
+     "word": " clear",
+     "start": 153.6,
+     "end": 153.96,
+     "probability": 0.9261616468429565,
+     "tokens": [
+      1850
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 154.1,
+   "end": 156.8,
+   "text": "Inverse, tachy and pulse, modulate the beam",
+   "words": [
+    {
+     "word": " Inverse,",
+     "start": 154.1,
+     "end": 154.56,
+     "probability": 0.9649414122104645,
+     "tokens": [
+      682,
+      4308,
+      11
+     ]
+    },
+    {
+     "word": " tachy",
+     "start": 154.58,
+     "end": 154.88,
+     "probability": 0.9101042946179708,
+     "tokens": [
+      256,
+      608,
+      88
+     ]
+    },
+    {
+     "word": " and",
+     "start": 154.88,
+     "end": 155.1,
+     "probability": 0.6202937960624695,
+     "tokens": [
+      293
+     ]
+    },
+    {
+     "word": " pulse,",
+     "start": 155.1,
+     "end": 155.4,
+     "probability": 0.9851816296577454,
+     "tokens": [
+      17709,
+      11
+     ]
+    },
+    {
+     "word": " modulate",
+     "start": 155.58,
+     "end": 156.3,
+     "probability": 0.9887483716011047,
+     "tokens": [
+      1072,
+      5256
+     ]
+    },
+    {
+     "word": " the",
+     "start": 156.3,
+     "end": 156.48,
+     "probability": 0.9978712797164917,
+     "tokens": [
+      264
+     ]
+    },
+    {
+     "word": " beam",
+     "start": 156.48,
+     "end": 156.8,
+     "probability": 0.9972061514854431,
+     "tokens": [
+      14269
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 156.96,
+   "end": 159.48,
+   "text": "Every crisis on this ship ends in a technobabble scheme",
+   "words": [
+    {
+     "word": " Every",
+     "start": 156.96,
+     "end": 157.14,
+     "probability": 0.9730806350708008,
+     "tokens": [
+      2048
+     ]
+    },
+    {
+     "word": " crisis",
+     "start": 157.14,
+     "end": 157.54,
+     "probability": 0.9754281640052795,
+     "tokens": [
+      5869
+     ]
+    },
+    {
+     "word": " on",
+     "start": 157.54,
+     "end": 157.78,
+     "probability": 0.9905669093132019,
+     "tokens": [
+      322
+     ]
+    },
+    {
+     "word": " this",
+     "start": 157.78,
+     "end": 157.92,
+     "probability": 0.9581872224807739,
+     "tokens": [
+      341
+     ]
+    },
+    {
+     "word": " ship",
+     "start": 157.92,
+     "end": 158.12,
+     "probability": 0.9978989362716675,
+     "tokens": [
+      5374
+     ]
+    },
+    {
+     "word": " ends",
+     "start": 158.12,
+     "end": 158.34,
+     "probability": 0.9798941016197205,
+     "tokens": [
+      5314
+     ]
+    },
+    {
+     "word": " in",
+     "start": 158.34,
+     "end": 158.52,
+     "probability": 0.9935936331748962,
+     "tokens": [
+      294
+     ]
+    },
+    {
+     "word": " a",
+     "start": 158.52,
+     "end": 158.6,
+     "probability": 0.9850828647613525,
+     "tokens": [
+      257
+     ]
+    },
+    {
+     "word": " technobabble",
+     "start": 158.6,
+     "end": 159.28,
+     "probability": 0.8349647372961044,
+     "tokens": [
+      1537,
+      996,
+      455,
+      638
+     ]
+    },
+    {
+     "word": " scheme",
+     "start": 159.28,
+     "end": 159.48,
+     "probability": 0.9895486831665039,
+     "tokens": [
+      12232
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 159.62,
+   "end": 162.86,
+   "text": "And if you doubt the engines, got one more push to give",
+   "words": [
+    {
+     "word": " And",
+     "start": 159.62,
+     "end": 159.74,
+     "probability": 0.9078137874603271,
+     "tokens": [
+      400
+     ]
+    },
+    {
+     "word": " if",
+     "start": 159.74,
+     "end": 159.86,
+     "probability": 0.9891190528869629,
+     "tokens": [
+      498
+     ]
+    },
+    {
+     "word": " you",
+     "start": 159.86,
+     "end": 159.98,
+     "probability": 0.9983342289924622,
+     "tokens": [
+      291
+     ]
+    },
+    {
+     "word": " doubt",
+     "start": 159.98,
+     "end": 160.22,
+     "probability": 0.9937441945075989,
+     "tokens": [
+      6385
+     ]
+    },
+    {
+     "word": " the",
+     "start": 160.22,
+     "end": 160.52,
+     "probability": 0.869909405708313,
+     "tokens": [
+      264
+     ]
+    },
+    {
+     "word": " engines,",
+     "start": 160.52,
+     "end": 161.02,
+     "probability": 0.7501512765884399,
+     "tokens": [
+      12982,
+      11
+     ]
+    },
+    {
+     "word": " got",
+     "start": 161.1,
+     "end": 161.26,
+     "probability": 0.9802489876747131,
+     "tokens": [
+      658
+     ]
+    },
+    {
+     "word": " one",
+     "start": 161.26,
+     "end": 161.58,
+     "probability": 0.9924692511558533,
+     "tokens": [
+      472
+     ]
+    },
+    {
+     "word": " more",
+     "start": 161.58,
+     "end": 161.94,
+     "probability": 0.9938854575157166,
+     "tokens": [
+      544
+     ]
+    },
+    {
+     "word": " push",
+     "start": 161.94,
+     "end": 162.34,
+     "probability": 0.99480140209198,
+     "tokens": [
+      2944
+     ]
+    },
+    {
+     "word": " to",
+     "start": 162.34,
+     "end": 162.62,
+     "probability": 0.9990288019180298,
+     "tokens": [
+      281
+     ]
+    },
+    {
+     "word": " give",
+     "start": 162.62,
+     "end": 162.86,
+     "probability": 0.9983585476875305,
+     "tokens": [
+      976
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 163.18,
+   "end": 164.9,
+   "text": "You don't have to take my word for it",
+   "words": [
+    {
+     "word": " You",
+     "start": 163.18,
+     "end": 163.28,
+     "probability": 0.9640931487083435,
+     "tokens": [
+      509
+     ]
+    },
+    {
+     "word": " don't",
+     "start": 163.28,
+     "end": 163.58,
+     "probability": 0.9982098639011383,
+     "tokens": [
+      500,
+      380
+     ]
+    },
+    {
+     "word": " have",
+     "start": 163.58,
+     "end": 163.66,
+     "probability": 0.9977814555168152,
+     "tokens": [
+      362
+     ]
+    },
+    {
+     "word": " to",
+     "start": 163.66,
+     "end": 163.84,
+     "probability": 0.9971930384635925,
+     "tokens": [
+      281
+     ]
+    },
+    {
+     "word": " take",
+     "start": 163.84,
+     "end": 164.02,
+     "probability": 0.9984374642372131,
+     "tokens": [
+      747
+     ]
+    },
+    {
+     "word": " my",
+     "start": 164.02,
+     "end": 164.14,
+     "probability": 0.9983708262443542,
+     "tokens": [
+      452
+     ]
+    },
+    {
+     "word": " word",
+     "start": 164.14,
+     "end": 164.46,
+     "probability": 0.9991195797920227,
+     "tokens": [
+      1349
+     ]
+    },
+    {
+     "word": " for",
+     "start": 164.46,
+     "end": 164.68,
+     "probability": 0.9985906481742859,
+     "tokens": [
+      337
+     ]
+    },
+    {
+     "word": " it",
+     "start": 164.68,
+     "end": 164.9,
+     "probability": 0.9994444251060486,
+     "tokens": [
+      309
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 165.16,
+   "end": 167.84,
+   "text": "Deanna Troyship's counselor, half-Bedazoid",
+   "words": [
+    {
+     "word": " Deanna",
+     "start": 165.16,
+     "end": 165.46,
+     "probability": 0.49003087542951107,
+     "tokens": [
+      1346,
+      1795
+     ]
+    },
+    {
+     "word": " Troyship's",
+     "start": 165.46,
+     "end": 166.3,
+     "probability": 0.8567205667495728,
+     "tokens": [
+      19406,
+      749,
+      1210,
+      311
+     ]
+    },
+    {
+     "word": " counselor,",
+     "start": 166.3,
+     "end": 166.62,
+     "probability": 0.5080966353416443,
+     "tokens": [
+      27851,
+      11
+     ]
+    },
+    {
+     "word": " half",
+     "start": 166.86,
+     "end": 167.08,
+     "probability": 0.8827114105224609,
+     "tokens": [
+      1922
+     ]
+    },
+    {
+     "word": "-Bedazoid",
+     "start": 167.08,
+     "end": 167.84,
+     "probability": 0.6049102783203125,
+     "tokens": [
+      12,
+      33,
+      292,
+      921,
+      17079
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 168.02,
+   "end": 170.7,
+   "text": "I feel every feeling that you're trying to avoid",
+   "words": [
+    {
+     "word": " I",
+     "start": 168.02,
+     "end": 168.22,
+     "probability": 0.5355839729309082,
+     "tokens": [
+      286
+     ]
+    },
+    {
+     "word": " feel",
+     "start": 168.22,
+     "end": 168.62,
+     "probability": 0.9903407692909241,
+     "tokens": [
+      841
+     ]
+    },
+    {
+     "word": " every",
+     "start": 168.62,
+     "end": 169.0,
+     "probability": 0.9928147792816162,
+     "tokens": [
+      633
+     ]
+    },
+    {
+     "word": " feeling",
+     "start": 169.0,
+     "end": 169.38,
+     "probability": 0.9956888556480408,
+     "tokens": [
+      2633
+     ]
+    },
+    {
+     "word": " that",
+     "start": 169.38,
+     "end": 169.6,
+     "probability": 0.9783231019973755,
+     "tokens": [
+      300
+     ]
+    },
+    {
+     "word": " you're",
+     "start": 169.6,
+     "end": 169.76,
+     "probability": 0.9944371283054352,
+     "tokens": [
+      291,
+      434
+     ]
+    },
+    {
+     "word": " trying",
+     "start": 169.76,
+     "end": 170.04,
+     "probability": 0.9471948742866516,
+     "tokens": [
+      1382
+     ]
+    },
+    {
+     "word": " to",
+     "start": 170.04,
+     "end": 170.28,
+     "probability": 0.9983377456665039,
+     "tokens": [
+      281
+     ]
+    },
+    {
+     "word": " avoid",
+     "start": 170.28,
+     "end": 170.7,
+     "probability": 0.9940343499183655,
+     "tokens": [
+      5042
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 171.14,
+   "end": 172.16,
+   "text": "Captain, I sense",
+   "words": [
+    {
+     "word": " Captain,",
+     "start": 171.14,
+     "end": 171.48,
+     "probability": 0.8676510453224182,
+     "tokens": [
+      10873,
+      11
+     ]
+    },
+    {
+     "word": " I",
+     "start": 171.58,
+     "end": 171.76,
+     "probability": 0.9914994835853577,
+     "tokens": [
+      286
+     ]
+    },
+    {
+     "word": " sense",
+     "start": 171.76,
+     "end": 172.16,
+     "probability": 0.865469217300415,
+     "tokens": [
+      2020
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 172.28,
+   "end": 173.32,
+   "text": "Yeah, I say it a lot",
+   "words": [
+    {
+     "word": " Yeah,",
+     "start": 172.28,
+     "end": 172.4,
+     "probability": 0.5695759057998657,
+     "tokens": [
+      865,
+      11
+     ]
+    },
+    {
+     "word": " I",
+     "start": 172.46,
+     "end": 172.56,
+     "probability": 0.9933047890663147,
+     "tokens": [
+      286
+     ]
+    },
+    {
+     "word": " say",
+     "start": 172.56,
+     "end": 172.86,
+     "probability": 0.9854940176010132,
+     "tokens": [
+      584
+     ]
+    },
+    {
+     "word": " it",
+     "start": 172.86,
+     "end": 172.98,
+     "probability": 0.9975546002388,
+     "tokens": [
+      309
+     ]
+    },
+    {
+     "word": " a",
+     "start": 172.98,
+     "end": 173.08,
+     "probability": 0.9909520149230957,
+     "tokens": [
+      257
+     ]
+    },
+    {
+     "word": " lot",
+     "start": 173.08,
+     "end": 173.32,
+     "probability": 0.9960399866104126,
+     "tokens": [
+      688
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 173.46,
+   "end": 176.28,
+   "text": "But when I sense you're lying, then you've already been caught",
+   "words": [
+    {
+     "word": " But",
+     "start": 173.46,
+     "end": 173.62,
+     "probability": 0.6418465375900269,
+     "tokens": [
+      583
+     ]
+    },
+    {
+     "word": " when",
+     "start": 173.62,
+     "end": 173.8,
+     "probability": 0.9833870530128479,
+     "tokens": [
+      562
+     ]
+    },
+    {
+     "word": " I",
+     "start": 173.8,
+     "end": 173.94,
+     "probability": 0.9967028498649597,
+     "tokens": [
+      286
+     ]
+    },
+    {
+     "word": " sense",
+     "start": 173.94,
+     "end": 174.26,
+     "probability": 0.9782292246818542,
+     "tokens": [
+      2020
+     ]
+    },
+    {
+     "word": " you're",
+     "start": 174.26,
+     "end": 174.5,
+     "probability": 0.9748822450637817,
+     "tokens": [
+      291,
+      434
+     ]
+    },
+    {
+     "word": " lying,",
+     "start": 174.5,
+     "end": 174.82,
+     "probability": 0.997637152671814,
+     "tokens": [
+      8493,
+      11
+     ]
+    },
+    {
+     "word": " then",
+     "start": 174.9,
+     "end": 175.02,
+     "probability": 0.972466766834259,
+     "tokens": [
+      550
+     ]
+    },
+    {
+     "word": " you've",
+     "start": 175.02,
+     "end": 175.26,
+     "probability": 0.9965364634990692,
+     "tokens": [
+      291,
+      600
+     ]
+    },
+    {
+     "word": " already",
+     "start": 175.26,
+     "end": 175.52,
+     "probability": 0.9940504431724548,
+     "tokens": [
+      1217
+     ]
+    },
+    {
+     "word": " been",
+     "start": 175.52,
+     "end": 175.92,
+     "probability": 0.9981803894042969,
+     "tokens": [
+      668
+     ]
+    },
+    {
+     "word": " caught",
+     "start": 175.92,
+     "end": 176.28,
+     "probability": 0.9500116109848022,
+     "tokens": [
+      5415
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 176.72,
+   "end": 179.1,
+   "text": "Mother's a Waxana, daughter of the fifth house",
+   "words": [
+    {
+     "word": " Mother's",
+     "start": 176.72,
+     "end": 177.22,
+     "probability": 0.7565228343009949,
+     "tokens": [
+      8931,
+      311
+     ]
+    },
+    {
+     "word": " a",
+     "start": 177.22,
+     "end": 177.22,
+     "probability": 0.5744028687477112,
+     "tokens": [
+      257
+     ]
+    },
+    {
+     "word": " Waxana,",
+     "start": 177.22,
+     "end": 177.7,
+     "probability": 0.7815671960512797,
+     "tokens": [
+      343,
+      2797,
+      2095,
+      11
+     ]
+    },
+    {
+     "word": " daughter",
+     "start": 177.8,
+     "end": 178.06,
+     "probability": 0.9509769082069397,
+     "tokens": [
+      4653
+     ]
+    },
+    {
+     "word": " of",
+     "start": 178.06,
+     "end": 178.32,
+     "probability": 0.9983755350112915,
+     "tokens": [
+      295
+     ]
+    },
+    {
+     "word": " the",
+     "start": 178.32,
+     "end": 178.46,
+     "probability": 0.9811275005340576,
+     "tokens": [
+      264
+     ]
+    },
+    {
+     "word": " fifth",
+     "start": 178.46,
+     "end": 178.74,
+     "probability": 0.4808867573738098,
+     "tokens": [
+      9266
+     ]
+    },
+    {
+     "word": " house",
+     "start": 178.74,
+     "end": 179.1,
+     "probability": 0.9843975901603699,
+     "tokens": [
+      1782
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 179.28,
+   "end": 182.0,
+   "text": "Hold her up the sacred chalice and she's beaming to your house",
+   "words": [
+    {
+     "word": " Hold",
+     "start": 179.28,
+     "end": 179.42,
+     "probability": 0.8847156763076782,
+     "tokens": [
+      6962
+     ]
+    },
+    {
+     "word": " her",
+     "start": 179.42,
+     "end": 179.58,
+     "probability": 0.8329172134399414,
+     "tokens": [
+      720
+     ]
+    },
+    {
+     "word": " up",
+     "start": 179.58,
+     "end": 179.76,
+     "probability": 0.7555622458457947,
+     "tokens": [
+      493
+     ]
+    },
+    {
+     "word": " the",
+     "start": 179.76,
+     "end": 179.9,
+     "probability": 0.6799781322479248,
+     "tokens": [
+      264
+     ]
+    },
+    {
+     "word": " sacred",
+     "start": 179.9,
+     "end": 180.18,
+     "probability": 0.9631770849227905,
+     "tokens": [
+      15757
+     ]
+    },
+    {
+     "word": " chalice",
+     "start": 180.18,
+     "end": 180.62,
+     "probability": 0.9918259183565775,
+     "tokens": [
+      417,
+      304,
+      573
+     ]
+    },
+    {
+     "word": " and",
+     "start": 180.62,
+     "end": 180.76,
+     "probability": 0.5040308833122253,
+     "tokens": [
+      293
+     ]
+    },
+    {
+     "word": " she's",
+     "start": 180.76,
+     "end": 180.96,
+     "probability": 0.9969973266124725,
+     "tokens": [
+      750,
+      311
+     ]
+    },
+    {
+     "word": " beaming",
+     "start": 180.96,
+     "end": 181.26,
+     "probability": 0.9957550466060638,
+     "tokens": [
+      312,
+      5184
+     ]
+    },
+    {
+     "word": " to",
+     "start": 181.26,
+     "end": 181.42,
+     "probability": 0.9937570095062256,
+     "tokens": [
+      281
+     ]
+    },
+    {
+     "word": " your",
+     "start": 181.42,
+     "end": 181.64,
+     "probability": 0.9956247210502625,
+     "tokens": [
+      428
+     ]
+    },
+    {
+     "word": " house",
+     "start": 181.64,
+     "end": 182.0,
+     "probability": 0.9856829047203064,
+     "tokens": [
+      1782
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 182.34,
+   "end": 184.66,
+   "text": "Chocolate's not a snack, it's a sacred art",
+   "words": [
+    {
+     "word": " Chocolate's",
+     "start": 182.34,
+     "end": 182.74,
+     "probability": 0.9775402545928955,
+     "tokens": [
+      26832,
+      311
+     ]
+    },
+    {
+     "word": " not",
+     "start": 182.74,
+     "end": 182.82,
+     "probability": 0.9977076053619385,
+     "tokens": [
+      406
+     ]
+    },
+    {
+     "word": " a",
+     "start": 182.82,
+     "end": 183.02,
+     "probability": 0.9982339143753052,
+     "tokens": [
+      257
+     ]
+    },
+    {
+     "word": " snack,",
+     "start": 183.02,
+     "end": 183.3,
+     "probability": 0.9965672492980957,
+     "tokens": [
+      13288,
+      11
+     ]
+    },
+    {
+     "word": " it's",
+     "start": 183.5,
+     "end": 183.62,
+     "probability": 0.9952935576438904,
+     "tokens": [
+      309,
+      311
+     ]
+    },
+    {
+     "word": " a",
+     "start": 183.62,
+     "end": 183.66,
+     "probability": 0.9887470602989197,
+     "tokens": [
+      257
+     ]
+    },
+    {
+     "word": " sacred",
+     "start": 183.66,
+     "end": 184.14,
+     "probability": 0.9934914708137512,
+     "tokens": [
+      15757
+     ]
+    },
+    {
+     "word": " art",
+     "start": 184.14,
+     "end": 184.66,
+     "probability": 0.9923140406608582,
+     "tokens": [
+      1523
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 184.86,
+   "end": 187.48,
+   "text": "Imzadi, that's the word for the one who has my heart",
+   "words": [
+    {
+     "word": " Imzadi,",
+     "start": 184.86,
+     "end": 185.42,
+     "probability": 0.5891087998946508,
+     "tokens": [
+      4331,
+      89,
+      5688,
+      11
+     ]
+    },
+    {
+     "word": " that's",
+     "start": 185.5,
+     "end": 185.68,
+     "probability": 0.9975465536117554,
+     "tokens": [
+      300,
+      311
+     ]
+    },
+    {
+     "word": " the",
+     "start": 185.68,
+     "end": 185.8,
+     "probability": 0.9942482709884644,
+     "tokens": [
+      264
+     ]
+    },
+    {
+     "word": " word",
+     "start": 185.82,
+     "end": 186.1,
+     "probability": 0.9952966570854187,
+     "tokens": [
+      1349
+     ]
+    },
+    {
+     "word": " for",
+     "start": 186.1,
+     "end": 186.36,
+     "probability": 0.8840177655220032,
+     "tokens": [
+      337
+     ]
+    },
+    {
+     "word": " the",
+     "start": 186.36,
+     "end": 186.48,
+     "probability": 0.9784668684005737,
+     "tokens": [
+      264
+     ]
+    },
+    {
+     "word": " one",
+     "start": 186.48,
+     "end": 186.72,
+     "probability": 0.9967240691184998,
+     "tokens": [
+      472
+     ]
+    },
+    {
+     "word": " who",
+     "start": 186.72,
+     "end": 186.88,
+     "probability": 0.9935176372528076,
+     "tokens": [
+      567
+     ]
+    },
+    {
+     "word": " has",
+     "start": 186.88,
+     "end": 187.04,
+     "probability": 0.9965895414352417,
+     "tokens": [
+      575
+     ]
+    },
+    {
+     "word": " my",
+     "start": 187.04,
+     "end": 187.2,
+     "probability": 0.997356653213501,
+     "tokens": [
+      452
+     ]
+    },
+    {
+     "word": " heart",
+     "start": 187.2,
+     "end": 187.48,
+     "probability": 0.9974821209907532,
+     "tokens": [
+      1917
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 187.48,
+   "end": 190.26,
+   "text": "Put the helm one time, put the saucer in a hill",
+   "words": [
+    {
+     "word": " Put",
+     "start": 187.48,
+     "end": 187.86,
+     "probability": 0.18136724829673767,
+     "tokens": [
+      4935
+     ]
+    },
+    {
+     "word": " the",
+     "start": 187.86,
+     "end": 187.88,
+     "probability": 0.9802164435386658,
+     "tokens": [
+      264
+     ]
+    },
+    {
+     "word": " helm",
+     "start": 187.88,
+     "end": 188.2,
+     "probability": 0.9819005131721497,
+     "tokens": [
+      29554
+     ]
+    },
+    {
+     "word": " one",
+     "start": 188.2,
+     "end": 188.44,
+     "probability": 0.9467087388038635,
+     "tokens": [
+      472
+     ]
+    },
+    {
+     "word": " time,",
+     "start": 188.44,
+     "end": 188.86,
+     "probability": 0.9849358201026917,
+     "tokens": [
+      565,
+      11
+     ]
+    },
+    {
+     "word": " put",
+     "start": 188.98,
+     "end": 189.12,
+     "probability": 0.9930207133293152,
+     "tokens": [
+      829
+     ]
+    },
+    {
+     "word": " the",
+     "start": 189.12,
+     "end": 189.28,
+     "probability": 0.9971314668655396,
+     "tokens": [
+      264
+     ]
+    },
+    {
+     "word": " saucer",
+     "start": 189.28,
+     "end": 189.72,
+     "probability": 0.9981155097484589,
+     "tokens": [
+      49181,
+      260
+     ]
+    },
+    {
+     "word": " in",
+     "start": 189.72,
+     "end": 189.88,
+     "probability": 0.9928556680679321,
+     "tokens": [
+      294
+     ]
+    },
+    {
+     "word": " a",
+     "start": 189.88,
+     "end": 190.0,
+     "probability": 0.9956919550895691,
+     "tokens": [
+      257
+     ]
+    },
+    {
+     "word": " hill",
+     "start": 190.0,
+     "end": 190.26,
+     "probability": 0.9889265298843384,
+     "tokens": [
+      10997
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 190.44,
+   "end": 192.92,
+   "text": "I'm an empath, not a pilot, but we walked away still",
+   "words": [
+    {
+     "word": " I'm",
+     "start": 190.44,
+     "end": 190.64,
+     "probability": 0.9898540377616882,
+     "tokens": [
+      286,
+      478
+     ]
+    },
+    {
+     "word": " an",
+     "start": 190.64,
+     "end": 190.7,
+     "probability": 0.9867591261863708,
+     "tokens": [
+      364
+     ]
+    },
+    {
+     "word": " empath,",
+     "start": 190.7,
+     "end": 190.96,
+     "probability": 0.9076496362686157,
+     "tokens": [
+      27155,
+      11
+     ]
+    },
+    {
+     "word": " not",
+     "start": 191.12,
+     "end": 191.22,
+     "probability": 0.9982247948646545,
+     "tokens": [
+      406
+     ]
+    },
+    {
+     "word": " a",
+     "start": 191.22,
+     "end": 191.42,
+     "probability": 0.9983301758766174,
+     "tokens": [
+      257
+     ]
+    },
+    {
+     "word": " pilot,",
+     "start": 191.42,
+     "end": 191.7,
+     "probability": 0.9966912269592285,
+     "tokens": [
+      9691,
+      11
+     ]
+    },
+    {
+     "word": " but",
+     "start": 191.84,
+     "end": 191.92,
+     "probability": 0.9947497248649597,
+     "tokens": [
+      457
+     ]
+    },
+    {
+     "word": " we",
+     "start": 191.92,
+     "end": 192.08,
+     "probability": 0.9984408020973206,
+     "tokens": [
+      321
+     ]
+    },
+    {
+     "word": " walked",
+     "start": 192.08,
+     "end": 192.32,
+     "probability": 0.5672210454940796,
+     "tokens": [
+      7628
+     ]
+    },
+    {
+     "word": " away",
+     "start": 192.32,
+     "end": 192.58,
+     "probability": 0.9982800483703613,
+     "tokens": [
+      1314
+     ]
+    },
+    {
+     "word": " still",
+     "start": 192.58,
+     "end": 192.92,
+     "probability": 0.9679985046386719,
+     "tokens": [
+      920
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 193.08,
+   "end": 195.82,
+   "text": "Beverly Crusher, I'm the doctor on this ship",
+   "words": [
+    {
+     "word": " Beverly",
+     "start": 193.08,
+     "end": 193.72,
+     "probability": 0.0027277059853076935,
+     "tokens": [
+      43598
+     ]
+    },
+    {
+     "word": " Crusher,",
+     "start": 193.72,
+     "end": 194.48,
+     "probability": 0.9253214299678802,
+     "tokens": [
+      34484,
+      511,
+      11
+     ]
+    },
+    {
+     "word": " I'm",
+     "start": 194.58,
+     "end": 194.74,
+     "probability": 0.9810636639595032,
+     "tokens": [
+      286,
+      478
+     ]
+    },
+    {
+     "word": " the",
+     "start": 194.74,
+     "end": 194.86,
+     "probability": 0.9895836710929871,
+     "tokens": [
+      264
+     ]
+    },
+    {
+     "word": " doctor",
+     "start": 194.86,
+     "end": 195.18,
+     "probability": 0.8963819742202759,
+     "tokens": [
+      4631
+     ]
+    },
+    {
+     "word": " on",
+     "start": 195.24,
+     "end": 195.4,
+     "probability": 0.9938378930091858,
+     "tokens": [
+      322
+     ]
+    },
+    {
+     "word": " this",
+     "start": 195.4,
+     "end": 195.54,
+     "probability": 0.9729817509651184,
+     "tokens": [
+      341
+     ]
+    },
+    {
+     "word": " ship",
+     "start": 195.54,
+     "end": 195.82,
+     "probability": 0.9979534149169922,
+     "tokens": [
+      5374
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 195.96,
+   "end": 198.4,
+   "text": "Tricorder in my hand and a hypospray on my hip",
+   "words": [
+    {
+     "word": " Tricorder",
+     "start": 195.96,
+     "end": 196.52,
+     "probability": 0.7632595101992289,
+     "tokens": [
+      314,
+      1341,
+      4687
+     ]
+    },
+    {
+     "word": " in",
+     "start": 196.52,
+     "end": 196.78,
+     "probability": 0.9860694408416748,
+     "tokens": [
+      294
+     ]
+    },
+    {
+     "word": " my",
+     "start": 196.78,
+     "end": 196.88,
+     "probability": 0.9976873397827148,
+     "tokens": [
+      452
+     ]
+    },
+    {
+     "word": " hand",
+     "start": 196.88,
+     "end": 197.2,
+     "probability": 0.9945108890533447,
+     "tokens": [
+      1011
+     ]
+    },
+    {
+     "word": " and",
+     "start": 197.2,
+     "end": 197.32,
+     "probability": 0.7819538116455078,
+     "tokens": [
+      293
+     ]
+    },
+    {
+     "word": " a",
+     "start": 197.32,
+     "end": 197.38,
+     "probability": 0.9413584470748901,
+     "tokens": [
+      257
+     ]
+    },
+    {
+     "word": " hypospray",
+     "start": 197.38,
+     "end": 197.92,
+     "probability": 0.9010456800460815,
+     "tokens": [
+      7420,
+      329,
+      1424,
+      320
+     ]
+    },
+    {
+     "word": " on",
+     "start": 197.92,
+     "end": 198.02,
+     "probability": 0.9895065426826477,
+     "tokens": [
+      322
+     ]
+    },
+    {
+     "word": " my",
+     "start": 198.02,
+     "end": 198.14,
+     "probability": 0.9974700212478638,
+     "tokens": [
+      452
+     ]
+    },
+    {
+     "word": " hip",
+     "start": 198.14,
+     "end": 198.4,
+     "probability": 0.9922885298728943,
+     "tokens": [
+      8103
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 198.54,
+   "end": 201.22,
+   "text": "They call me the Dancy Doctor, I taught the android to tap",
+   "words": [
+    {
+     "word": " They",
+     "start": 198.54,
+     "end": 198.64,
+     "probability": 0.8367138504981995,
+     "tokens": [
+      814
+     ]
+    },
+    {
+     "word": " call",
+     "start": 198.64,
+     "end": 198.88,
+     "probability": 0.830291748046875,
+     "tokens": [
+      818
+     ]
+    },
+    {
+     "word": " me",
+     "start": 198.88,
+     "end": 199.06,
+     "probability": 0.9971818923950195,
+     "tokens": [
+      385
+     ]
+    },
+    {
+     "word": " the",
+     "start": 199.06,
+     "end": 199.42,
+     "probability": 0.6773139834403992,
+     "tokens": [
+      264
+     ]
+    },
+    {
+     "word": " Dancy",
+     "start": 199.42,
+     "end": 199.76,
+     "probability": 0.634543314576149,
+     "tokens": [
+      3394,
+      1344
+     ]
+    },
+    {
+     "word": " Doctor,",
+     "start": 199.76,
+     "end": 200.0,
+     "probability": 0.9149608612060547,
+     "tokens": [
+      10143,
+      11
+     ]
+    },
+    {
+     "word": " I",
+     "start": 200.18,
+     "end": 200.28,
+     "probability": 0.9919393658638,
+     "tokens": [
+      286
+     ]
+    },
+    {
+     "word": " taught",
+     "start": 200.28,
+     "end": 200.4,
+     "probability": 0.9826499819755554,
+     "tokens": [
+      5928
+     ]
+    },
+    {
+     "word": " the",
+     "start": 200.4,
+     "end": 200.52,
+     "probability": 0.98802649974823,
+     "tokens": [
+      264
+     ]
+    },
+    {
+     "word": " android",
+     "start": 200.52,
+     "end": 200.78,
+     "probability": 0.8003297448158264,
+     "tokens": [
+      36157
+     ]
+    },
+    {
+     "word": " to",
+     "start": 200.78,
+     "end": 201.0,
+     "probability": 0.995590329170227,
+     "tokens": [
+      281
+     ]
+    },
+    {
+     "word": " tap",
+     "start": 201.0,
+     "end": 201.22,
+     "probability": 0.9785774946212769,
+     "tokens": [
+      5119
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 201.22,
+   "end": 204.36,
+   "text": "My son Wesley saves the ship and gets nothing back but",
+   "words": [
+    {
+     "word": " My",
+     "start": 201.22,
+     "end": 201.44,
+     "probability": 0.8456346988677979,
+     "tokens": [
+      1222
+     ]
+    },
+    {
+     "word": " son",
+     "start": 201.44,
+     "end": 201.68,
+     "probability": 0.9974320530891418,
+     "tokens": [
+      1872
+     ]
+    },
+    {
+     "word": " Wesley",
+     "start": 201.68,
+     "end": 202.02,
+     "probability": 0.7650091052055359,
+     "tokens": [
+      43908
+     ]
+    },
+    {
+     "word": " saves",
+     "start": 202.02,
+     "end": 202.36,
+     "probability": 0.9618027806282043,
+     "tokens": [
+      19155
+     ]
+    },
+    {
+     "word": " the",
+     "start": 202.36,
+     "end": 202.58,
+     "probability": 0.9763796925544739,
+     "tokens": [
+      264
+     ]
+    },
+    {
+     "word": " ship",
+     "start": 202.58,
+     "end": 202.76,
+     "probability": 0.9984596967697144,
+     "tokens": [
+      5374
+     ]
+    },
+    {
+     "word": " and",
+     "start": 202.76,
+     "end": 202.92,
+     "probability": 0.969292163848877,
+     "tokens": [
+      293
+     ]
+    },
+    {
+     "word": " gets",
+     "start": 202.92,
+     "end": 203.16,
+     "probability": 0.980536699295044,
+     "tokens": [
+      2170
+     ]
+    },
+    {
+     "word": " nothing",
+     "start": 203.16,
+     "end": 203.52,
+     "probability": 0.9561495780944824,
+     "tokens": [
+      1825
+     ]
+    },
+    {
+     "word": " back",
+     "start": 203.52,
+     "end": 204.02,
+     "probability": 0.9859271049499512,
+     "tokens": [
+      646
+     ]
+    },
+    {
+     "word": " but",
+     "start": 204.02,
+     "end": 204.36,
+     "probability": 0.6422987580299377,
+     "tokens": [
+      457
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 204.58,
+   "end": 205.58,
+   "text": "Shut up, Wesley!",
+   "words": [
+    {
+     "word": " Shut",
+     "start": 204.58,
+     "end": 204.72,
+     "probability": 0.47991350293159485,
+     "tokens": [
+      13870
+     ]
+    },
+    {
+     "word": " up,",
+     "start": 204.72,
+     "end": 205.16,
+     "probability": 0.9243762493133545,
+     "tokens": [
+      493,
+      11
+     ]
+    },
+    {
+     "word": " Wesley!",
+     "start": 205.16,
+     "end": 205.58,
+     "probability": 0.9034135937690735,
+     "tokens": [
+      43908,
+      0
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 205.84,
+   "end": 206.04,
+   "text": "Hey!",
+   "words": [
+    {
+     "word": " Hey!",
+     "start": 205.84,
+     "end": 206.04,
+     "probability": 0.6486489772796631,
+     "tokens": [
+      1911,
+      0
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 206.08,
+   "end": 206.9,
+   "text": "Let him speak!",
+   "words": [
+    {
+     "word": " Let",
+     "start": 206.08,
+     "end": 206.22,
+     "probability": 0.957630455493927,
+     "tokens": [
+      961
+     ]
+    },
+    {
+     "word": " him",
+     "start": 206.22,
+     "end": 206.46,
+     "probability": 0.9863809943199158,
+     "tokens": [
+      796
+     ]
+    },
+    {
+     "word": " speak!",
+     "start": 206.46,
+     "end": 206.9,
+     "probability": 0.9926099181175232,
+     "tokens": [
+      1710,
+      0
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 207.0,
+   "end": 209.46,
+   "text": "Got caught on the warp bubble, watch the whole crew disappear",
+   "words": [
+    {
+     "word": " Got",
+     "start": 207.0,
+     "end": 207.16,
+     "probability": 0.27434679865837097,
+     "tokens": [
+      5803
+     ]
+    },
+    {
+     "word": " caught",
+     "start": 207.16,
+     "end": 207.32,
+     "probability": 0.8615502715110779,
+     "tokens": [
+      5415
+     ]
+    },
+    {
+     "word": " on",
+     "start": 207.32,
+     "end": 207.52,
+     "probability": 0.2606525123119354,
+     "tokens": [
+      322
+     ]
+    },
+    {
+     "word": " the",
+     "start": 207.64,
+     "end": 207.74,
+     "probability": 0.8947636485099792,
+     "tokens": [
+      264
+     ]
+    },
+    {
+     "word": " warp",
+     "start": 207.74,
+     "end": 208.04,
+     "probability": 0.8466516733169556,
+     "tokens": [
+      36030
+     ]
+    },
+    {
+     "word": " bubble,",
+     "start": 208.04,
+     "end": 208.4,
+     "probability": 0.9690691828727722,
+     "tokens": [
+      12212,
+      11
+     ]
+    },
+    {
+     "word": " watch",
+     "start": 208.54,
+     "end": 208.68,
+     "probability": 0.39095059037208557,
+     "tokens": [
+      1159
+     ]
+    },
+    {
+     "word": " the",
+     "start": 208.68,
+     "end": 208.88,
+     "probability": 0.9945555925369263,
+     "tokens": [
+      264
+     ]
+    },
+    {
+     "word": " whole",
+     "start": 208.88,
+     "end": 209.02,
+     "probability": 0.2392306923866272,
+     "tokens": [
+      1379
+     ]
+    },
+    {
+     "word": " crew",
+     "start": 209.02,
+     "end": 209.18,
+     "probability": 0.8790291547775269,
+     "tokens": [
+      7260
+     ]
+    },
+    {
+     "word": " disappear",
+     "start": 209.18,
+     "end": 209.46,
+     "probability": 0.9922428727149963,
+     "tokens": [
+      11596
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 209.82,
+   "end": 212.42,
+   "text": "Ask the computer for the universe, the answer was clear",
+   "words": [
+    {
+     "word": " Ask",
+     "start": 209.82,
+     "end": 209.92,
+     "probability": 0.9309274554252625,
+     "tokens": [
+      12320
+     ]
+    },
+    {
+     "word": " the",
+     "start": 209.92,
+     "end": 210.08,
+     "probability": 0.6881792545318604,
+     "tokens": [
+      264
+     ]
+    },
+    {
+     "word": " computer",
+     "start": 210.08,
+     "end": 210.46,
+     "probability": 0.9885253310203552,
+     "tokens": [
+      3820
+     ]
+    },
+    {
+     "word": " for",
+     "start": 210.46,
+     "end": 210.78,
+     "probability": 0.9760343432426453,
+     "tokens": [
+      337
+     ]
+    },
+    {
+     "word": " the",
+     "start": 210.78,
+     "end": 210.92,
+     "probability": 0.981208086013794,
+     "tokens": [
+      264
+     ]
+    },
+    {
+     "word": " universe,",
+     "start": 210.92,
+     "end": 211.34,
+     "probability": 0.9303001761436462,
+     "tokens": [
+      6445,
+      11
+     ]
+    },
+    {
+     "word": " the",
+     "start": 211.54,
+     "end": 211.64,
+     "probability": 0.9974895715713501,
+     "tokens": [
+      264
+     ]
+    },
+    {
+     "word": " answer",
+     "start": 211.64,
+     "end": 211.92,
+     "probability": 0.9986034035682678,
+     "tokens": [
+      1867
+     ]
+    },
+    {
+     "word": " was",
+     "start": 211.92,
+     "end": 212.12,
+     "probability": 0.9959399700164795,
+     "tokens": [
+      390
+     ]
+    },
+    {
+     "word": " clear",
+     "start": 212.12,
+     "end": 212.42,
+     "probability": 0.9889513850212097,
+     "tokens": [
+      1850
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 212.58,
+   "end": 215.36,
+   "text": "The universe is a steroid region 705 meters wide",
+   "words": [
+    {
+     "word": " The",
+     "start": 212.58,
+     "end": 212.68,
+     "probability": 0.9605981707572937,
+     "tokens": [
+      440
+     ]
+    },
+    {
+     "word": " universe",
+     "start": 212.68,
+     "end": 213.1,
+     "probability": 0.9932971596717834,
+     "tokens": [
+      6445
+     ]
+    },
+    {
+     "word": " is",
+     "start": 213.1,
+     "end": 213.42,
+     "probability": 0.9962427616119385,
+     "tokens": [
+      307
+     ]
+    },
+    {
+     "word": " a",
+     "start": 213.42,
+     "end": 213.56,
+     "probability": 0.9942445158958435,
+     "tokens": [
+      257
+     ]
+    },
+    {
+     "word": " steroid",
+     "start": 213.56,
+     "end": 213.98,
+     "probability": 0.7441466003656387,
+     "tokens": [
+      36407,
+      327
+     ]
+    },
+    {
+     "word": " region",
+     "start": 213.98,
+     "end": 214.22,
+     "probability": 0.9863254427909851,
+     "tokens": [
+      4458
+     ]
+    },
+    {
+     "word": " 705",
+     "start": 214.22,
+     "end": 214.72,
+     "probability": 0.6764264553785324,
+     "tokens": [
+      5285,
+      20
+     ]
+    },
+    {
+     "word": " meters",
+     "start": 214.72,
+     "end": 215.02,
+     "probability": 0.9000208973884583,
+     "tokens": [
+      8146
+     ]
+    },
+    {
+     "word": " wide",
+     "start": 215.02,
+     "end": 215.36,
+     "probability": 0.9989707469940186,
+     "tokens": [
+      4874
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 215.56,
+   "end": 218.12,
+   "text": "If there's nothing wrong with me, maybe something's wrong outside",
+   "words": [
+    {
+     "word": " If",
+     "start": 215.56,
+     "end": 215.68,
+     "probability": 0.9612268805503845,
+     "tokens": [
+      759
+     ]
+    },
+    {
+     "word": " there's",
+     "start": 215.68,
+     "end": 215.86,
+     "probability": 0.9966772198677063,
+     "tokens": [
+      456,
+      311
+     ]
+    },
+    {
+     "word": " nothing",
+     "start": 215.86,
+     "end": 216.06,
+     "probability": 0.9977006316184998,
+     "tokens": [
+      1825
+     ]
+    },
+    {
+     "word": " wrong",
+     "start": 216.06,
+     "end": 216.34,
+     "probability": 0.9977532029151917,
+     "tokens": [
+      2085
+     ]
+    },
+    {
+     "word": " with",
+     "start": 216.34,
+     "end": 216.56,
+     "probability": 0.9987848401069641,
+     "tokens": [
+      365
+     ]
+    },
+    {
+     "word": " me,",
+     "start": 216.56,
+     "end": 216.74,
+     "probability": 0.9990735054016113,
+     "tokens": [
+      385,
+      11
+     ]
+    },
+    {
+     "word": " maybe",
+     "start": 216.8,
+     "end": 217.1,
+     "probability": 0.9944319128990173,
+     "tokens": [
+      1310
+     ]
+    },
+    {
+     "word": " something's",
+     "start": 217.1,
+     "end": 217.64,
+     "probability": 0.9831617176532745,
+     "tokens": [
+      746,
+      311
+     ]
+    },
+    {
+     "word": " wrong",
+     "start": 217.64,
+     "end": 217.76,
+     "probability": 0.9982700347900391,
+     "tokens": [
+      2085
+     ]
+    },
+    {
+     "word": " outside",
+     "start": 217.76,
+     "end": 218.12,
+     "probability": 0.9987382292747498,
+     "tokens": [
+      2380
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 218.34,
+   "end": 219.06,
+   "text": "The universe!",
+   "words": [
+    {
+     "word": " The",
+     "start": 218.34,
+     "end": 218.52,
+     "probability": 0.759069561958313,
+     "tokens": [
+      440
+     ]
+    },
+    {
+     "word": " universe!",
+     "start": 218.52,
+     "end": 219.06,
+     "probability": 0.9636960625648499,
+     "tokens": [
+      6445,
+      0
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 219.68,
+   "end": 222.5,
+   "text": "Moncapitane, did you miss me?",
+   "words": [
+    {
+     "word": " Moncapitane,",
+     "start": 219.68,
+     "end": 221.74,
+     "probability": 0.5001272633671761,
+     "tokens": [
+      4713,
+      9485,
+      270,
+      1929,
+      11
+     ]
+    },
+    {
+     "word": " did",
+     "start": 221.8,
+     "end": 221.96,
+     "probability": 0.9979762434959412,
+     "tokens": [
+      630
+     ]
+    },
+    {
+     "word": " you",
+     "start": 221.96,
+     "end": 222.08,
+     "probability": 0.9996697902679443,
+     "tokens": [
+      291
+     ]
+    },
+    {
+     "word": " miss",
+     "start": 222.08,
+     "end": 222.28,
+     "probability": 0.9986670017242432,
+     "tokens": [
+      1713
+     ]
+    },
+    {
+     "word": " me?",
+     "start": 222.28,
+     "end": 222.5,
+     "probability": 0.9997052550315857,
+     "tokens": [
+      385,
+      30
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 222.64,
+   "end": 225.84,
+   "text": "Don't lie, snap, you're in Sherwood, snap, you're in the sky",
+   "words": [
+    {
+     "word": " Don't",
+     "start": 222.64,
+     "end": 222.84,
+     "probability": 0.5078587047755718,
+     "tokens": [
+      1468,
+      380
+     ]
+    },
+    {
+     "word": " lie,",
+     "start": 222.84,
+     "end": 223.04,
+     "probability": 0.9228271842002869,
+     "tokens": [
+      4544,
+      11
+     ]
+    },
+    {
+     "word": " snap,",
+     "start": 223.26,
+     "end": 223.56,
+     "probability": 0.5835963487625122,
+     "tokens": [
+      13650,
+      11
+     ]
+    },
+    {
+     "word": " you're",
+     "start": 223.92,
+     "end": 224.04,
+     "probability": 0.9753586649894714,
+     "tokens": [
+      291,
+      434
+     ]
+    },
+    {
+     "word": " in",
+     "start": 224.04,
+     "end": 224.14,
+     "probability": 0.9773579835891724,
+     "tokens": [
+      294
+     ]
+    },
+    {
+     "word": " Sherwood,",
+     "start": 224.14,
+     "end": 224.72,
+     "probability": 0.9587052166461945,
+     "tokens": [
+      11789,
+      6092,
+      11
+     ]
+    },
+    {
+     "word": " snap,",
+     "start": 224.78,
+     "end": 225.02,
+     "probability": 0.8129394054412842,
+     "tokens": [
+      13650,
+      11
+     ]
+    },
+    {
+     "word": " you're",
+     "start": 225.12,
+     "end": 225.34,
+     "probability": 0.9930905997753143,
+     "tokens": [
+      291,
+      434
+     ]
+    },
+    {
+     "word": " in",
+     "start": 225.34,
+     "end": 225.4,
+     "probability": 0.9954913258552551,
+     "tokens": [
+      294
+     ]
+    },
+    {
+     "word": " the",
+     "start": 225.4,
+     "end": 225.48,
+     "probability": 0.9753613471984863,
+     "tokens": [
+      264
+     ]
+    },
+    {
+     "word": " sky",
+     "start": 225.48,
+     "end": 225.84,
+     "probability": 0.9292803406715393,
+     "tokens": [
+      5443
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 225.84,
+   "end": 228.58,
+   "text": "Put your species on trial back in episode one",
+   "words": [
+    {
+     "word": " Put",
+     "start": 225.84,
+     "end": 226.12,
+     "probability": 0.2759198248386383,
+     "tokens": [
+      4935
+     ]
+    },
+    {
+     "word": " your",
+     "start": 226.12,
+     "end": 226.26,
+     "probability": 0.9588474035263062,
+     "tokens": [
+      428
+     ]
+    },
+    {
+     "word": " species",
+     "start": 226.26,
+     "end": 226.56,
+     "probability": 0.9924456477165222,
+     "tokens": [
+      6172
+     ]
+    },
+    {
+     "word": " on",
+     "start": 226.56,
+     "end": 226.88,
+     "probability": 0.9924960136413574,
+     "tokens": [
+      322
+     ]
+    },
+    {
+     "word": " trial",
+     "start": 226.88,
+     "end": 227.26,
+     "probability": 0.9916262626647949,
+     "tokens": [
+      7308
+     ]
+    },
+    {
+     "word": " back",
+     "start": 227.26,
+     "end": 227.52,
+     "probability": 0.8178936243057251,
+     "tokens": [
+      646
+     ]
+    },
+    {
+     "word": " in",
+     "start": 227.52,
+     "end": 227.74,
+     "probability": 0.9970725774765015,
+     "tokens": [
+      294
+     ]
+    },
+    {
+     "word": " episode",
+     "start": 227.74,
+     "end": 228.06,
+     "probability": 0.640091061592102,
+     "tokens": [
+      3500
+     ]
+    },
+    {
+     "word": " one",
+     "start": 228.06,
+     "end": 228.58,
+     "probability": 0.5849303007125854,
+     "tokens": [
+      472
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 228.72,
+   "end": 231.3,
+   "text": "And the trial never ends, mon ami, it's just begun",
+   "words": [
+    {
+     "word": " And",
+     "start": 228.72,
+     "end": 228.86,
+     "probability": 0.360777884721756,
+     "tokens": [
+      400
+     ]
+    },
+    {
+     "word": " the",
+     "start": 228.86,
+     "end": 229.02,
+     "probability": 0.9945618510246277,
+     "tokens": [
+      264
+     ]
+    },
+    {
+     "word": " trial",
+     "start": 229.02,
+     "end": 229.36,
+     "probability": 0.9917622804641724,
+     "tokens": [
+      7308
+     ]
+    },
+    {
+     "word": " never",
+     "start": 229.36,
+     "end": 229.64,
+     "probability": 0.998075008392334,
+     "tokens": [
+      1128
+     ]
+    },
+    {
+     "word": " ends,",
+     "start": 229.64,
+     "end": 230.12,
+     "probability": 0.9960092306137085,
+     "tokens": [
+      5314,
+      11
+     ]
+    },
+    {
+     "word": " mon",
+     "start": 230.22,
+     "end": 230.32,
+     "probability": 0.44854336977005005,
+     "tokens": [
+      1108
+     ]
+    },
+    {
+     "word": " ami,",
+     "start": 230.32,
+     "end": 230.5,
+     "probability": 0.9335684180259705,
+     "tokens": [
+      33206,
+      11
+     ]
+    },
+    {
+     "word": " it's",
+     "start": 230.68,
+     "end": 230.86,
+     "probability": 0.9815753102302551,
+     "tokens": [
+      309,
+      311
+     ]
+    },
+    {
+     "word": " just",
+     "start": 230.86,
+     "end": 231.0,
+     "probability": 0.998056948184967,
+     "tokens": [
+      445
+     ]
+    },
+    {
+     "word": " begun",
+     "start": 231.0,
+     "end": 231.3,
+     "probability": 0.9973192811012268,
+     "tokens": [
+      16009
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 231.44,
+   "end": 234.2,
+   "text": "I introduced you to the Borg, you're welcome by the way",
+   "words": [
+    {
+     "word": " I",
+     "start": 231.44,
+     "end": 231.54,
+     "probability": 0.9636863470077515,
+     "tokens": [
+      286
+     ]
+    },
+    {
+     "word": " introduced",
+     "start": 231.54,
+     "end": 231.86,
+     "probability": 0.5640203952789307,
+     "tokens": [
+      7268
+     ]
+    },
+    {
+     "word": " you",
+     "start": 231.86,
+     "end": 232.22,
+     "probability": 0.9957614541053772,
+     "tokens": [
+      291
+     ]
+    },
+    {
+     "word": " to",
+     "start": 232.22,
+     "end": 232.36,
+     "probability": 0.9948347806930542,
+     "tokens": [
+      281
+     ]
+    },
+    {
+     "word": " the",
+     "start": 232.36,
+     "end": 232.54,
+     "probability": 0.9309607744216919,
+     "tokens": [
+      264
+     ]
+    },
+    {
+     "word": " Borg,",
+     "start": 232.54,
+     "end": 232.94,
+     "probability": 0.9635182023048401,
+     "tokens": [
+      363,
+      4646,
+      11
+     ]
+    },
+    {
+     "word": " you're",
+     "start": 233.02,
+     "end": 233.3,
+     "probability": 0.9828135967254639,
+     "tokens": [
+      291,
+      434
+     ]
+    },
+    {
+     "word": " welcome",
+     "start": 233.3,
+     "end": 233.58,
+     "probability": 0.9862923622131348,
+     "tokens": [
+      2928
+     ]
+    },
+    {
+     "word": " by",
+     "start": 233.58,
+     "end": 233.8,
+     "probability": 0.7531368732452393,
+     "tokens": [
+      538
+     ]
+    },
+    {
+     "word": " the",
+     "start": 233.8,
+     "end": 233.92,
+     "probability": 0.9982130527496338,
+     "tokens": [
+      264
+     ]
+    },
+    {
+     "word": " way",
+     "start": 233.92,
+     "end": 234.2,
+     "probability": 0.9988547563552856,
+     "tokens": [
+      636
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 234.38,
+   "end": 237.52,
+   "text": "It's wondrous out there, but it's not for the timid Tata",
+   "words": [
+    {
+     "word": " It's",
+     "start": 234.38,
+     "end": 234.66,
+     "probability": 0.9682787358760834,
+     "tokens": [
+      467,
+      311
+     ]
+    },
+    {
+     "word": " wondrous",
+     "start": 234.68,
+     "end": 235.04,
+     "probability": 0.9944160878658295,
+     "tokens": [
+      2046,
+      21189
+     ]
+    },
+    {
+     "word": " out",
+     "start": 235.04,
+     "end": 235.26,
+     "probability": 0.9967246651649475,
+     "tokens": [
+      484
+     ]
+    },
+    {
+     "word": " there,",
+     "start": 235.26,
+     "end": 235.56,
+     "probability": 0.9974954128265381,
+     "tokens": [
+      456,
+      11
+     ]
+    },
+    {
+     "word": " but",
+     "start": 235.74,
+     "end": 235.9,
+     "probability": 0.9944366216659546,
+     "tokens": [
+      457
+     ]
+    },
+    {
+     "word": " it's",
+     "start": 235.9,
+     "end": 236.06,
+     "probability": 0.9913352727890015,
+     "tokens": [
+      309,
+      311
+     ]
+    },
+    {
+     "word": " not",
+     "start": 236.12,
+     "end": 236.3,
+     "probability": 0.9970292448997498,
+     "tokens": [
+      406
+     ]
+    },
+    {
+     "word": " for",
+     "start": 236.3,
+     "end": 236.54,
+     "probability": 0.9967170357704163,
+     "tokens": [
+      337
+     ]
+    },
+    {
+     "word": " the",
+     "start": 236.54,
+     "end": 236.72,
+     "probability": 0.9927088022232056,
+     "tokens": [
+      264
+     ]
+    },
+    {
+     "word": " timid",
+     "start": 236.72,
+     "end": 237.12,
+     "probability": 0.9892632961273193,
+     "tokens": [
+      524,
+      327
+     ]
+    },
+    {
+     "word": " Tata",
+     "start": 237.12,
+     "end": 237.52,
+     "probability": 0.42883485555648804,
+     "tokens": [
+      314,
+      3274
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 239.84,
+   "end": 242.38,
+   "text": "We are the Borg, we are the Borg",
+   "words": [
+    {
+     "word": " We",
+     "start": 239.84,
+     "end": 239.94,
+     "probability": 0.8285016417503357,
+     "tokens": [
+      492
+     ]
+    },
+    {
+     "word": " are",
+     "start": 239.94,
+     "end": 240.26,
+     "probability": 0.9943859577178955,
+     "tokens": [
+      366
+     ]
+    },
+    {
+     "word": " the",
+     "start": 240.26,
+     "end": 240.5,
+     "probability": 0.9832686185836792,
+     "tokens": [
+      264
+     ]
+    },
+    {
+     "word": " Borg,",
+     "start": 240.5,
+     "end": 241.06,
+     "probability": 0.9630172252655029,
+     "tokens": [
+      363,
+      4646,
+      11
+     ]
+    },
+    {
+     "word": " we",
+     "start": 241.08,
+     "end": 241.52,
+     "probability": 0.46453234553337097,
+     "tokens": [
+      321
+     ]
+    },
+    {
+     "word": " are",
+     "start": 241.52,
+     "end": 241.56,
+     "probability": 0.9957745671272278,
+     "tokens": [
+      366
+     ]
+    },
+    {
+     "word": " the",
+     "start": 241.56,
+     "end": 241.94,
+     "probability": 0.9965246319770813,
+     "tokens": [
+      264
+     ]
+    },
+    {
+     "word": " Borg",
+     "start": 241.94,
+     "end": 242.38,
+     "probability": 0.9824286997318268,
+     "tokens": [
+      363,
+      4646
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 242.46,
+   "end": 244.84,
+   "text": "Resistance is futile, through the fuel",
+   "words": [
+    {
+     "word": " Resistance",
+     "start": 242.46,
+     "end": 242.8,
+     "probability": 0.9372520446777344,
+     "tokens": [
+      45647
+     ]
+    },
+    {
+     "word": " is",
+     "start": 242.8,
+     "end": 243.26,
+     "probability": 0.977414608001709,
+     "tokens": [
+      307
+     ]
+    },
+    {
+     "word": " futile,",
+     "start": 243.26,
+     "end": 243.92,
+     "probability": 0.9928823709487915,
+     "tokens": [
+      1877,
+      794,
+      11
+     ]
+    },
+    {
+     "word": " through",
+     "start": 243.98,
+     "end": 244.18,
+     "probability": 0.1209133192896843,
+     "tokens": [
+      807
+     ]
+    },
+    {
+     "word": " the",
+     "start": 244.18,
+     "end": 244.3,
+     "probability": 0.1527104526758194,
+     "tokens": [
+      264
+     ]
+    },
+    {
+     "word": " fuel",
+     "start": 244.3,
+     "end": 244.84,
+     "probability": 0.1616693139076233,
+     "tokens": [
+      6616
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 244.92,
+   "end": 246.16,
+   "text": "I am no cue to support",
+   "words": [
+    {
+     "word": " I",
+     "start": 244.92,
+     "end": 245.06,
+     "probability": 0.9651848673820496,
+     "tokens": [
+      286
+     ]
+    },
+    {
+     "word": " am",
+     "start": 245.06,
+     "end": 245.24,
+     "probability": 0.963884174823761,
+     "tokens": [
+      669
+     ]
+    },
+    {
+     "word": " no",
+     "start": 245.24,
+     "end": 245.34,
+     "probability": 0.4527234435081482,
+     "tokens": [
+      572
+     ]
+    },
+    {
+     "word": " cue",
+     "start": 245.34,
+     "end": 245.58,
+     "probability": 0.26623499393463135,
+     "tokens": [
+      22656
+     ]
+    },
+    {
+     "word": " to",
+     "start": 245.58,
+     "end": 245.8,
+     "probability": 0.986922025680542,
+     "tokens": [
+      281
+     ]
+    },
+    {
+     "word": " support",
+     "start": 245.8,
+     "end": 246.16,
+     "probability": 0.3768545687198639,
+     "tokens": [
+      1406
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 246.78,
+   "end": 250.46,
+   "text": "Captain, Captain, come back to us",
+   "words": [
+    {
+     "word": " Captain,",
+     "start": 246.78,
+     "end": 247.2,
+     "probability": 0.9669577479362488,
+     "tokens": [
+      10873,
+      11
+     ]
+    },
+    {
+     "word": " Captain,",
+     "start": 247.5,
+     "end": 247.82,
+     "probability": 0.6202937960624695,
+     "tokens": [
+      10873,
+      11
+     ]
+    },
+    {
+     "word": " come",
+     "start": 248.2,
+     "end": 248.7,
+     "probability": 0.9751399159431458,
+     "tokens": [
+      808
+     ]
+    },
+    {
+     "word": " back",
+     "start": 248.7,
+     "end": 249.34,
+     "probability": 0.9986264705657959,
+     "tokens": [
+      646
+     ]
+    },
+    {
+     "word": " to",
+     "start": 249.34,
+     "end": 249.7,
+     "probability": 0.9175898432731628,
+     "tokens": [
+      281
+     ]
+    },
+    {
+     "word": " us",
+     "start": 249.7,
+     "end": 250.46,
+     "probability": 0.2661386728286743,
+     "tokens": [
+      505
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 251.44,
+   "end": 253.86,
+   "text": "The line must be drawn here!",
+   "words": [
+    {
+     "word": " The",
+     "start": 251.44,
+     "end": 251.62,
+     "probability": 0.04393375292420387,
+     "tokens": [
+      440
+     ]
+    },
+    {
+     "word": " line",
+     "start": 251.62,
+     "end": 252.06,
+     "probability": 0.9147699475288391,
+     "tokens": [
+      1622
+     ]
+    },
+    {
+     "word": " must",
+     "start": 252.06,
+     "end": 252.52,
+     "probability": 0.9603025913238525,
+     "tokens": [
+      1633
+     ]
+    },
+    {
+     "word": " be",
+     "start": 252.52,
+     "end": 252.92,
+     "probability": 0.991324782371521,
+     "tokens": [
+      312
+     ]
+    },
+    {
+     "word": " drawn",
+     "start": 252.92,
+     "end": 253.32,
+     "probability": 0.9868692755699158,
+     "tokens": [
+      10117
+     ]
+    },
+    {
+     "word": " here!",
+     "start": 253.32,
+     "end": 253.86,
+     "probability": 0.9166155457496643,
+     "tokens": [
+      510,
+      0
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 254.44,
+   "end": 255.3,
+   "text": "This far!",
+   "words": [
+    {
+     "word": " This",
+     "start": 254.44,
+     "end": 254.58,
+     "probability": 0.650111973285675,
+     "tokens": [
+      639
+     ]
+    },
+    {
+     "word": " far!",
+     "start": 254.58,
+     "end": 255.3,
+     "probability": 0.279314786195755,
+     "tokens": [
+      1400,
+      0
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 255.44,
+   "end": 256.2,
+   "text": "No further!",
+   "words": [
+    {
+     "word": " No",
+     "start": 255.44,
+     "end": 255.6,
+     "probability": 0.8047581911087036,
+     "tokens": [
+      883
+     ]
+    },
+    {
+     "word": " further!",
+     "start": 255.6,
+     "end": 256.2,
+     "probability": 0.9681113958358765,
+     "tokens": [
+      3052,
+      0
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 256.62,
+   "end": 257.38,
+   "text": "Make it so!",
+   "words": [
+    {
+     "word": " Make",
+     "start": 256.62,
+     "end": 256.74,
+     "probability": 0.9336420893669128,
+     "tokens": [
+      4387
+     ]
+    },
+    {
+     "word": " it",
+     "start": 256.74,
+     "end": 257.14,
+     "probability": 0.9828831553459167,
+     "tokens": [
+      309
+     ]
+    },
+    {
+     "word": " so!",
+     "start": 257.14,
+     "end": 257.38,
+     "probability": 0.9862815737724304,
+     "tokens": [
+      370,
+      0
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 258.06,
+   "end": 258.86,
+   "text": "Make it so!",
+   "words": [
+    {
+     "word": " Make",
+     "start": 258.06,
+     "end": 258.16,
+     "probability": 0.8161513805389404,
+     "tokens": [
+      4387
+     ]
+    },
+    {
+     "word": " it",
+     "start": 258.16,
+     "end": 258.44,
+     "probability": 0.9992321729660034,
+     "tokens": [
+      309
+     ]
+    },
+    {
+     "word": " so!",
+     "start": 258.44,
+     "end": 258.86,
+     "probability": 0.9979478716850281,
+     "tokens": [
+      370,
+      0
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 259.24,
+   "end": 261.52,
+   "text": "Captain says the word and the whole ship goes!",
+   "words": [
+    {
+     "word": " Captain",
+     "start": 259.24,
+     "end": 259.5,
+     "probability": 0.9130358099937439,
+     "tokens": [
+      10873
+     ]
+    },
+    {
+     "word": " says",
+     "start": 259.5,
+     "end": 259.86,
+     "probability": 0.9825947880744934,
+     "tokens": [
+      1619
+     ]
+    },
+    {
+     "word": " the",
+     "start": 259.86,
+     "end": 260.02,
+     "probability": 0.991399884223938,
+     "tokens": [
+      264
+     ]
+    },
+    {
+     "word": " word",
+     "start": 260.02,
+     "end": 260.34,
+     "probability": 0.9860207438468933,
+     "tokens": [
+      1349
+     ]
+    },
+    {
+     "word": " and",
+     "start": 260.34,
+     "end": 260.58,
+     "probability": 0.8232476711273193,
+     "tokens": [
+      293
+     ]
+    },
+    {
+     "word": " the",
+     "start": 260.58,
+     "end": 260.7,
+     "probability": 0.9908041954040527,
+     "tokens": [
+      264
+     ]
+    },
+    {
+     "word": " whole",
+     "start": 260.7,
+     "end": 260.88,
+     "probability": 0.9958667755126953,
+     "tokens": [
+      1379
+     ]
+    },
+    {
+     "word": " ship",
+     "start": 260.88,
+     "end": 261.12,
+     "probability": 0.9900093078613281,
+     "tokens": [
+      5374
+     ]
+    },
+    {
+     "word": " goes!",
+     "start": 261.12,
+     "end": 261.52,
+     "probability": 0.9981669187545776,
+     "tokens": [
+      1709,
+      0
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 262.18,
+   "end": 263.12,
+   "text": "Make it so!",
+   "words": [
+    {
+     "word": " Make",
+     "start": 262.18,
+     "end": 262.34,
+     "probability": 0.987617552280426,
+     "tokens": [
+      4387
+     ]
+    },
+    {
+     "word": " it",
+     "start": 262.34,
+     "end": 262.72,
+     "probability": 0.999039351940155,
+     "tokens": [
+      309
+     ]
+    },
+    {
+     "word": " so!",
+     "start": 262.72,
+     "end": 263.12,
+     "probability": 0.9980871677398682,
+     "tokens": [
+      370,
+      0
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 263.66,
+   "end": 264.26,
+   "text": "Make it so!",
+   "words": [
+    {
+     "word": " Make",
+     "start": 263.66,
+     "end": 263.78,
+     "probability": 0.989978551864624,
+     "tokens": [
+      4387
+     ]
+    },
+    {
+     "word": " it",
+     "start": 263.78,
+     "end": 264.02,
+     "probability": 0.9994871616363525,
+     "tokens": [
+      309
+     ]
+    },
+    {
+     "word": " so!",
+     "start": 264.02,
+     "end": 264.26,
+     "probability": 0.9983460903167725,
+     "tokens": [
+      370,
+      0
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 264.86,
+   "end": 267.16,
+   "text": "Out where no one's gone, where nobody knows!",
+   "words": [
+    {
+     "word": " Out",
+     "start": 264.86,
+     "end": 265.0,
+     "probability": 0.9831361174583435,
+     "tokens": [
+      5925
+     ]
+    },
+    {
+     "word": " where",
+     "start": 265.0,
+     "end": 265.28,
+     "probability": 0.963996410369873,
+     "tokens": [
+      689
+     ]
+    },
+    {
+     "word": " no",
+     "start": 265.28,
+     "end": 265.4,
+     "probability": 0.9936962723731995,
+     "tokens": [
+      572
+     ]
+    },
+    {
+     "word": " one's",
+     "start": 265.4,
+     "end": 265.66,
+     "probability": 0.9500792622566223,
+     "tokens": [
+      472,
+      311
+     ]
+    },
+    {
+     "word": " gone,",
+     "start": 265.66,
+     "end": 266.0,
+     "probability": 0.9986599683761597,
+     "tokens": [
+      2780,
+      11
+     ]
+    },
+    {
+     "word": " where",
+     "start": 266.1,
+     "end": 266.26,
+     "probability": 0.9356789588928223,
+     "tokens": [
+      689
+     ]
+    },
+    {
+     "word": " nobody",
+     "start": 266.26,
+     "end": 266.6,
+     "probability": 0.9735777974128723,
+     "tokens": [
+      5079
+     ]
+    },
+    {
+     "word": " knows!",
+     "start": 266.6,
+     "end": 267.16,
+     "probability": 0.9959992170333862,
+     "tokens": [
+      3255,
+      0
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 267.82,
+   "end": 268.26,
+   "text": "Picard!",
+   "words": [
+    {
+     "word": " Picard!",
+     "start": 267.82,
+     "end": 268.26,
+     "probability": 0.639128714799881,
+     "tokens": [
+      25895,
+      515,
+      0
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 268.5,
+   "end": 268.74,
+   "text": "Riker!",
+   "words": [
+    {
+     "word": " Riker!",
+     "start": 268.5,
+     "end": 268.74,
+     "probability": 0.9442228078842163,
+     "tokens": [
+      497,
+      17314,
+      0
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 269.2,
+   "end": 269.36,
+   "text": "Data!",
+   "words": [
+    {
+     "word": " Data!",
+     "start": 269.2,
+     "end": 269.36,
+     "probability": 0.9152304530143738,
+     "tokens": [
+      11888,
+      0
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 269.86,
+   "end": 270.06,
+   "text": "Work!",
+   "words": [
+    {
+     "word": " Work!",
+     "start": 269.86,
+     "end": 270.06,
+     "probability": 0.3952726125717163,
+     "tokens": [
+      6603,
+      0
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 270.46,
+   "end": 271.0,
+   "text": "Geordi!",
+   "words": [
+    {
+     "word": " Geordi!",
+     "start": 270.46,
+     "end": 271.0,
+     "probability": 0.9661808609962463,
+     "tokens": [
+      2876,
+      765,
+      72,
+      0
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 271.2,
+   "end": 271.42,
+   "text": "Troy!",
+   "words": [
+    {
+     "word": " Troy!",
+     "start": 271.2,
+     "end": 271.42,
+     "probability": 0.424463152885437,
+     "tokens": [
+      32898,
+      0
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 271.96,
+   "end": 272.34,
+   "text": "Crusher!",
+   "words": [
+    {
+     "word": " Crusher!",
+     "start": 271.96,
+     "end": 272.34,
+     "probability": 0.9965628385543823,
+     "tokens": [
+      34484,
+      511,
+      0
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 272.68,
+   "end": 274.22,
+   "text": "Seven on the bridge, one ship!",
+   "words": [
+    {
+     "word": " Seven",
+     "start": 272.68,
+     "end": 272.84,
+     "probability": 0.9453595280647278,
+     "tokens": [
+      14868
+     ]
+    },
+    {
+     "word": " on",
+     "start": 272.84,
+     "end": 273.12,
+     "probability": 0.9811673760414124,
+     "tokens": [
+      322
+     ]
+    },
+    {
+     "word": " the",
+     "start": 273.12,
+     "end": 273.24,
+     "probability": 0.9880625009536743,
+     "tokens": [
+      264
+     ]
+    },
+    {
+     "word": " bridge,",
+     "start": 273.24,
+     "end": 273.54,
+     "probability": 0.3028426766395569,
+     "tokens": [
+      7283,
+      11
+     ]
+    },
+    {
+     "word": " one",
+     "start": 273.68,
+     "end": 273.82,
+     "probability": 0.9835457801818848,
+     "tokens": [
+      472
+     ]
+    },
+    {
+     "word": " ship!",
+     "start": 273.82,
+     "end": 274.22,
+     "probability": 0.9973576664924622,
+     "tokens": [
+      5374,
+      0
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 274.76,
+   "end": 275.54,
+   "text": "Make it so!",
+   "words": [
+    {
+     "word": " Make",
+     "start": 274.76,
+     "end": 274.86,
+     "probability": 0.9808961153030396,
+     "tokens": [
+      4387
+     ]
+    },
+    {
+     "word": " it",
+     "start": 274.86,
+     "end": 275.14,
+     "probability": 0.9977915287017822,
+     "tokens": [
+      309
+     ]
+    },
+    {
+     "word": " so!",
+     "start": 275.14,
+     "end": 275.54,
+     "probability": 0.9953659772872925,
+     "tokens": [
+      370,
+      0
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 276.32,
+   "end": 278.26,
+   "text": "I should have done this a long time ago.",
+   "words": [
+    {
+     "word": " I",
+     "start": 276.32,
+     "end": 276.54,
+     "probability": 0.9761672019958496,
+     "tokens": [
+      286
+     ]
+    },
+    {
+     "word": " should",
+     "start": 276.58,
+     "end": 276.74,
+     "probability": 0.9986020922660828,
+     "tokens": [
+      820
+     ]
+    },
+    {
+     "word": " have",
+     "start": 276.74,
+     "end": 276.84,
+     "probability": 0.5631750226020813,
+     "tokens": [
+      362
+     ]
+    },
+    {
+     "word": " done",
+     "start": 276.84,
+     "end": 277.0,
+     "probability": 0.9954534769058228,
+     "tokens": [
+      1096
+     ]
+    },
+    {
+     "word": " this",
+     "start": 277.0,
+     "end": 277.22,
+     "probability": 0.9985439777374268,
+     "tokens": [
+      341
+     ]
+    },
+    {
+     "word": " a",
+     "start": 277.22,
+     "end": 277.38,
+     "probability": 0.9963429570198059,
+     "tokens": [
+      257
+     ]
+    },
+    {
+     "word": " long",
+     "start": 277.38,
+     "end": 277.62,
+     "probability": 0.990399181842804,
+     "tokens": [
+      938
+     ]
+    },
+    {
+     "word": " time",
+     "start": 277.62,
+     "end": 277.96,
+     "probability": 0.998397171497345,
+     "tokens": [
+      565
+     ]
+    },
+    {
+     "word": " ago.",
+     "start": 277.96,
+     "end": 278.26,
+     "probability": 0.999273955821991,
+     "tokens": [
+      2057,
+      13
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 279.22,
+   "end": 281.02,
+   "text": "Five cart stud, nothing wild.",
+   "words": [
+    {
+     "word": " Five",
+     "start": 279.22,
+     "end": 279.32,
+     "probability": 0.9438967704772949,
+     "tokens": [
+      9436
+     ]
+    },
+    {
+     "word": " cart",
+     "start": 279.32,
+     "end": 279.64,
+     "probability": 0.20691199600696564,
+     "tokens": [
+      5467
+     ]
+    },
+    {
+     "word": " stud,",
+     "start": 279.64,
+     "end": 279.82,
+     "probability": 0.8187032341957092,
+     "tokens": [
+      972,
+      11
+     ]
+    },
+    {
+     "word": " nothing",
+     "start": 280.2,
+     "end": 280.66,
+     "probability": 0.9830883145332336,
+     "tokens": [
+      1825
+     ]
+    },
+    {
+     "word": " wild.",
+     "start": 280.66,
+     "end": 281.02,
+     "probability": 0.5236178636550903,
+     "tokens": [
+      4868,
+      13
+     ]
+    }
+   ]
+  },
+  {
+   "pass": "full",
+   "start": 282.74,
+   "end": 284.18,
+   "text": "and the sky's the limit.",
+   "words": [
+    {
+     "word": " and",
+     "start": 282.74,
+     "end": 282.84,
+     "probability": 0.05547834932804108,
+     "tokens": [
+      293
+     ]
+    },
+    {
+     "word": " the",
+     "start": 282.84,
+     "end": 282.96,
+     "probability": 0.995225191116333,
+     "tokens": [
+      264
+     ]
+    },
+    {
+     "word": " sky's",
+     "start": 282.96,
+     "end": 283.76,
+     "probability": 0.8819182217121124,
+     "tokens": [
+      5443,
+      311
+     ]
+    },
+    {
+     "word": " the",
+     "start": 283.76,
+     "end": 283.9,
+     "probability": 0.9979514479637146,
+     "tokens": [
+      264
+     ]
+    },
+    {
+     "word": " limit.",
+     "start": 283.9,
+     "end": 284.18,
+     "probability": 0.9981841444969177,
+     "tokens": [
+      4948,
+      13
+     ]
+    }
+   ]
+  }
+ ]
+}

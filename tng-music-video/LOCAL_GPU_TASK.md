@@ -30,7 +30,7 @@ word-level timing for the song. You only produce data files — don't touch the 
 - `lines.json`:
   ```json
   {
-    "duration": 268.56,
+    "duration": 268.560000,
     "lines": [
       {"idx": 0, "section": "Intro", "text": "Space... the final frontier.", "start": 1.23, "end": 4.56,
        "words": [{"w": "Space", "start": 1.23, "end": 1.80}, ...], "confidence": 0.9}

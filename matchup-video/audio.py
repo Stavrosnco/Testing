@@ -111,6 +111,23 @@ for k in range(16):  # snare roll into the duels
     add(snare_roll_hit(), (14 + k / 8) * BEAT, 0.15 + 0.02 * k)
 add(riser(2 * BEAT), 14 * BEAT, 0.8)
 
+# ---------- GENERALS ----------
+g0 = GEN0 * BEAT
+add(impact(), g0, 0.8)
+add(brass("Dm", 2.5), g0, 0.6)
+for b in range(GEN_BEATS):
+    ch = ["Dm", "Dm", "Bb", "Bb", "F", "F", "C", "A"][(b // 3) % 8]
+    add(pad(ch, BEAT * 1.05, fc=600, gain=0.35), g0 + b * BEAT)
+    if b < 22: add(ostinato(ch, BEAT), g0 + b * BEAT, 0.55)
+for r in range(len(STATS)):
+    add(taiko(0.7), g0 + (2 + r) * BEAT, 0.55, -0.3 if r % 2 else 0.3)
+for b, _, side in GEN_LINES:
+    add(taiko(1.4), g0 + b * BEAT, 0.8)
+    add(brass("Dm" if side == "L" else "Bb" if side == "R" else "C", 1.4), g0 + b * BEAT, 0.5)
+for k in range(16):
+    add(snare_roll_hit(), g0 + (22 + k / 8) * BEAT, 0.15 + 0.02 * k)
+add(riser(2 * BEAT), g0 + 22 * BEAT, 0.8)
+
 # ---------- DUELS ----------
 for i in range(N):
     s = duel_start(i); hit = impact_time(i)

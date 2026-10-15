@@ -7,13 +7,34 @@ INTRO_BEATS = 16
 DUEL_BEATS = 10
 IMPACT_BEAT = 4          # within a duel
 N = 9
-DUEL0 = INTRO_BEATS
+GEN_BEATS = 24
+GEN0 = INTRO_BEATS
+DUEL0 = GEN0 + GEN_BEATS
 TALLY0 = DUEL0 + N * DUEL_BEATS        # 106
 VERDICT0 = TALLY0 + 12                 # 118
 END_BEAT = VERDICT0 + 22               # 140
 DURATION = END_BEAT * BEAT + 1.5
 
 L_TEAM, R_TEAM = "LISAN AL-GIBBS", "FLOWERSFORALGERNON"
+L_MGR, R_MGR = "SHANE", "MITCH"
+
+# label, left (value, delta), right (value, delta), edge: -1 left, 1 right, 0 none
+STATS = [
+    ("LEVEL", ("GOLD", None), ("GOLD", None), 0),
+    ("RATING", ("709", "+23"), ("716", "-13"), 1),
+    ("RECORD", ("405-378-3", None), ("12-10-0", None), 1),
+    ("WIN %", (".517", None), (".545", None), 1),
+    ("TROPHIES", ("18", None), ("1", None), -1),
+    ("1ST PLACE", ("7", None), ("1", None), -1),
+    ("TOP LEVEL", ("DIAMOND 2X", None), ("GOLD 1X", None), -1),
+    ("SINCE", ("2003", None), ("2025", None), 0),
+    ("TEAMS", ("52", None), ("2", None), 0),
+]
+GEN_LINES = [  # (beat within segment, text, side)
+    (12, "52 TEAMS. 786 GAMES. 18 TROPHIES.", "L"),
+    (16, "VS. A ROOKIE: 22 GAMES, 1 TITLE, HIGHER RATING.", "R"),
+    (20, "BUT THE OLD GUARD IS +23 AND RISING.", "X"),
+]
 
 # pos, color, left (name, pos-team, pts), right, round title, commentary
 DUELS = [

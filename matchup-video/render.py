@@ -305,6 +305,48 @@ def intro(c, t):
         k2 = prog(b, bb, 0.3); a2 = clamp(k2 * 3) * (1 - ease_out(prog(b, 15.6, 0.4)))
         T(c, txt, "anton", 140, W / 2, y, col, (150, 20, 40) if bb == 14 else (120, 60, 0), a2, 1.6 - 0.6 * ease_out(k2), glow_r=22)
 
+def generals(c, t):
+    b = t / BEAT - GEN0
+    a = 1 - ease_out(prog(b, 23.3, 0.6))
+    k = prog(b, 0, 0.4)
+    T(c, "FIRST, THE GENERALS", "anton", 96, W / 2, 105, GOLD, (130, 60, 0), clamp(k * 3) * a, 1.5 - 0.5 * ease_out(k), glow_r=18)
+    T(c, "TALE OF THE TAPE", "bebas", 50, W / 2, 190, (210, 200, 235), alpha=ease_out(prog(b, 0.5, 0.5)) * a, track=8)
+    for side, x, name, ep in (("L", 200, L_MGR, "THE WARLORD"), ("R", W - 200, R_MGR, "THE UPSTART")):
+        hk = ease_back(prog(b, 0.8 if side == "L" else 1.2, 0.7)); col = GOLD if side == "L" else VIOLET
+        dx = (1 - hk) * (-500 if side == "L" else 500)
+        put(c, avatar(side, 150, True), x + dx, 330, clamp(hk) * a)
+        T(c, name, "anton", 80, x + dx, 470, WHITE, col, clamp(hk) * a, glow_r=14)
+        T(c, ep, "bebas", 42, x + dx, 535, col, alpha=clamp(hk) * a, track=4)
+    T(c, "VS", "anton", 64, W / 2, 340, (255, 90, 90), (150, 0, 30), ease_out(prog(b, 1.6, 0.3)) * a, glow_r=12)
+    y0, rh = 625, 94
+    for i, (label, lv, rv, edge) in enumerate(STATS):
+        rk = ease_out(prog(b, 2 + i, 0.45))
+        if rk <= 0: continue
+        y = y0 + i * rh; ra = rk * a
+        row = Image.new("RGBA", (W, H), (0, 0, 0, 0)); rd = ImageDraw.Draw(row)
+        rd.rounded_rectangle((60, y - 40, W - 60, y + 40), 18, fill=(20, 10, 40, int(190 * ra)))
+        if edge:
+            hx = (60, 380) if edge < 0 else (W - 380, W - 60); hc = GOLD if edge < 0 else VIOLET
+            rd.rounded_rectangle((hx[0], y - 40, hx[1], y + 40), 18, fill=hc + (int(70 * ra),), outline=hc + (int(160 * ra),), width=2)
+        rd.rounded_rectangle((W // 2 - 150, y - 34, W // 2 + 150, y + 34), 14, fill=(34, 26, 52, int(255 * ra)))
+        c.alpha_composite(row)
+        T(c, label, "bebas", 50, W / 2, y, WHITE, alpha=ra, track=2)
+        for side, (val, delta), x in (("L", lv, 220), ("R", rv, W - 220)):
+            won = edge == (-1 if side == "L" else 1)
+            col = (GOLD if side == "L" else VIOLET) if won else (215, 210, 230)
+            dx = (1 - rk) * (-60 if side == "L" else 60)
+            size = fit_size(val, "anton", 250 if delta else 290, 56)
+            if delta:
+                T(c, val, "anton", size, x - 40 + dx, y, col, alpha=ra)
+                T(c, delta, "anton", 40, x + 80 + dx, y + 4, (110, 220, 120) if delta[0] == "+" else (255, 95, 95), alpha=ra)
+            else:
+                T(c, val, "anton", size, x + dx, y, col, alpha=ra)
+    for j, (bb, txt, side) in enumerate(GEN_LINES):
+        pk = prog(b, bb, 0.35)
+        col, glow = {"L": (GOLD, (130, 60, 0)), "R": (VIOLET, (90, 20, 160)), "X": (WHITE, (150, 20, 40))}[side]
+        T(c, txt, "anton", fit_size(txt, "anton", 980, 66), W / 2, 1530 + j * 112, col, glow,
+          clamp(pk * 3) * a, 1.4 - 0.4 * ease_out(pk), glow_r=14)
+
 def recap(c, t):
     b = t / BEAT - TALLY0
     a = 1 - ease_out(prog(b, 11.6, 0.4))
@@ -358,7 +400,7 @@ def verdict(c, t):
         T(c, "VS", "anton", 70, W / 2, 1180, (255, 90, 90), None, k5 * fo)
         T(c, "WEEK 6 · LET THE BATTLE BEGIN", "bebas", 64, W / 2, 1360, (220, 210, 240), alpha=ease_out(prog(b, 16, 0.6)) * fo, track=4)
 
-IMPACTS = [6 * BEAT, 12 * BEAT, 14 * BEAT] + [impact_time(i) for i in range(N)] + [VERDICT0 * BEAT, (VERDICT0 + 12) * BEAT]
+IMPACTS = [6 * BEAT, 12 * BEAT, 14 * BEAT, GEN0 * BEAT] + [impact_time(i) for i in range(N)] + [VERDICT0 * BEAT, (VERDICT0 + 12) * BEAT]
 
 def frame(fi):
     t = fi / FPS
@@ -366,6 +408,7 @@ def frame(fi):
     draw_particles(c, t)
     b = t / BEAT
     if b < INTRO_BEATS: intro(c, t)
+    elif b < DUEL0: generals(c, t)
     elif b < TALLY0:
         i = int((b - DUEL0) // DUEL_BEATS)
         duel(c, t, i)
